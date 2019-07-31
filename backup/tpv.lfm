@@ -1,0 +1,13 @@
+object frmTpv: TfrmTpv
+  Left = 426
+  Height = 707
+  Top = 119
+  Width = 1130
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Caja'
+  DockSite = True
+  OnChangeBounds = FormChangeBounds
+  Position = poScreenCenter
+  LCLVersion = '2.0.2.0'
+end

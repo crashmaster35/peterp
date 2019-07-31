@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="2">
+    <Name Value="indy4lazarus"/>
+    <CompilerOptions>
+      <SearchPaths>
+        <OtherUnitFiles Value="$(LazarusDir)/lcl/units/;$(LazarusDir)/lcl/units/$(LCLWidgetType)/;$(LazarusDir)/components/units/;$(LazarusDir)/components/custom/;$(LazarusDir)/packager/units/"/>
+        <UnitOutputDirectory Value="lib/"/>
+        <LCLWidgetType Value="win32"/>
+      </SearchPaths>
+      <Other>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="Composants Indy "/>
+    <Version Major="9" Release="18"/>
+    <Files Count="81">
+      <Item1>
+        <Filename Value="registerindycomponents.lrs"/>
+        <Type Value="LRS"/>
+      </Item1>
+      <Item2>
+        <Filename Value="registerindycomponents.pp"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="RegisterIndyComponents"/>
+      </Item2>
+      <Item3>
+        <Filename Value="IdAntiFreeze.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdAntiFreeze"/>
+      </Item3>
+      <Item4>
+        <Filename Value="IdTCPClient.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTCPClient"/>
+      </Item4>
+      <Item5>
+        <Filename Value="IdIntercept.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdIntercept"/>
+      </Item5>
+      <Item6>
+        <Filename Value="IdBlockCipherIntercept.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdBlockCipherIntercept"/>
+      </Item6>
+      <Item7>
+        <Filename Value="IdCompressionIntercept.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdCompressionIntercept"/>
+      </Item7>
+      <Item8>
+        <Filename Value="IdLogDebug.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdLogDebug"/>
+      </Item8>
+      <Item9>
+        <Filename Value="IdLogEvent.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdLogEvent"/>
+      </Item9>
+      <Item10>
+        <Filename Value="IdLogFile.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdLogFile"/>
+      </Item10>
+      <Item11>
+        <Filename Value="IdLogStream.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdLogStream"/>
+      </Item11>
+      <Item12>
+        <Filename Value="IdUDPClient.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdUDPClient"/>
+      </Item12>
+      <Item13>
+        <Filename Value="IdDayTime.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdDayTime"/>
+      </Item13>
+      <Item14>
+        <Filename Value="IdDayTimeUDP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdDayTimeUDP"/>
+      </Item14>
+      <Item15>
+        <Filename Value="IdDNSResolver.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdDNSResolver"/>
+      </Item15>
+      <Item16>
+        <Filename Value="IdEcho.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdEcho"/>
+      </Item16>
+      <Item17>
+        <Filename Value="IdEchoUDP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdEchoUDP"/>
+      </Item17>
+      <Item18>
+        <Filename Value="IdFinger.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdFinger"/>
+      </Item18>
+      <Item19>
+        <Filename Value="IdFTP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdFTP"/>
+      </Item19>
+      <Item20>
+        <Filename Value="IdGopher.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdGopher"/>
+      </Item20>
+      <Item21>
+        <Filename Value="IdHTTP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdHTTP"/>
+      </Item21>
+      <Item22>
+        <Filename Value="IdIcmpClient.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdIcmpClient"/>
+      </Item22>
+      <Item23>
+        <Filename Value="IdIdent.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdIdent"/>
+      </Item23>
+      <Item24>
+        <Filename Value="IdIMAP4.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdIMAP4"/>
+      </Item24>
+      <Item25>
+        <Filename Value="IdIPMCastClient.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdIPMCastClient"/>
+      </Item25>
+      <Item26>
+        <Filename Value="IdIRC.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdIRC"/>
+      </Item26>
+      <Item27>
+        <Filename Value="IdLPR.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdLPR"/>
+      </Item27>
+      <Item28>
+        <Filename Value="IdNNTP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdNNTP"/>
+      </Item28>
+      <Item29>
+        <Filename Value="IdPOP3.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdPOP3"/>
+      </Item29>
+      <Item30>
+        <Filename Value="IdQotd.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdQotd"/>
+      </Item30>
+      <Item31>
+        <Filename Value="IdQOTDUDP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdQOTDUDP"/>
+      </Item31>
+      <Item32>
+        <Filename Value="IdRexec.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdRexec"/>
+      </Item32>
+      <Item33>
+        <Filename Value="IdRSH.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdRSH"/>
+      </Item33>
+      <Item34>
+        <Filename Value="IdSMTP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdSMTP"/>
+      </Item34>
+      <Item35>
+        <Filename Value="IdSNMP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdSNMP"/>
+      </Item35>
+      <Item36>
+        <Filename Value="IdSNPP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdSNPP"/>
+      </Item36>
+      <Item37>
+        <Filename Value="IdSNTP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdSNTP"/>
+      </Item37>
+      <Item38>
+        <Filename Value="IdSysLog.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdSysLog"/>
+      </Item38>
+      <Item39>
+        <Filename Value="IdTelnet.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTelnet"/>
+      </Item39>
+      <Item40>
+        <Filename Value="IdTime.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTime"/>
+      </Item40>
+      <Item41>
+        <Filename Value="IdTimeUDP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTimeUDP"/>
+      </Item41>
+      <Item42>
+        <Filename Value="IdTrivialFTP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTrivialFTP"/>
+      </Item42>
+      <Item43>
+        <Filename Value="IdWhois.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdWhois"/>
+      </Item43>
+      <Item44>
+        <Filename Value="IdTCPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTCPServer"/>
+      </Item44>
+      <Item45>
+        <Filename Value="IdUDPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdUDPServer"/>
+      </Item45>
+      <Item46>
+        <Filename Value="IdChargenServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdChargenServer"/>
+      </Item46>
+      <Item47>
+        <Filename Value="IdChargenUDPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdChargenUDPServer"/>
+      </Item47>
+      <Item48>
+        <Filename Value="IdDayTimeServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdDayTimeServer"/>
+      </Item48>
+      <Item49>
+        <Filename Value="IdDayTimeUDPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdDayTimeUDPServer"/>
+      </Item49>
+      <Item50>
+        <Filename Value="IdDICTServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdDICTServer"/>
+      </Item50>
+      <Item51>
+        <Filename Value="IdDiscardServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdDiscardServer"/>
+      </Item51>
+      <Item52>
+        <Filename Value="IdDiscardUDPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdDiscardUDPServer"/>
+      </Item52>
+      <Item53>
+        <Filename Value="IdEchoServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdEchoServer"/>
+      </Item53>
+      <Item54>
+        <Filename Value="IdEchoUDPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdEchoUDPServer"/>
+      </Item54>
+      <Item55>
+        <Filename Value="IdFingerServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdFingerServer"/>
+      </Item55>
+      <Item56>
+        <Filename Value="IdFTPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdFTPServer"/>
+      </Item56>
+      <Item57>
+        <Filename Value="IdGopherServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdGopherServer"/>
+      </Item57>
+      <Item58>
+        <Filename Value="IdHTTPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdHTTPServer"/>
+      </Item58>
+      <Item59>
+        <Filename Value="IdIdentServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdIdentServer"/>
+      </Item59>
+      <Item60>
+        <Filename Value="IdIMAP4Server.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdIMAP4Server"/>
+      </Item60>
+      <Item61>
+        <Filename Value="IdIPMCastServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdIPMCastServer"/>
+      </Item61>
+      <Item62>
+        <Filename Value="IdIrcServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdIrcServer"/>
+      </Item62>
+      <Item63>
+        <Filename Value="IdMappedFTP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdMappedFTP"/>
+      </Item63>
+      <Item64>
+        <Filename Value="IdMappedPortTCP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdMappedPortTCP"/>
+      </Item64>
+      <Item65>
+        <Filename Value="IdMappedPortUDP.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdMappedPortUDP"/>
+      </Item65>
+      <Item66>
+        <Filename Value="IdNNTPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdNNTPServer"/>
+      </Item66>
+      <Item67>
+        <Filename Value="IdPOP3Server.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdPOP3Server"/>
+      </Item67>
+      <Item68>
+        <Filename Value="IdQotdServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdQotdServer"/>
+      </Item68>
+      <Item69>
+        <Filename Value="IdQOTDUDPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdQOTDUDPServer"/>
+      </Item69>
+      <Item70>
+        <Filename Value="IdRexecServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdRexecServer"/>
+      </Item70>
+      <Item71>
+        <Filename Value="IdRSHServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdRSHServer"/>
+      </Item71>
+      <Item72>
+        <Filename Value="IdSimpleServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdSimpleServer"/>
+      </Item72>
+      <Item73>
+        <Filename Value="IdSMTPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdSMTPServer"/>
+      </Item73>
+      <Item74>
+        <Filename Value="IdSysLogServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdSysLogServer"/>
+      </Item74>
+      <Item75>
+        <Filename Value="IdTelnetServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTelnetServer"/>
+      </Item75>
+      <Item76>
+        <Filename Value="IdTimeServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTimeServer"/>
+      </Item76>
+      <Item77>
+        <Filename Value="IdTimeUDPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTimeUDPServer"/>
+      </Item77>
+      <Item78>
+        <Filename Value="IdTrivialFTPServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTrivialFTPServer"/>
+      </Item78>
+      <Item79>
+        <Filename Value="IdTunnelMaster.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTunnelMaster"/>
+      </Item79>
+      <Item80>
+        <Filename Value="IdTunnelSlave.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdTunnelSlave"/>
+      </Item80>
+      <Item81>
+        <Filename Value="IdWhoIsServer.pas"/>
+        <Type Value="Virtual Unit"/>
+        <UnitName Value="IdWhoIsServer"/>
+      </Item81>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)/"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="/home/olivier/projects/indy/publishedpackage/"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lpr|lfm|lrs|lpi|lpk|xml|sh|xpm)"/>
+      <UseExcludeFileFilter Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

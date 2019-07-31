@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="iphonelazext"/>
+    <Type Value="DesignTime"/>
+    <Author Value="Dmitry 'skalogryz' Boyarintsev"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="pbx"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <CStyleOperator Value="False"/>
+          <AllowLabel Value="False"/>
+          <CPPInline Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <Optimizations>
+          <OptimizationLevel Value="0"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Other>
+        <CompilerMessages>
+          <IgnoredMessages idx5091="True" idx5060="True" idx5057="True" idx5028="True" idx5024="True" idx4081="True" idx4080="True" idx4079="True" idx4055="True"/>
+        </CompilerMessages>
+      </Other>
+    </CompilerOptions>
+    <Description Value="iPhone Development Lazarus extension"/>
+    <License Value="LGPL"/>
+    <Version Minor="8"/>
+    <Files Count="21">
+      <Item1>
+        <Filename Value="ideext.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="ideext"/>
+      </Item1>
+      <Item2>
+        <Filename Value="iphoneextstr.pas"/>
+        <UnitName Value="iPhoneExtStr"/>
+      </Item2>
+      <Item3>
+        <Filename Value="iphonebundle.pas"/>
+        <UnitName Value="iPhoneBundle"/>
+      </Item3>
+      <Item4>
+        <Filename Value="environment_iphone_options.pas"/>
+        <UnitName Value="environment_iphone_options"/>
+      </Item4>
+      <Item5>
+        <Filename Value="project_iphone_options.pas"/>
+        <UnitName Value="project_iphone_options"/>
+      </Item5>
+      <Item6>
+        <Filename Value="iphoneextoptions.pas"/>
+        <UnitName Value="iPhoneExtOptions"/>
+      </Item6>
+      <Item7>
+        <Filename Value="xcodetemplate.pas"/>
+        <UnitName Value="xcodetemplate"/>
+      </Item7>
+      <Item8>
+        <Filename Value="environment_iphone_options.lfm"/>
+        <Type Value="LFM"/>
+      </Item8>
+      <Item9>
+        <Filename Value="project_iphone_options.lfm"/>
+        <Type Value="LFM"/>
+      </Item9>
+      <Item10>
+        <Filename Value="lazfilesutils.pas"/>
+        <UnitName Value="LazFilesUtils"/>
+      </Item10>
+      <Item11>
+        <Filename Value="xcodeutils.pas"/>
+        <UnitName Value="XcodeUtils"/>
+      </Item11>
+      <Item12>
+        <Filename Value="newxibdialog.pas"/>
+        <UnitName Value="newXibDialog"/>
+      </Item12>
+      <Item13>
+        <Filename Value="xibfile.pas"/>
+        <UnitName Value="xibfile"/>
+      </Item13>
+      <Item14>
+        <Filename Value="pbx/pbxcontainer.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="pbxcontainer"/>
+      </Item14>
+      <Item15>
+        <Filename Value="pbx/pbxfile.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="pbxfile"/>
+      </Item15>
+      <Item16>
+        <Filename Value="pbx/xcodeproj.pas"/>
+        <AddToUsesPkgSection Value="False"/>
+        <UnitName Value="xcodeproj"/>
+      </Item16>
+      <Item17>
+        <Filename Value="plistfile.pas"/>
+        <UnitName Value="PlistFile"/>
+      </Item17>
+      <Item18>
+        <Filename Value="pbx/xcodeprojutils.pas"/>
+        <UnitName Value="xcodeprojutils"/>
+      </Item18>
+      <Item19>
+        <Filename Value="iphonesimctrl.pas"/>
+        <UnitName Value="iphonesimctrl"/>
+      </Item19>
+      <Item20>
+        <Filename Value="iphonelog_form.pas"/>
+        <UnitName Value="iphonelog_form"/>
+      </Item20>
+      <Item21>
+        <Filename Value="environment_buildscript.pas"/>
+        <UnitName Value="environment_buildscript"/>
+      </Item21>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="SynEdit"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="IDEIntf"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

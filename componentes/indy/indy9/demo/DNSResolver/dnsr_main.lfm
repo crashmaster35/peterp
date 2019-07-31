@@ -1,0 +1,150 @@
+object DNS_Main: TDNS_Main
+  Caption = 'DNS Resolver'
+  ClientHeight = 424
+  ClientWidth = 257
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  Position = poDesktopCenter
+  TextHeight = 13
+  HorzScrollBar.Page = 256
+  VertScrollBar.Page = 423
+  Left = 563
+  Height = 443
+  Top = 116
+  Width = 257
+  object Panel1: TPanel
+    Align = alTop
+    BorderSpacing.OnChange = nil
+    BevelOuter = bvNone
+    ClientHeight = 51
+    ClientWidth = 257
+    FullRepaint = False
+    TabOrder = 0
+    Height = 51
+    Width = 257
+    object Label1: TLabel
+      Align = alTop
+      BorderSpacing.OnChange = nil
+      Caption = 'Please input the DN or IP address to query'
+      Color = clNone
+      Height = 13
+      Width = 257
+    end
+    object Ed_Query: TEdit
+      BorderSpacing.OnChange = nil
+      TabOrder = 0
+      Left = 2
+      Height = 21
+      Top = 26
+      Width = 169
+    end
+    object Btn_Query: TButton
+      BorderSpacing.OnChange = nil
+      Caption = '&Query'
+      OnClick = Btn_QueryClick
+      TabOrder = 1
+      Left = 182
+      Height = 23
+      Top = 26
+      Width = 57
+    end
+  end
+  object Panel2: TPanel
+    Align = alTop
+    BorderSpacing.OnChange = nil
+    BevelOuter = bvNone
+    ClientHeight = 158
+    ClientWidth = 257
+    FullRepaint = False
+    TabOrder = 1
+    Height = 158
+    Top = 51
+    Width = 257
+    object Label2: TLabel
+      Align = alTop
+      BorderSpacing.OnChange = nil
+      Caption = 'Please select the record type you want to get:'
+      Color = clNone
+      Height = 13
+      Width = 257
+    end
+    object LB_QueryType: TListBox
+      Align = alBottom
+      BorderSpacing.OnChange = nil
+      Items.Strings = (
+        'Query IP address (A Record)'
+        'Query Name Server (NS Record)'
+        'Query Alias (CName Record'
+        'Query SOA Record (SOA Record)'
+        'Query Machine informaiton (HINFO Record)'
+        'Query Text record (TXT Record)'
+        'Query Mail Exchange Server (MX Record)'
+        'Query Mail server information (MINFO Record)'
+        'Query Mail group (MG Record)'
+        'Query Mail server rename(MRRecord)'
+      )
+      ItemHeight = 13
+      TabOrder = 0
+      Height = 138
+      Top = 20
+      Width = 257
+    end
+  end
+  object Panel3: TPanel
+    Align = alTop
+    BorderSpacing.OnChange = nil
+    BevelOuter = bvNone
+    ClientHeight = 18
+    ClientWidth = 257
+    FullRepaint = False
+    TabOrder = 2
+    Height = 18
+    Top = 209
+    Width = 257
+    object Label3: TLabel
+      Align = alTop
+      BorderSpacing.OnChange = nil
+      Caption = 'Query Result:'
+      Color = clNone
+      Height = 13
+      Width = 257
+    end
+  end
+  object Memo_Result: TMemo
+    Align = alClient
+    BorderSpacing.OnChange = nil
+    ScrollBars = ssVertical
+    TabOrder = 3
+    Height = 197
+    Top = 227
+    Width = 257
+  end
+  object MainMenu1: TMainMenu
+    left = 42
+    top = 254
+    object S1: TMenuItem
+      Caption = '&System'
+      object MItem_Config: TMenuItem
+        Caption = '&Configuration'
+        OnClick = MItem_ConfigClick
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object MItem_Exit: TMenuItem
+        Caption = 'E&xit'
+        OnClick = MItem_ExitClick
+      end
+    end
+    object About1: TMenuItem
+      Caption = '&Help'
+      object About2: TMenuItem
+        Caption = '&About DNS Resolver'
+        OnClick = About2Click
+      end
+    end
+  end
+end

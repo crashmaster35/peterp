@@ -1,0 +1,42 @@
+object MainForm: TMainForm
+  BorderStyle = bsDialog
+  Caption = 'Indy Telnet Server'
+  ClientHeight = 180
+  ClientWidth = 289
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  HorzScrollBar.Page = 288
+  VertScrollBar.Page = 179
+  Left = 288
+  Height = 180
+  Top = 132
+  Width = 289
+  object buttonExit: TButton
+    Caption = 'Exit'
+    OnClick = buttonExitClick
+    TabOrder = 0
+    Left = 104
+    Height = 25
+    Top = 152
+    Width = 75
+  end
+  object moComments: TMemo
+    Color = clBtnFace
+    ReadOnly = True
+    TabOrder = 1
+    Left = 8
+    Height = 137
+    Top = 8
+    Width = 273
+  end
+  object Memo1: TMemo
+    TabOrder = 2
+    Left = 12
+    Height = 132
+    Top = 12
+    Width = 268
+  end
+end

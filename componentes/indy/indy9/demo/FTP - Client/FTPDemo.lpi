@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="5"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+      <ActiveEditorIndexAtStart Value="1"/>
+    </General>
+    <Units Count="4">
+      <Unit0>
+        <CursorPos X="1" Y="26"/>
+        <EditorIndex Value="0"/>
+        <Filename Value="FTPDemo.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <Loaded Value="True"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="21"/>
+      </Unit0>
+      <Unit1>
+        <CursorPos X="20" Y="114"/>
+        <EditorIndex Value="1"/>
+        <Filename Value="mainf.pas"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <Loaded Value="True"/>
+        <ResourceFilename Value="mainf.lrs"/>
+        <TopLine Value="103"/>
+        <UnitName Value="mainf"/>
+        <UsageCount Value="11"/>
+      </Unit1>
+      <Unit2>
+        <CursorPos X="25" Y="215"/>
+        <EditorIndex Value="2"/>
+        <Filename Value="D:\lazarus\lcl\StdCtrls.pp"/>
+        <Loaded Value="True"/>
+        <TopLine Value="192"/>
+        <UnitName Value="StdCtrls"/>
+        <UsageCount Value="11"/>
+      </Unit2>
+      <Unit3>
+        <CursorPos X="3" Y="885"/>
+        <EditorIndex Value="3"/>
+        <Filename Value="D:\lazarus\lcl\LCLType.pp"/>
+        <Loaded Value="True"/>
+        <TopLine Value="862"/>
+        <UnitName Value="LCLType"/>
+        <UsageCount Value="11"/>
+      </Unit3>
+    </Units>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="D:\lazarus\lcl\StdCtrls.pp"/>
+        <Caret Line="215" Column="25" TopLine="192"/>
+      </Position1>
+      <Position2>
+        <Filename Value="D:\lazarus\lcl\LCLType.pp"/>
+        <Caret Line="891" Column="39" TopLine="868"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="d:\indy9\indy9libsrc\"/>
+      <OtherUnitFiles Value="d:\indy9\indy9libsrc\"/>
+      <SrcPath Value="$(LazarusDir)\lcl\;$(LazarusDir)\lcl\interfaces\$(LCLWidgetType)\"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <D2Extensions Value="False"/>
+        <DelphiCompat Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Source Value="mainf.pas"/>
+        <Line Value="148"/>
+      </Item1>
+    </BreakPoints>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

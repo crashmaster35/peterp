@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="23">
+      <Unit0>
+        <Filename Value="erp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="6" Y="13"/>
+        <UsageCount Value="223"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="126"/>
+        <CursorPos X="18" Y="144"/>
+        <UsageCount Value="223"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="login_form.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <CursorPos X="96" Y="137"/>
+        <UsageCount Value="223"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="clients.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmClientes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="500"/>
+        <CursorPos X="28" Y="508"/>
+        <UsageCount Value="223"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="reportes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmRpt"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="22" Y="45"/>
+        <UsageCount Value="175"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="categories.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmCategories"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="343"/>
+        <CursorPos X="55" Y="365"/>
+        <UsageCount Value="144"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="currencies.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmCurrencies"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="132" Y="8"/>
+        <UsageCount Value="133"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="products.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmProducts"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="331"/>
+        <CursorPos X="56" Y="357"/>
+        <UsageCount Value="130"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="providers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmProviders"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="280"/>
+        <CursorPos X="13" Y="287"/>
+        <UsageCount Value="74"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="entry_inventory.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmEntryInversment"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="83"/>
+        <CursorPos X="3" Y="69"/>
+        <UsageCount Value="56"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="20"/>
+        <LoadedDesigner Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="utils.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="14" Y="20"/>
+        <UsageCount Value="47"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="bcrypt.pas"/>
+        <UnitName Value="BCrypt"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="535"/>
+        <CursorPos X="22" Y="554"/>
+        <UsageCount Value="47"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2718"/>
+        <CursorPos Y="2736"/>
+        <UsageCount Value="25"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="714"/>
+        <CursorPos Y="733"/>
+        <UsageCount Value="7"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="clients.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="39276"/>
+        <CursorPos X="7" Y="39312"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="providers.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="25" Y="8"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\components\datetimectrls\datetimepicker.pas"/>
+        <UnitName Value="DateTimePicker"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3735"/>
+        <CursorPos Y="3769"/>
+        <UsageCount Value="5"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\lazarus\lcl\include\fpimagebitmap.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="122"/>
+        <CursorPos Y="141"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="E:\erp\componentes\splashabout\uversion.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="44" Y="34"/>
+        <UsageCount Value="11"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\Users\Bruno Chavez\AppData\Local\lazarus\onlinepackagemanager\packages\fortesreport-ce4\Packages\frce.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="37" Y="12"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="tpv.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTpv"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="4"/>
+        <CursorPos X="13" Y="35"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="33" Y="5"/>
+        <UsageCount Value="20"/>
+      </Unit22>
+    </Units>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="erp.pas"/>
+        <Caret Line="41" Column="43" TopLine="16"/>
+      </Position1>
+      <Position2>
+        <Filename Value="main.pas"/>
+        <Caret Line="56" Column="29" TopLine="56"/>
+      </Position2>
+      <Position3>
+        <Filename Value="clients.pas"/>
+        <Caret Line="646" TopLine="646"/>
+      </Position3>
+      <Position4>
+        <Filename Value="main.pas"/>
+        <Caret Line="144" Column="20" TopLine="136"/>
+      </Position4>
+      <Position5>
+        <Filename Value="main.pas"/>
+        <Caret Line="10" Column="77"/>
+      </Position5>
+      <Position6>
+        <Filename Value="clients.pas"/>
+        <Caret Line="456" Column="34" TopLine="325"/>
+      </Position6>
+      <Position7>
+        <Filename Value="tpv.pas"/>
+        <Caret Line="9" Column="126"/>
+      </Position7>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

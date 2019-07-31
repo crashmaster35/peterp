@@ -1,0 +1,93 @@
+object HtmlCharmapForm: THtmlCharmapForm
+  Left = 775
+  Height = 227
+  Top = 122
+  Width = 431
+  BorderStyle = bsDialog
+  Caption = 'Special characters'
+  ClientHeight = 227
+  ClientWidth = 431
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '1.1'
+  object EntityGrid: TStringGrid
+    Left = 0
+    Height = 160
+    Top = 0
+    Width = 431
+    Align = alTop
+    AlternateColor = 16774367
+    AutoEdit = False
+    AutoFillColumns = True
+    Color = 15138815
+    ExtendedSelect = False
+    FixedCols = 0
+    FixedRows = 0
+    ParentFont = False
+    ParentShowHint = False
+    RowCount = 7
+    ScrollBars = ssNone
+    ShowHint = True
+    TabOrder = 0
+    OnKeyPress = EntityGridKeyPress
+    OnMouseDown = EntityGridMouseDown
+    OnMouseMove = EntityGridMouseMove
+    OnPrepareCanvas = EntityGridPrepareCanvas
+    ColWidths = (
+      85
+      85
+      85
+      85
+      87
+    )
+  end
+  object SelectionBox: TComboBox
+    Left = 0
+    Height = 23
+    Top = 160
+    Width = 431
+    Align = alTop
+    ItemHeight = 15
+    Items.Strings = (
+      'Misc'
+      'Greek'
+      'Math'
+      'Arrows'
+    )
+    OnChange = SelectionBoxChange
+    Style = csDropDownList
+    TabOrder = 1
+  end
+  object CloseBtn: TBitBtn
+    Left = 304
+    Height = 30
+    Top = 192
+    Width = 123
+    DefaultCaption = True
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 2
+  end
+  object ExampleLabel: TLabel
+    Left = 80
+    Height = 15
+    Top = 200
+    Width = 76
+    Caption = 'ExampleLabel'
+    Font.Color = clRed
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    ShowAccelChar = False
+  end
+  object Label1: TLabel
+    Left = 12
+    Height = 15
+    Top = 201
+    Width = 47
+    Caption = 'Example'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end

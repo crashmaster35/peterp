@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="record_server.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="record_server"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\record_sample_binder.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="record_sample_binder"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\record_sample.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="record_sample"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\record_sample_imp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="record_sample_imp"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\wst_types.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wst_types"/>
+      </Unit4>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="record_server"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="..\.."/>
+      <OtherUnitFiles Value="..;..\..;..\..\..;..\..\..\wst_rtti_filter"/>
+      <UnitOutputDirectory Value="obj"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Other>
+      <CustomOptions Value="-dINDY_10
+-dUseCThreads"/>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

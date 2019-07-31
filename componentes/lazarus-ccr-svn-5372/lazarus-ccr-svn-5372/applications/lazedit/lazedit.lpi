@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="lazedit"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="2">
+      <Item1 Name="Debug" Default="True"/>
+      <Item2 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="lazedit"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <Optimizations>
+              <VariablesInRegisters Value="True"/>
+              <OptimizationLevel Value="2"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <UseLineInfoUnit Value="False"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <UseMsgFile Value="True"/>
+            </CompilerMessages>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="SynEdit"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="lazedit.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="lazedit"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="LazEditMainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="main"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="test_ed.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="test_ed"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="editorpagecontrol.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EditorPageControl"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="lazedit_constants.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="lazedit_constants"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="lazedit_config.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="lazedit_config"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="htmlcharmap.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="HtmlCharmapForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="HtmlCharMap"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="htmlcode.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HtmlCode"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="htmldialogs.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HtmlDialogs"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="newhtmldlgform.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="NewHtmlDlgForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="NewHtmlDlgForm"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="anchordlgform.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AnchorDlgForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="AnchorDlgForm"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="picturedlgform.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="PictureDlgForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="PictureDlgForm"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="newtableform.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="NewTableForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="NewTableForm"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="lazedit_translations.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="lazedit_translations"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="lazedit_about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="LazEdit_About"/>
+      </Unit14>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="lazedit"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="f:\lazarusprojecten\mijnlib\"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <UseHeaptrc Value="True"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

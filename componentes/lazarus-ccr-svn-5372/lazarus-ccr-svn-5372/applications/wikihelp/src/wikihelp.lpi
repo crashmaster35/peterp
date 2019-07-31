@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="5"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="26">
+      <Unit0>
+        <Filename Value="wikihelp.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wikihelp"/>
+        <CursorPos X="1" Y="17"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umain.pas"/>
+        <ComponentName Value="fWikiHelp"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="umain.lrs"/>
+        <UnitName Value="uMain"/>
+        <CursorPos X="154" Y="389"/>
+        <TopLine Value="381"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\lkomponenten\synapse\httpsend.pas"/>
+        <UnitName Value="httpsend"/>
+        <CursorPos X="47" Y="185"/>
+        <TopLine Value="166"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\Programme\lazarus\lcl\interfaces\win32\interfaces.pp"/>
+        <UnitName Value="Interfaces"/>
+        <CursorPos X="38" Y="31"/>
+        <TopLine Value="16"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\general\Utils.pas"/>
+        <UnitName Value="Utils"/>
+        <CursorPos X="1" Y="206"/>
+        <TopLine Value="194"/>
+        <UsageCount Value="13"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\Programme\lazarus\fpc\2.1.1\source\fcl\xml\xmlread.pp"/>
+        <UnitName Value="XMLRead"/>
+        <CursorPos X="63" Y="33"/>
+        <TopLine Value="22"/>
+        <UsageCount Value="13"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\Programme\lazarus\fpc\2.1.1\source\fcl\xml\dom.pp"/>
+        <UnitName Value="DOM"/>
+        <CursorPos X="3" Y="449"/>
+        <TopLine Value="461"/>
+        <UsageCount Value="13"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\general\ubugtracker.pas"/>
+        <ComponentName Value="fBugTracker"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uBugtracker"/>
+        <CursorPos X="14" Y="4"/>
+        <TopLine Value="199"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\Programme\lazarus\lcl\editbtn.pas"/>
+        <UnitName Value="EditBtn"/>
+        <CursorPos X="70" Y="9"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="12"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\general\uhelp.pas"/>
+        <ComponentName Value="fHelpBrowser"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uHelp"/>
+        <CursorPos X="1" Y="327"/>
+        <TopLine Value="318"/>
+        <UsageCount Value="13"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\Programme\lazarus\lcl\include\control.inc"/>
+        <CursorPos X="1" Y="2369"/>
+        <TopLine Value="2354"/>
+        <UsageCount Value="12"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\Programme\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <CursorPos X="22" Y="173"/>
+        <TopLine Value="165"/>
+        <UsageCount Value="12"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\promenteus\help\prometheus-helpde.html"/>
+        <CursorPos X="1024" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="HTML"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\promenteus\Src\umain.pas"/>
+        <ComponentName Value="fMain"/>
+        <HasResources Value="True"/>
+        <UnitName Value="umain"/>
+        <CursorPos X="1" Y="154"/>
+        <TopLine Value="144"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="uappconsts.pas"/>
+        <UnitName Value="uAppconsts"/>
+        <CursorPos X="73" Y="8"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\Programme\lazarus\lcl\xmlpropstorage.pas"/>
+        <UnitName Value="XMLPropStorage"/>
+        <CursorPos X="17" Y="131"/>
+        <TopLine Value="117"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\promenteus\help\prometheus-helpreportdesignertextde.html"/>
+        <CursorPos X="91" Y="2"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="HTML"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\TCS_Programmer\help\tcs_programmer-helpde.html"/>
+        <CursorPos X="1024" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="HTML"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\TCS_Programmer\general\utcsbus.pas"/>
+        <UnitName Value="utcsbus"/>
+        <CursorPos X="1" Y="3648"/>
+        <TopLine Value="3622"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\output\i386-win32\deutsch.xml"/>
+        <CursorPos X="1" Y="5"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="XML"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\output\i386-win32\deutsch2.xml"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="XML"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\lazarus\fpc\2.0.4\source\fcl\xml\dom.pp"/>
+        <UnitName Value="DOM"/>
+        <CursorPos X="25" Y="1504"/>
+        <TopLine Value="1480"/>
+        <UsageCount Value="10"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\lazarus\fpc\2.1.1\source\fcl\xml\dom.pp"/>
+        <UnitName Value="DOM"/>
+        <CursorPos X="14" Y="276"/>
+        <TopLine Value="251"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\lazarus\fpc\2.0.4\source\fcl\tests\xmldump.pp"/>
+        <UnitName Value="xmldump"/>
+        <CursorPos X="27" Y="8"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\test.xml"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="XML"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\defs\nld.xml"/>
+        <CursorPos X="30" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="XML"/>
+      </Unit25>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="umain.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="umain.pas"/>
+        <Caret Line="45" Column="30" TopLine="31"/>
+      </Position2>
+      <Position3>
+        <Filename Value="umain.pas"/>
+        <Caret Line="78" Column="37" TopLine="53"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <OtherUnitFiles Value="..\..\lkomponenten\synapse\;..\..\general\"/>
+      <UnitOutputDirectory Value="..\output\$(TargetCPU)-$(TargetOS)"/>
+      <SrcPath Value="$(LazarusDir)\lcl\;$(LazarusDir)\lcl\interfaces\$(LCLWidgetType)\"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Source Value="..\..\LKomponenten\tdbf\dbf_common.pas"/>
+        <Line Value="375"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,368 @@
+object MainForm: TMainForm
+  Left = 213
+  Top = 107
+  Width = 721
+  Height = 602
+  Caption = 'Indy FTP client demo'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Splitter1: TSplitter
+    Left = 0
+    Top = 376
+    Width = 713
+    Height = 3
+    Cursor = crVSplit
+    Align = alBottom
+  end
+  object DirectoryListBox: TListBox
+    Left = 0
+    Top = 178
+    Width = 713
+    Height = 198
+    Style = lbOwnerDrawFixed
+    Align = alClient
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Courier'
+    Font.Style = []
+    ItemHeight = 13
+    ParentFont = False
+    PopupMenu = PopupMenu1
+    TabOrder = 0
+    OnClick = DirectoryListBoxClick
+    OnDblClick = DirectoryListBoxDblClick
+    OnDrawItem = DirectoryListBoxDrawItem
+  end
+  object DebugListBox: TListBox
+    Left = 0
+    Top = 379
+    Width = 713
+    Height = 170
+    Style = lbOwnerDrawFixed
+    Align = alBottom
+    ItemHeight = 13
+    TabOrder = 1
+    OnDrawItem = DebugListBoxDrawItem
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 713
+    Height = 121
+    Align = alTop
+    TabOrder = 2
+    object Label1: TLabel
+      Left = 8
+      Top = 8
+      Width = 72
+      Height = 13
+      Caption = 'FTP host name'
+    end
+    object Label2: TLabel
+      Left = 8
+      Top = 48
+      Width = 51
+      Height = 13
+      Caption = 'User name'
+    end
+    object Label3: TLabel
+      Left = 128
+      Top = 48
+      Width = 46
+      Height = 13
+      Caption = 'Password'
+    end
+    object FtpServerEdit: TEdit
+      Left = 8
+      Top = 24
+      Width = 233
+      Height = 21
+      TabOrder = 0
+      Text = 'localhost'
+    end
+    object ConnectButton: TButton
+      Left = 248
+      Top = 21
+      Width = 75
+      Height = 25
+      Caption = 'Connect'
+      Default = True
+      TabOrder = 5
+      OnClick = ConnectButtonClick
+    end
+    object Panel3: TPanel
+      Left = 1
+      Top = 87
+      Width = 711
+      Height = 33
+      Align = alBottom
+      Alignment = taLeftJustify
+      BevelInner = bvRaised
+      BevelOuter = bvLowered
+      Caption = 'Current directory is: '
+      TabOrder = 3
+      object CurrentDirEdit: TEdit
+        Left = 96
+        Top = 6
+        Width = 193
+        Height = 21
+        TabOrder = 0
+        Text = '/'
+      end
+      object ChDirButton: TButton
+        Left = 296
+        Top = 4
+        Width = 105
+        Height = 25
+        Caption = 'Change directory'
+        TabOrder = 1
+        OnClick = ChDirButtonClick
+      end
+      object CreateDirButton: TButton
+        Left = 408
+        Top = 4
+        Width = 73
+        Height = 25
+        Caption = 'Make Dir'
+        TabOrder = 2
+        OnClick = CreateDirButtonClick
+      end
+    end
+    object TraceCheckBox: TCheckBox
+      Left = 248
+      Top = 64
+      Width = 113
+      Height = 17
+      Caption = 'Connection trace'
+      Checked = True
+      State = cbChecked
+      TabOrder = 6
+      OnClick = TraceCheckBoxClick
+    end
+    object UserIDEdit: TEdit
+      Left = 8
+      Top = 64
+      Width = 113
+      Height = 21
+      TabOrder = 1
+      Text = 'anonymous'
+    end
+    object PasswordEdit: TEdit
+      Left = 128
+      Top = 64
+      Width = 113
+      Height = 21
+      PasswordChar = '*'
+      TabOrder = 2
+      Text = 'idftp@demo.com'
+    end
+    object UsePassive: TCheckBox
+      Left = 328
+      Top = 24
+      Width = 121
+      Height = 17
+      Caption = 'Use passive transfer'
+      TabOrder = 4
+      OnClick = UsePassiveClick
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 549
+    Width = 713
+    Height = 19
+    Panels = <    
+      item
+        Width = 200
+      end    
+      item
+        Width = 50
+      end>
+  end
+  object CommandPanel: TPanel
+    Left = 0
+    Top = 121
+    Width = 713
+    Height = 40
+    Align = alTop
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    TabOrder = 4
+    object UploadButton: TButton
+      Left = 96
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'Upload'
+      TabOrder = 1
+      OnClick = UploadButtonClick
+    end
+    object AbortButton: TButton
+      Left = 360
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'Abort'
+      TabOrder = 4
+      Visible = False
+      OnClick = AbortButtonClick
+    end
+    object BackButton: TButton
+      Left = 272
+      Top = 8
+      Width = 75
+      Height = 25
+      Caption = 'Back'
+      TabOrder = 3
+      OnClick = BackButtonClick
+    end
+    object DeleteButton: TButton
+      Left = 184
+      Top = 7
+      Width = 75
+      Height = 25
+      Caption = 'Delete'
+      TabOrder = 2
+      OnClick = DeleteButtonClick
+    end
+    object DownloadButton: TButton
+      Left = 8
+      Top = 7
+      Width = 75
+      Height = 25
+      Caption = 'Download'
+      TabOrder = 0
+      OnClick = DirectoryListBoxDblClick
+    end
+  end
+  object ProgressBar1: TProgressBar
+    Left = 16
+    Top = 264
+    Width = 199
+    Height = 17
+    Smooth = True
+    TabOrder = 5
+  end
+  object HeaderControl1: THeaderControl
+    Left = 0
+    Top = 161
+    Width = 713
+    Height = 17
+    Sections = <    
+      item
+        ImageIndex = -1
+        MinWidth = 10
+        Text = 'Name'
+        Width = 150
+      end    
+      item
+        ImageIndex = -1
+        MinWidth = 10
+        Text = 'Size'
+        Width = 100
+      end    
+      item
+        ImageIndex = -1
+        MinWidth = 10
+        Text = 'Type'
+        Width = 100
+      end    
+      item
+        ImageIndex = -1
+        MinWidth = 10
+        Text = 'Modified'
+        Width = 100
+      end    
+      item
+        ImageIndex = -1
+        MinWidth = 10
+        Text = 'Group'
+        Width = 100
+      end    
+      item
+        ImageIndex = -1
+        MinWidth = 10
+        Text = 'User'
+        Width = 100
+      end    
+      item
+        ImageIndex = -1
+        Text = 'Permisions'
+        Width = 50
+      end>
+    OnSectionResize = HeaderControl1SectionResize
+  end
+  object IdFTP1: TIdFTP
+    OnStatus = IdFTP1Status
+    MaxLineAction = maException
+    RecvBufferSize = 8192
+    SendBufferSize = 4096
+    OnDisconnected = IdFTP1Disconnected
+    OnWork = IdFTP1Work
+    OnWorkBegin = IdFTP1WorkBegin
+    OnWorkEnd = IdFTP1WorkEnd
+    Password = 'idftp@client.com'
+    ProxySettings.ProxyType = fpcmNone
+    ProxySettings.Port = 0
+    Left = 8
+    Top = 176
+  end
+  object UploadOpenDialog1: TOpenDialog
+    Filter = 'All files(*.*)|*.*'
+    Title = 'Upload file....'
+    Left = 441
+    Top = 136
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 473
+    Top = 136
+  end
+  object IdAntiFreeze1: TIdAntiFreeze
+    IdleTimeOut = 50
+    OnlyWhenIdle = False
+    Left = 40
+    Top = 176
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 72
+    Top = 176
+    object Download1: TMenuItem
+      Caption = 'Download'
+      OnClick = DirectoryListBoxDblClick
+    end
+    object Upload1: TMenuItem
+      Caption = 'Upload'
+      OnClick = UploadButtonClick
+    end
+    object Delete1: TMenuItem
+      Caption = 'Delete'
+      OnClick = DeleteButtonClick
+    end
+    object N1: TMenuItem
+      Caption = '-'
+    end
+    object Back1: TMenuItem
+      Caption = 'Back'
+      OnClick = BackButtonClick
+    end
+  end
+  object IdLogEvent1: TIdLogEvent
+    Active = True
+    LogTime = False
+    ReplaceCRLF = False
+    OnReceived = IdLogEvent1Received
+    OnSent = IdLogEvent1Sent
+    Left = 24
+    Top = 344
+  end
+end

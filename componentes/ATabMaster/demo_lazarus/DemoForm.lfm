@@ -1,0 +1,171 @@
+object Form1: TForm1
+  Left = 1076
+  Height = 443
+  Top = 288
+  Width = 716
+  Caption = 'ATTabs demo'
+  ClientHeight = 443
+  ClientWidth = 716
+  Color = clBtnFace
+  Font.Color = clBlack
+  Font.Height = -13
+  Font.Name = 'Default'
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.6.0.2'
+  object Label1: TLabel
+    Left = 144
+    Height = 15
+    Top = 240
+    Width = 350
+    Caption = 'Note: enabled drag-drop from top tabs to bottom tabs'
+    ParentColor = False
+  end
+  object labStatus: TLabel
+    Left = 144
+    Height = 15
+    Top = 256
+    Width = 45
+    Caption = 'Status:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 144
+    Height = 15
+    Top = 56
+    Width = 57
+    Caption = 'top tabs:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 312
+    Height = 15
+    Top = 56
+    Width = 83
+    Caption = 'bottom tabs:'
+    ParentColor = False
+  end
+  object btnAdd: TButton
+    Left = 144
+    Height = 25
+    Top = 144
+    Width = 115
+    Caption = 'add after current'
+    OnClick = btnAddClick
+    TabOrder = 4
+  end
+  object btnDel: TButton
+    Left = 264
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'del'
+    OnClick = btnDelClick
+    TabOrder = 5
+  end
+  object btnColor: TButton
+    Left = 344
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'color'
+    OnClick = btnColorClick
+    TabOrder = 6
+  end
+  object btnLeft: TButton
+    Left = 264
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = '<'
+    OnClick = btnLeftClick
+    TabOrder = 9
+  end
+  object btnRight: TButton
+    Left = 344
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = '>'
+    OnClick = btnRightClick
+    TabOrder = 10
+  end
+  object EditInfo: TEdit
+    Left = 264
+    Height = 27
+    Top = 208
+    Width = 225
+    OnChange = EditInfoChange
+    TabOrder = 11
+  end
+  object chkPlus: TCheckBox
+    Left = 144
+    Height = 23
+    Top = 75
+    Width = 107
+    Caption = 'show "+" tab'
+    OnClick = chkPlusClick
+    TabOrder = 0
+  end
+  object chkNums: TCheckBox
+    Left = 312
+    Height = 23
+    Top = 72
+    Width = 115
+    Caption = 'show numbers'
+    OnClick = chkNumsClick
+    TabOrder = 2
+  end
+  object btnModify: TButton
+    Left = 144
+    Height = 25
+    Top = 176
+    Width = 113
+    Caption = 'toggle modified'
+    OnClick = btnModifyClick
+    TabOrder = 8
+  end
+  object chkEntire: TCheckBox
+    Left = 144
+    Height = 23
+    Top = 96
+    Width = 118
+    Caption = 'color entire tab'
+    OnClick = chkEntireClick
+    TabOrder = 1
+  end
+  object btnStress: TButton
+    Left = 424
+    Height = 25
+    Top = 144
+    Width = 208
+    Caption = 'stress (600 tabs)'
+    OnClick = btnStressClick
+    TabOrder = 7
+  end
+  object Label4: TLabel
+    Left = 464
+    Height = 15
+    Top = 56
+    Width = 115
+    Caption = 'top tabs show "x"'
+    ParentColor = False
+  end
+  object comboShowX: TComboBox
+    Left = 464
+    Height = 26
+    Top = 72
+    Width = 160
+    ItemHeight = 0
+    Items.Strings = (
+      'none'
+      'all tabs'
+      'active tab'
+      'mouse-over tab'
+    )
+    OnChange = comboShowXChange
+    Style = csDropDownList
+    TabOrder = 3
+  end
+end

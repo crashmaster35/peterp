@@ -1,0 +1,68 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmMain','FORMDATA',[
+  'TPF0'#8'TfrmMain'#7'frmMain'#7'Caption'#6#25'Send/Receive Records Demo'#12'C'
+  +'lientHeight'#3#247#0#11'ClientWidth'#3#23#2#11'Font.Height'#2#245#9'Font.Na'
+  +'me'#6#13'MS Sans Serif'#8'OnCreate'#7#10'FormCreate'#13'PixelsPerInch'#2'`'
+  +#10'TextHeight'#2#13#18'HorzScrollBar.Page'#3#22#2#18'VertScrollBar.Page'#3
+  +#246#0#4'Left'#3#31#1#6'Height'#3#247#0#3'Top'#3#179#0#5'Width'#3#23#2#0#6'T'
+  +'Label'#6'Label1'#22'BorderSpacing.OnChange'#13#7'Caption'#6#9'Server IP'#5
+  +'Color'#7#6'clNone'#4'Left'#2#12#6'Height'#2#13#3'Top'#2#12#5'Width'#2'-'#0#0
+  +#6'TLabel'#6'Label2'#22'BorderSpacing.OnChange'#13#7'Caption'#6#11'Server Po'
+  +'rt'#5'Color'#7#6'clNone'#4'Left'#3#151#0#6'Height'#2#13#3'Top'#2#12#5'Width'
+  +#2'7'#0#0#5'TEdit'#11'edtServerIP'#22'BorderSpacing.OnChange'#13#8'TabOrder'
+  +#2#0#4'Text'#6#9'127.0.0.1'#4'Left'#2'@'#6'Height'#2#21#3'Top'#2#8#5'Width'#2
+  +'Q'#0#0#5'TEdit'#13'edtServerPort'#22'BorderSpacing.OnChange'#13#8'TabOrder'
+  +#2#1#4'Text'#6#4'9099'#4'Left'#3#211#0#6'Height'#2#21#3'Top'#2#8#5'Width'#2
+  +'('#0#0#9'TGroupBox'#9'GroupBox1'#22'BorderSpacing.OnChange'#13#7'Caption'#6
+  +#13' Send Record '#12'ClientHeight'#2'{'#11'ClientWidth'#3#244#0#11'ParentCo'
+  +'lor'#9#8'TabOrder'#2#2#4'Left'#2#13#6'Height'#3#141#0#3'Top'#2','#5'Width'#3
+  +#248#0#0#6'TLabel'#6'Label3'#22'BorderSpacing.OnChange'#13#7'Caption'#6#12'M'
+  +'y Direction'#5'Color'#7#6'clNone'#4'Left'#2#10#6'Height'#2#13#3'Top'#2#24#5
+  +'Width'#2';'#0#0#6'TLabel'#6'Label4'#22'BorderSpacing.OnChange'#13#7'Caption'
+  +#6#10'My Integer'#5'Color'#7#6'clNone'#4'Left'#2#10#6'Height'#2#13#3'Top'#2
+  +'0'#5'Width'#2'2'#0#0#6'TLabel'#6'Label5'#22'BorderSpacing.OnChange'#13#7'Ca'
+  +'ption'#6#9'My String'#5'Color'#7#6'clNone'#4'Left'#2#10#6'Height'#2#13#3'To'
+  +'p'#2'H'#5'Width'#2','#0#0#6'TLabel'#6'Label6'#22'BorderSpacing.OnChange'#13
+  +#7'Caption'#6#10'My Boolean'#5'Color'#7#6'clNone'#4'Left'#2#10#6'Height'#2#13
+  +#3'Top'#2'`'#5'Width'#2'8'#0#0#9'TComboBox'#16'cboSendDirection'#22'BorderSp'
+  +'acing.OnChange'#13#10'ItemHeight'#2#13#13'Items.Strings'#1#6#4'Left'#6#5'Ri'
+  +'ght'#0#9'MaxLength'#2#0#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#0#4'Lef'
+  +'t'#2'N'#6'Height'#2#21#3'Top'#2#20#5'Width'#2'M'#0#0#5'TEdit'#16'edtSendMyI'
+  +'nteger'#22'BorderSpacing.OnChange'#13#8'TabOrder'#2#1#4'Text'#6#5'12345'#4
+  +'Left'#2'N'#6'Height'#2#21#3'Top'#2','#5'Width'#2'3'#0#0#5'TEdit'#15'edtSend'
+  +'MyString'#22'BorderSpacing.OnChange'#13#8'TabOrder'#2#2#4'Text'#6#16'This i'
+  +'s a string'#4'Left'#2'N'#6'Height'#2#21#3'Top'#2'D'#5'Width'#3#153#0#0#0#9
+  +'TComboBox'#16'cboSendMyBoolean'#22'BorderSpacing.OnChange'#13#10'ItemHeight'
+  +#2#13#13'Items.Strings'#1#6#4'True'#6#5'False'#0#9'MaxLength'#2#0#5'Style'#7
+  +#14'csDropDownList'#8'TabOrder'#2#3#4'Left'#2'N'#6'Height'#2#21#3'Top'#2'\'#5
+  +'Width'#2'M'#0#0#0#9'TGroupBox'#9'GroupBox2'#22'BorderSpacing.OnChange'#13#7
+  +'Caption'#6#16' Receive Record '#12'ClientHeight'#2'{'#11'ClientWidth'#3#244
+  +#0#11'ParentColor'#9#8'TabOrder'#2#3#4'Left'#3#10#1#6'Height'#3#141#0#3'Top'
+  +#2','#5'Width'#3#248#0#0#6'TLabel'#6'Label7'#22'BorderSpacing.OnChange'#13#7
+  +'Caption'#6#12'My Direction'#5'Color'#7#6'clNone'#4'Left'#2#10#6'Height'#2#13
+  +#3'Top'#2#24#5'Width'#2';'#0#0#6'TLabel'#6'Label8'#22'BorderSpacing.OnChange'
+  +#13#7'Caption'#6#10'My Integer'#5'Color'#7#6'clNone'#4'Left'#2#10#6'Height'#2
+  +#13#3'Top'#2'0'#5'Width'#2'2'#0#0#6'TLabel'#6'Label9'#22'BorderSpacing.OnCha'
+  +'nge'#13#7'Caption'#6#9'My String'#5'Color'#7#6'clNone'#4'Left'#2#10#6'Heigh'
+  +'t'#2#13#3'Top'#2'H'#5'Width'#2','#0#0#6'TLabel'#7'Label10'#22'BorderSpacing'
+  +'.OnChange'#13#7'Caption'#6#10'My Boolean'#5'Color'#7#6'clNone'#4'Left'#2#10
+  +#6'Height'#2#13#3'Top'#2'`'#5'Width'#2'8'#0#0#9'TComboBox'#19'cboReceiveDire'
+  +'ction'#22'BorderSpacing.OnChange'#13#7'Enabled'#8#10'ItemHeight'#2#13#13'It'
+  +'ems.Strings'#1#6#4'Left'#6#5'Right'#0#9'MaxLength'#2#0#5'Style'#7#14'csDrop'
+  +'DownList'#8'TabOrder'#2#0#4'Left'#2'N'#6'Height'#2#21#3'Top'#2#20#5'Width'#2
+  +'M'#0#0#5'TEdit'#19'edtReceiveMyInteger'#22'BorderSpacing.OnChange'#13#5'Col'
+  +'or'#7#9'clBtnFace'#7'Enabled'#8#8'TabOrder'#2#1#4'Left'#2'N'#6'Height'#2#21
+  +#3'Top'#2','#5'Width'#2'3'#0#0#5'TEdit'#18'edtReceiveMyString'#22'BorderSpac'
+  +'ing.OnChange'#13#5'Color'#7#9'clBtnFace'#7'Enabled'#8#8'TabOrder'#2#2#4'Lef'
+  +'t'#2'N'#6'Height'#2#21#3'Top'#2'D'#5'Width'#3#153#0#0#0#9'TComboBox'#19'cbo'
+  +'ReceiveMyBoolean'#22'BorderSpacing.OnChange'#13#7'Enabled'#8#10'ItemHeight'
+  +#2#13#13'Items.Strings'#1#6#4'True'#6#5'False'#0#9'MaxLength'#2#0#5'Style'#7
+  +#14'csDropDownList'#8'TabOrder'#2#3#4'Left'#2'N'#6'Height'#2#21#3'Top'#2'\'#5
+  +'Width'#2'M'#0#0#0#7'TButton'#7'Button1'#22'BorderSpacing.OnChange'#13#7'Cap'
+  +'tion'#6#12'Send and get'#7'OnClick'#7#12'Button1Click'#8'TabOrder'#2#4#4'Le'
+  +'ft'#2#16#6'Height'#2#25#3'Top'#3#208#0#5'Width'#2'Y'#0#0#7'TButton'#7'Butto'
+  +'n2'#22'BorderSpacing.OnChange'#13#7'Caption'#6#4'Exit'#7'OnClick'#7#12'Butt'
+  +'on2Click'#8'TabOrder'#2#5#4'Left'#2'p'#6'Height'#2#25#3'Top'#3#208#0#5'Widt'
+  +'h'#2'K'#0#0#0
+]);

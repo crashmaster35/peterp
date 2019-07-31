@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="5"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <Units Count="7">
+      <Unit0>
+        <CursorPos X="29" Y="14"/>
+        <EditorIndex Value="1"/>
+        <Filename Value="nntppost.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <Loaded Value="True"/>
+        <TopLine Value="1"/>
+        <UnitName Value="nntppost"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <CursorPos X="52" Y="24"/>
+        <EditorIndex Value="0"/>
+        <Filename Value="nntpmain.pas"/>
+        <ComponentName Value="Form1"/>
+        <IsPartOfProject Value="True"/>
+        <Loaded Value="True"/>
+        <ResourceFilename Value="nntpmain.lrs"/>
+        <TopLine Value="1"/>
+        <UnitName Value="nntpmain"/>
+        <UsageCount Value="20"/>
+      </Unit1>
+      <Unit2>
+        <CursorPos X="20" Y="149"/>
+        <Filename Value="D:\indy9\indy9\done\idnntp.pas"/>
+        <TopLine Value="120"/>
+        <UnitName Value="IdNNTP"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <CursorPos X="34" Y="105"/>
+        <Filename Value="D:\indy9\indy9\done\IdMessageClient.pas"/>
+        <TopLine Value="82"/>
+        <UnitName Value="IdMessageClient"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <CursorPos X="85" Y="62"/>
+        <Filename Value="D:\indy9\indy9\done\IdTCPClient.pas"/>
+        <TopLine Value="26"/>
+        <UnitName Value="IdTCPClient"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <CursorPos X="10" Y="455"/>
+        <Filename Value="D:\indy9\indy9\done\idmessage.pas"/>
+        <TopLine Value="432"/>
+        <UnitName Value="IdMessage"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <CursorPos X="7" Y="24"/>
+        <Filename Value="D:\indy9\indy9\done\IdEMailAddress.pas"/>
+        <TopLine Value="24"/>
+        <UnitName Value="IdEMailAddress"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+    </Units>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="nntpmain.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="nntpmain.pas"/>
+        <Caret Line="22" Column="59" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="nntpmain.pas"/>
+        <Caret Line="95" Column="6" TopLine="49"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="d:\indy9\indy9libsrc\"/>
+      <OtherUnitFiles Value="d:\indy9\indy9libsrc\"/>
+      <SrcPath Value="$(LazarusDir)\lcl\;$(LazarusDir)\lcl\interfaces\$(LCLWidgetType)\"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <D2Extensions Value="False"/>
+        <DelphiCompat Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Source Value="D:\indy9\indy9\done\idmessage.pas"/>
+        <Line Value="56"/>
+      </Item1>
+    </BreakPoints>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

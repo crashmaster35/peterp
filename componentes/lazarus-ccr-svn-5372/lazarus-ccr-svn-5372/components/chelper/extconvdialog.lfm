@@ -1,0 +1,290 @@
+object CtoPasConfig: TCtoPasConfig
+  Left = 482
+  Height = 584
+  Top = 106
+  Width = 668
+  Caption = 'C to Pascal settings'
+  ClientHeight = 584
+  ClientWidth = 668
+  OnClose = FormClose
+  OnResize = FormResize
+  LCLVersion = '0.9.31'
+  object PageControl1: TPageControl
+    Left = 10
+    Height = 564
+    Top = 10
+    Width = 648
+    ActivePage = MainPage
+    Align = alClient
+    BorderSpacing.Left = 5
+    BorderSpacing.Top = 5
+    BorderSpacing.Right = 5
+    BorderSpacing.Bottom = 5
+    BorderSpacing.Around = 5
+    TabIndex = 0
+    TabOrder = 0
+    object MainPage: TTabSheet
+      Caption = 'Main'
+      ClientHeight = 525
+      ClientWidth = 642
+      object Panel1: TPanel
+        Left = 0
+        Height = 170
+        Top = 0
+        Width = 642
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 170
+        ClientWidth = 642
+        TabOrder = 0
+        object Label1: TLabel
+          Left = 6
+          Height = 17
+          Top = 5
+          Width = 150
+          Caption = 'Pascal code generation:'
+          ParentColor = False
+        end
+        object chkRecordsPacked: TCheckBox
+          AnchorSideLeft.Control = Label1
+          AnchorSideTop.Control = Label1
+          AnchorSideTop.Side = asrBottom
+          Left = 6
+          Height = 18
+          Top = 27
+          Width = 144
+          BorderSpacing.Top = 5
+          Caption = 'Records are packed'
+          TabOrder = 0
+        end
+        object chkFuncAreExt: TCheckBox
+          AnchorSideLeft.Control = chkRecordsPacked
+          AnchorSideTop.Control = chkRecordsPacked
+          AnchorSideTop.Side = asrBottom
+          Left = 6
+          Height = 18
+          Top = 50
+          Width = 161
+          BorderSpacing.Top = 5
+          Caption = 'Functions are external'
+          TabOrder = 1
+        end
+        object chkEnums: TCheckBox
+          AnchorSideTop.Control = txtLibName
+          AnchorSideTop.Side = asrBottom
+          Left = 6
+          Height = 18
+          Top = 103
+          Width = 244
+          BorderSpacing.Top = 5
+          Caption = 'Enumerations are Integer constants'
+          TabOrder = 2
+        end
+        object lblCallConv: TLabel
+          AnchorSideLeft.Control = chkFuncAreExt
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideTop.Control = chkFuncAreExt
+          Left = 187
+          Height = 17
+          Top = 50
+          Width = 122
+          BorderSpacing.Left = 20
+          Caption = 'Calling convention:'
+          ParentColor = False
+        end
+        object cmbCallConv: TComboBox
+          AnchorSideLeft.Control = lblCallConv
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideTop.Control = lblCallConv
+          Left = 329
+          Height = 21
+          Top = 50
+          Width = 160
+          BorderSpacing.Left = 20
+          ItemHeight = 0
+          ItemIndex = 1
+          Items.Strings = (
+            '(empty)'
+            'cdecl'
+            'stdcall'
+            'mwpascal'
+            'fastcall'
+          )
+          TabOrder = 3
+          Text = 'cdecl'
+        end
+        object lblDefines: TLabel
+          AnchorSideTop.Control = chkEnums
+          AnchorSideTop.Side = asrBottom
+          Left = 6
+          Height = 17
+          Top = 131
+          Width = 52
+          BorderSpacing.Top = 10
+          Caption = 'Defines:'
+          ParentColor = False
+        end
+        object edtDefines: TEdit
+          AnchorSideLeft.Control = lblDefines
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideTop.Control = chkEnums
+          AnchorSideTop.Side = asrBottom
+          AnchorSideRight.Control = btnSelect
+          Left = 64
+          Height = 22
+          Top = 131
+          Width = 411
+          Anchors = [akTop, akLeft, akRight]
+          BorderSpacing.Left = 6
+          BorderSpacing.Top = 10
+          BorderSpacing.Right = 6
+          TabOrder = 4
+        end
+        object btnSelect: TButton
+          AnchorSideTop.Control = btnEdit
+          AnchorSideRight.Control = btnEdit
+          Left = 481
+          Height = 20
+          Top = 131
+          Width = 70
+          Anchors = [akTop, akRight]
+          AutoSize = True
+          BorderSpacing.Right = 10
+          Caption = 'Select'
+          OnClick = btnSelectClick
+          TabOrder = 5
+        end
+        object btnEdit: TButton
+          AnchorSideTop.Control = edtDefines
+          Left = 561
+          Height = 20
+          Top = 131
+          Width = 70
+          Anchors = [akTop, akRight]
+          Caption = 'Edit'
+          OnClick = btnEditClick
+          TabOrder = 6
+        end
+        object txtLibName: TEdit
+          AnchorSideLeft.Control = cmbCallConv
+          AnchorSideTop.Control = cmbCallConv
+          AnchorSideTop.Side = asrBottom
+          Left = 329
+          Height = 22
+          Top = 76
+          Width = 302
+          Anchors = [akTop, akLeft, akRight]
+          BorderSpacing.Top = 5
+          TabOrder = 7
+        end
+        object lblExtLibName: TLabel
+          AnchorSideLeft.Control = chkFuncAreExt
+          AnchorSideLeft.Side = asrBottom
+          AnchorSideTop.Control = txtLibName
+          Left = 187
+          Height = 17
+          Top = 76
+          Width = 83
+          BorderSpacing.Left = 20
+          Caption = 'Library name'
+          ParentColor = False
+        end
+      end
+      object Panel2: TPanel
+        Left = 0
+        Height = 355
+        Top = 170
+        Width = 642
+        Align = alClient
+        Alignment = taLeftJustify
+        BevelOuter = bvNone
+        ClientHeight = 355
+        ClientWidth = 642
+        TabOrder = 1
+        object Splitter1: TSplitter
+          Cursor = crVSplit
+          Left = 0
+          Height = 5
+          Top = 0
+          Width = 642
+          Align = alTop
+          ResizeAnchor = akTop
+        end
+        object Label2: TLabel
+          Left = 6
+          Height = 17
+          Top = 14
+          Width = 178
+          Caption = 'C to Pascal types convertion'
+          ParentColor = False
+        end
+        object Memo1: TMemo
+          Left = 6
+          Height = 305
+          Top = 44
+          Width = 630
+          Align = alBottom
+          Anchors = [akTop, akLeft, akRight, akBottom]
+          BorderSpacing.Left = 6
+          BorderSpacing.Right = 6
+          BorderSpacing.Bottom = 6
+          ScrollBars = ssVertical
+          TabOrder = 1
+        end
+        object Button2: TButton
+          Left = 476
+          Height = 20
+          Top = 14
+          Width = 160
+          Anchors = [akTop, akLeft, akRight]
+          AutoSize = True
+          Caption = 'Reset to defaults'
+          OnClick = Button2Click
+          TabOrder = 2
+        end
+      end
+    end
+    object ConvPage: TTabSheet
+      Caption = 'Converter'
+      ClientHeight = 525
+      ClientWidth = 642
+      object edtExtTool: TEdit
+        AnchorSideTop.Control = chkUseExternal
+        AnchorSideTop.Side = asrBottom
+        Left = 13
+        Height = 22
+        Top = 32
+        Width = 959
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Top = 10
+        TabOrder = 0
+      end
+      object Button1: TButton
+        AnchorSideTop.Control = chkUseExternal
+        AnchorSideTop.Side = asrBottom
+        Left = 986
+        Height = 20
+        Top = 32
+        Width = 70
+        Anchors = [akTop, akRight]
+        AutoSize = True
+        BorderSpacing.Top = 10
+        Caption = 'Select'
+        OnClick = Button1Click
+        TabOrder = 1
+      end
+      object chkUseExternal: TCheckBox
+        Left = 13
+        Height = 18
+        Top = 4
+        Width = 163
+        Caption = 'Use external converter'
+        TabOrder = 2
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    left = 304
+    top = 168
+  end
+end

@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="fpbrowser"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="2">
+      <Item1 Name="Debug" Default="True"/>
+      <Item2 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <SearchPaths>
+            <OtherUnitFiles Value="../../components/thtmlport/package"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <SyntaxMode Value="Delphi"/>
+              <CStyleOperator Value="False"/>
+              <IncludeAssertionCode Value="True"/>
+              <AllowLabel Value="False"/>
+              <CPPInline Value="False"/>
+              <UseAnsiStrings Value="False"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <UseLineInfoUnit Value="False"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <UseMsgFile Value="True"/>
+            </CompilerMessages>
+            <CustomOptions Value="-dDebugIt"/>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="5">
+      <Item1>
+        <PackageName Value="customdrawn"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="TurboPowerIPro"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="Printer4Lazarus"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="laz_synapse"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LCL"/>
+      </Item5>
+    </RequiredPackages>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="fpbrowser.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="fpbrowser"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="formBrowser"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mainform"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="submit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+        <UnitName Value="Submit"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="fontdlg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+        <UnitName Value="Fontdlg"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="dlgabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutBox"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="dlgabout"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="pageloader.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="pageloader"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="browsermodules.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="browsermodules"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="browserviewer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="browserviewer"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="viewer_thtmlcomp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="viewer_thtmlcomp"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="viewer_ipro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="viewer_ipro"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="mod_braille.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mod_braille"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="browserconstants.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="browserconstants"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="dlgconfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="formConfig"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="dlgconfig"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="browserconfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="browserconfig"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="mod_testhttp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="formTestHttp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mod_testhttp"/>
+      </Unit14>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <SearchPaths>
+      <OtherUnitFiles Value="../../components/thtmlport/package"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="Delphi"/>
+        <CStyleOperator Value="False"/>
+        <IncludeAssertionCode Value="True"/>
+        <AllowLabel Value="False"/>
+        <CPPInline Value="False"/>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CustomOptions Value="-dDebugIt"/>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EConvertError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

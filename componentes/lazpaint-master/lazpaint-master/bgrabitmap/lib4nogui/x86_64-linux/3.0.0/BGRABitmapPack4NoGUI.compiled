@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1449313866"/>
+  <Params Value=" -MObjFPC -Scgi -Cg -O3 -OoREGVAR -l -vewnhibq -Fu/usr/share/lazarus/1.6RC2/packager/units/x86_64-linux -Fu/usr/share/lazarus/1.6RC2/components/lazutils/lib/x86_64-linux -Fu/home/bruno/tpv/componentes/lazpaint-master/lazpaint-master/bgrabitmap/ -FU/home/bruno/tpv/componentes/lazpaint-master/lazpaint-master/bgrabitmap/lib4nogui/x86_64-linux/3.0.0/ bgrabitmappack4nogui.pas"/>
+  <Complete Value="False" MainPPUExists="False"/>
+</CONFIG>

@@ -1,0 +1,37 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TUDPMainForm','FORMDATA',[
+  'TPF0'#12'TUDPMainForm'#11'UDPMainForm'#11'BorderStyle'#7#8'bsSingle'#7'Capti'
+  +'on'#6#15'Indy UDP server'#12'ClientHeight'#3#235#1#11'ClientWidth'#3#10#2#11
+  +'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#8'OnCreate'#7#10'FormCr'
+  +'eate'#13'PixelsPerInch'#2'`'#8'Position'#7#14'poScreenCenter'#10'TextHeight'
+  +#2#13#18'HorzScrollBar.Page'#3#9#2#18'VertScrollBar.Page'#3#234#1#4'Left'#3
+  +#180#1#6'Height'#3#235#1#3'Top'#2'p'#5'Width'#3#10#2#0#9'TGroupBox'#14'Sourc'
+  +'eGroupBox'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#22'BorderSpacing.O'
+  +'nChange'#13#7'Caption'#6#6'Source'#12'ClientHeight'#2'f'#11'ClientWidth'#3
+  +#254#1#11'ParentColor'#9#8'TabOrder'#2#0#4'Left'#2#4#6'Height'#2'x'#3'Top'#2
+  +#4#5'Width'#3#2#2#0#6'TLabel'#13'HostNameLabel'#22'BorderSpacing.OnChange'#13
+  +#7'Caption'#6#10'Host name:'#5'Color'#7#6'clNone'#4'Left'#2#12#6'Height'#2#13
+  +#3'Top'#2#16#5'Width'#2'6'#0#0#6'TLabel'#16'HostAddressLabel'#22'BorderSpaci'
+  +'ng.OnChange'#13#7'Caption'#6#13'Host address:'#5'Color'#7#6'clNone'#4'Left'
+  +#2#12#6'Height'#2#13#3'Top'#2' '#5'Width'#2'A'#0#0#6'TLabel'#8'HostName'#22
+  +'BorderSpacing.OnChange'#13#5'Color'#7#6'clNone'#10'Font.Color'#7#8'clMaroon'
+  +#11'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#4'Left'#3#200#0#6'He'
+  +'ight'#2#13#3'Top'#2#16#5'Width'#3#150#0#0#0#6'TLabel'#11'HostAddress'#22'Bo'
+  +'rderSpacing.OnChange'#13#5'Color'#7#6'clNone'#10'Font.Color'#7#8'clMaroon'
+  +#11'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#4'Left'#3#200#0#6'He'
+  +'ight'#2#13#3'Top'#2' '#5'Width'#3#150#0#0#0#6'TLabel'#9'PortLabel'#22'Borde'
+  +'rSpacing.OnChange'#13#7'Caption'#6#5'Port:'#5'Color'#7#6'clNone'#4'Left'#2
+  +#12#6'Height'#2#13#3'Top'#2'0'#5'Width'#2#22#0#0#6'TLabel'#4'Port'#22'Border'
+  +'Spacing.OnChange'#13#5'Color'#7#6'clNone'#10'Font.Color'#7#8'clMaroon'#11'F'
+  +'ont.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#4'Left'#3#200#0#6'Height'
+  +#2#13#3'Top'#2'0'#5'Width'#3#150#0#0#0#6'TLabel'#15'BufferSizeLabel'#22'Bord'
+  +'erSpacing.OnChange'#13#7'Caption'#6#11'Buffer size'#5'Color'#7#6'clNone'#4
+  +'Left'#2#12#6'Height'#2#13#3'Top'#2'@'#5'Width'#3#150#0#0#0#6'TLabel'#10'Buf'
+  +'ferSize'#22'BorderSpacing.OnChange'#13#5'Color'#7#6'clNone'#10'Font.Color'#7
+  +#8'clMaroon'#11'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#4'Left'#3
+  +#200#0#6'Height'#2#13#3'Top'#2'@'#5'Width'#3#250#0#0#0#0#5'TMemo'#7'UDPMemo'
+  +#22'BorderSpacing.OnChange'#13#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2
+  +#245#9'Font.Name'#6#11'Courier New'#10'ScrollBars'#7#10'ssVertical'#8'TabOrd'
+  +'er'#2#1#4'Left'#2'@'#6'Height'#3#200#0#3'Top'#3#168#0#5'Width'#3','#1#0#0#0
+]);

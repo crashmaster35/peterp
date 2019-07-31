@@ -1,0 +1,268 @@
+object frmMain: TfrmMain
+  Caption = 'Send/Receive Records Demo'
+  ClientHeight = 247
+  ClientWidth = 535
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  HorzScrollBar.Page = 534
+  VertScrollBar.Page = 246
+  Left = 287
+  Height = 247
+  Top = 179
+  Width = 535
+  object Label1: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Server IP'
+    Color = clNone
+    Left = 12
+    Height = 13
+    Top = 12
+    Width = 45
+  end
+  object Label2: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Server Port'
+    Color = clNone
+    Left = 151
+    Height = 13
+    Top = 12
+    Width = 55
+  end
+  object edtServerIP: TEdit
+    BorderSpacing.OnChange = nil
+    TabOrder = 0
+    Text = '127.0.0.1'
+    Left = 64
+    Height = 21
+    Top = 8
+    Width = 81
+  end
+  object edtServerPort: TEdit
+    BorderSpacing.OnChange = nil
+    TabOrder = 1
+    Text = '9099'
+    Left = 211
+    Height = 21
+    Top = 8
+    Width = 40
+  end
+  object GroupBox1: TGroupBox
+    BorderSpacing.OnChange = nil
+    Caption = ' Send Record '
+    ClientHeight = 123
+    ClientWidth = 244
+    ParentColor = True
+    TabOrder = 2
+    Left = 13
+    Height = 141
+    Top = 44
+    Width = 248
+    object Label3: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'My Direction'
+      Color = clNone
+      Left = 10
+      Height = 13
+      Top = 24
+      Width = 59
+    end
+    object Label4: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'My Integer'
+      Color = clNone
+      Left = 10
+      Height = 13
+      Top = 48
+      Width = 50
+    end
+    object Label5: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'My String'
+      Color = clNone
+      Left = 10
+      Height = 13
+      Top = 72
+      Width = 44
+    end
+    object Label6: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'My Boolean'
+      Color = clNone
+      Left = 10
+      Height = 13
+      Top = 96
+      Width = 56
+    end
+    object cboSendDirection: TComboBox
+      BorderSpacing.OnChange = nil
+      ItemHeight = 13
+      Items.Strings = (
+        'Left'
+        'Right'
+      )
+      MaxLength = 0
+      Style = csDropDownList
+      TabOrder = 0
+      Left = 78
+      Height = 21
+      Top = 20
+      Width = 77
+    end
+    object edtSendMyInteger: TEdit
+      BorderSpacing.OnChange = nil
+      TabOrder = 1
+      Text = '12345'
+      Left = 78
+      Height = 21
+      Top = 44
+      Width = 51
+    end
+    object edtSendMyString: TEdit
+      BorderSpacing.OnChange = nil
+      TabOrder = 2
+      Text = 'This is a string'
+      Left = 78
+      Height = 21
+      Top = 68
+      Width = 153
+    end
+    object cboSendMyBoolean: TComboBox
+      BorderSpacing.OnChange = nil
+      ItemHeight = 13
+      Items.Strings = (
+        'True'
+        'False'
+      )
+      MaxLength = 0
+      Style = csDropDownList
+      TabOrder = 3
+      Left = 78
+      Height = 21
+      Top = 92
+      Width = 77
+    end
+  end
+  object GroupBox2: TGroupBox
+    BorderSpacing.OnChange = nil
+    Caption = ' Receive Record '
+    ClientHeight = 123
+    ClientWidth = 244
+    ParentColor = True
+    TabOrder = 3
+    Left = 266
+    Height = 141
+    Top = 44
+    Width = 248
+    object Label7: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'My Direction'
+      Color = clNone
+      Left = 10
+      Height = 13
+      Top = 24
+      Width = 59
+    end
+    object Label8: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'My Integer'
+      Color = clNone
+      Left = 10
+      Height = 13
+      Top = 48
+      Width = 50
+    end
+    object Label9: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'My String'
+      Color = clNone
+      Left = 10
+      Height = 13
+      Top = 72
+      Width = 44
+    end
+    object Label10: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'My Boolean'
+      Color = clNone
+      Left = 10
+      Height = 13
+      Top = 96
+      Width = 56
+    end
+    object cboReceiveDirection: TComboBox
+      BorderSpacing.OnChange = nil
+      Enabled = False
+      ItemHeight = 13
+      Items.Strings = (
+        'Left'
+        'Right'
+      )
+      MaxLength = 0
+      Style = csDropDownList
+      TabOrder = 0
+      Left = 78
+      Height = 21
+      Top = 20
+      Width = 77
+    end
+    object edtReceiveMyInteger: TEdit
+      BorderSpacing.OnChange = nil
+      Color = clBtnFace
+      Enabled = False
+      TabOrder = 1
+      Left = 78
+      Height = 21
+      Top = 44
+      Width = 51
+    end
+    object edtReceiveMyString: TEdit
+      BorderSpacing.OnChange = nil
+      Color = clBtnFace
+      Enabled = False
+      TabOrder = 2
+      Left = 78
+      Height = 21
+      Top = 68
+      Width = 153
+    end
+    object cboReceiveMyBoolean: TComboBox
+      BorderSpacing.OnChange = nil
+      Enabled = False
+      ItemHeight = 13
+      Items.Strings = (
+        'True'
+        'False'
+      )
+      MaxLength = 0
+      Style = csDropDownList
+      TabOrder = 3
+      Left = 78
+      Height = 21
+      Top = 92
+      Width = 77
+    end
+  end
+  object Button1: TButton
+    BorderSpacing.OnChange = nil
+    Caption = 'Send and get'
+    OnClick = Button1Click
+    TabOrder = 4
+    Left = 16
+    Height = 25
+    Top = 208
+    Width = 89
+  end
+  object Button2: TButton
+    BorderSpacing.OnChange = nil
+    Caption = 'Exit'
+    OnClick = Button2Click
+    TabOrder = 5
+    Left = 112
+    Height = 25
+    Top = 208
+    Width = 75
+  end
+end

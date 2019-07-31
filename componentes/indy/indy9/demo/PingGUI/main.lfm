@@ -1,0 +1,77 @@
+object frmPing: TfrmPing
+  BorderStyle = bsDialog
+  Caption = 'Ping'
+  ClientHeight = 224
+  ClientWidth = 498
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  HorzScrollBar.Page = 497
+  VertScrollBar.Page = 223
+  Left = 258
+  Height = 224
+  Top = 147
+  Width = 498
+  object lstReplies: TListBox
+    Align = alClient
+    BorderSpacing.OnChange = nil
+    ItemHeight = 13
+    TabOrder = 0
+    Height = 191
+    Top = 33
+    Width = 498
+  end
+  object Panel1: TPanel
+    Align = alTop
+    BorderSpacing.OnChange = nil
+    BevelOuter = bvNone
+    ClientHeight = 33
+    ClientWidth = 498
+    FullRepaint = False
+    TabOrder = 1
+    Height = 33
+    Width = 498
+    object Label1: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'Pings:'
+      Color = clNone
+      Left = 344
+      Height = 13
+      Top = 8
+      Width = 29
+    end
+    object btnPing: TButton
+      BorderSpacing.OnChange = nil
+      Caption = '&Ping'
+      Default = True
+      OnClick = btnPingClick
+      TabOrder = 0
+      Left = 232
+      Height = 25
+      Top = 3
+      Width = 75
+    end
+    object edtHost: TEdit
+      BorderSpacing.OnChange = nil
+      TabOrder = 1
+      Text = 'www.projectindy.org'
+      Left = 4
+      Height = 21
+      Top = 4
+      Width = 221
+    end
+    object spnPing: TSpinEdit
+      BorderSpacing.OnChange = nil
+      MaxValue = 40
+      MinValue = 1
+      TabOrder = 2
+      Value = 4
+      Left = 376
+      Height = 22
+      Top = 5
+      Width = 57
+    end
+  end
+end

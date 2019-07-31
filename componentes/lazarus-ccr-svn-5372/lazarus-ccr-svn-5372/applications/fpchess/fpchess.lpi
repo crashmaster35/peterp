@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="2">
+      <Item1 Name="debug" Default="True"/>
+      <Item2 Name="release">
+        <CompilerOptions>
+          <Version Value="10"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="fpchess"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Linking>
+            <Debugging>
+              <UseLineInfoUnit Value="False"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <UseMsgFile Value="True"/>
+            </CompilerMessages>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="\usr\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="lnetbase"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="19">
+      <Unit0>
+        <Filename Value="fpchess.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="fpchess"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="formChess"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mainform"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="chessdrawer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="chessdrawer"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="chessgame.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="chessgame"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="chessconfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="chessconfig"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="chesstcputils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="chesstcputils"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="IDelphiChess.wsdl"/>
+        <IsPartOfProject Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="IDelphiChessWSDL.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="IDelphiChessWSDL"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="IDelphiChess_proxy.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="IDelphiChess_proxy"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="IDelphiChess.wst"/>
+        <IsPartOfProject Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="IDelphiChess_Intf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="IDelphiChess_Intf"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="chessmodules.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="chessmodules"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="mod_samecomputer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mod_samecomputer"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="mod_fics.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mod_fics"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="engines\kcchess\mod_kcchess.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mod_kcchess"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="selectpromotionpiece.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="formPromotion"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="selectPromotionPiece"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="ltelnetex.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ltelnetex"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="mod_winboard.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mod_winboard"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="winboardconn.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="winboardConn"/>
+      </Unit18>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="fpchess"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="engines\kcchess"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

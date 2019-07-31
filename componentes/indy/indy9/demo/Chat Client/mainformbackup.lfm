@@ -1,0 +1,163 @@
+object Form1: TForm1
+  Left = 192
+  Top = 138
+  Width = 489
+  Height = 290
+  Caption = 'Indy Chat Client Demo'
+  Color = clBtnFace
+  Constraints.MinHeight = 220
+  Constraints.MinWidth = 220
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  ShowHint = True
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 0
+    Top = 0
+    Width = 56
+    Height = 13
+    Caption = 'User Name:'
+  end
+  object Label2: TLabel
+    Left = 0
+    Top = 40
+    Width = 75
+    Height = 13
+    Caption = 'Server Address:'
+  end
+  object Label3: TLabel
+    Left = 0
+    Top = 80
+    Width = 77
+    Height = 13
+    Caption = 'Currently Online:'
+  end
+  object Label4: TLabel
+    Left = 144
+    Top = 80
+    Width = 51
+    Height = 13
+    Caption = 'Messages:'
+  end
+  object Label5: TLabel
+    Left = 144
+    Top = 219
+    Width = 71
+    Height = 13
+    Caption = 'Your Message:'
+  end
+  object SpeedButton1: TSpeedButton
+    Left = 448
+    Top = 55
+    Width = 23
+    Height = 22
+    Hint = 'Connect/Disconnect'
+    AllowAllUp = True
+    GroupIndex = 1
+    Flat = True
+    Glyph.Data = {
+      66010000424D6601000000000000760000002800000014000000140000000100
+      040000000000F000000000000000000000001000000000000000000000000000
+      8000008000000080800080000000800080008080000080808000C0C0C0000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00300000000000
+      00333333000030FFFFFFFFFFF03333330000330F0F0F0F0F0333333300000000
+      FFFFFFF00003333300000FF800000008FF03333300000F9FFFFFFFF000033333
+      00000FFFFFFFFFFFFF0333330000300000000000003333330000333000000000
+      3333333300003330FFFF00703333333300003330F0000B307833333300003330
+      F0CCC0BB0078333300003330F0CCC00BB300733300003330F00000F0BBB00733
+      00003330FFFFFFF00BBB00830000333000000000BBB008330000333333333330
+      0BBB00830000333333333333300BB008000033333333333333300B0000003333
+      33333333333330000000
+    }
+    OnClick = SpeedButton1Click
+  end
+  object Label6: TLabel
+    Left = 347
+    Top = 40
+    Width = 56
+    Height = 13
+    Caption = 'Server Port:'
+  end
+  object edUserName: TEdit
+    Left = 8
+    Top = 16
+    Width = 470
+    Height = 21
+    Hint = 'This is the name that others will see when you post a message.'
+    TabOrder = 0
+  end
+  object edServer: TEdit
+    Left = 8
+    Top = 56
+    Width = 332
+    Height = 21
+    Hint = 'This is the address to the server that you want to connect to.'
+    TabOrder = 1
+    Text = 'localhost'
+  end
+  object lbClients: TListBox
+    Left = 8
+    Top = 96
+    Width = 129
+    Height = 157
+    Hint = 'This shows all the people currently online'
+    ItemHeight = 13
+    TabOrder = 2
+  end
+  object memLines: TMemo
+    Left = 152
+    Top = 96
+    Width = 326
+    Height = 121
+    Hint = 'Current Messages since you logged in.'
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object edMessage: TEdit
+    Left = 152
+    Top = 232
+    Width = 326
+    Height = 21
+    TabOrder = 4
+    OnKeyPress = edMessageKeyPress
+  end
+  object sePort: TSpinEdit
+    Left = 355
+    Top = 56
+    Width = 89
+    Height = 22
+    MaxValue = 0
+    MinValue = 0
+    TabOrder = 5
+    Value = 23
+  end
+  object Button1: TButton
+    Left = 80
+    Top = 81
+    Width = 55
+    Height = 14
+    Caption = 'Refresh'
+    TabOrder = 6
+    OnClick = Button1Click
+  end
+  object IdTCPClient1: TIdTCPClient
+    MaxLineAction = maException
+    RecvBufferSize = 8192
+    OnConnected = IdTCPClient1Connected
+    Port = 0
+    Left = 448
+    Top = 8
+  end
+  object Timer1: TTimer
+    Interval = 500
+    OnTimer = Timer1Timer
+    Left = 416
+    Top = 8
+  end
+end

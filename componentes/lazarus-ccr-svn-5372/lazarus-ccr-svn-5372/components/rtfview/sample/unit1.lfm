@@ -1,0 +1,36 @@
+object Form1: TForm1
+  Left = 279
+  Height = 401
+  Top = 102
+  Width = 485
+  HorzScrollBar.Page = 484
+  VertScrollBar.Page = 400
+  ActiveControl = Button2
+  Caption = 'Form1'
+  object Button2: TButton
+    Left = 10
+    Height = 21
+    Top = 360
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Overview'
+    OnClick = Button2Click
+    TabOrder = 0
+  end
+  object View: TRTFView
+    Left = 10
+    Height = 336
+    Top = 10
+    Width = 465
+    AllowSelection = True
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    DefaultBackColor = clWindow
+    LeftMargin = 5
+    RightMargin = 5
+    TabOrder = 1
+    TabStop = True
+    Tracking = True
+    VScrollVisible = True
+  end
+end

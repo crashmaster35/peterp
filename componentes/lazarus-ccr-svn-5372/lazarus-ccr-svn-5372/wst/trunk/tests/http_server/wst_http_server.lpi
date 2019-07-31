@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="indylaz"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="16">
+      <Unit0>
+        <Filename Value="wst_http_server.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="wst_http_server"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="app_object.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="app_object"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\server_service_intf.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\base_service_intf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="base_service_intf"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\server_service_imputils.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\server_binary_formatter.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\server_service_soap.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="server_service_soap"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\metadata_wsdl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="metadata_wsdl"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\metadata_repository.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="metadata_repository"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\metadata_service.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\metadata_service_imp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="metadata_service_imp"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\metadata_service_binder.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\calculator\srv\calculator_imp.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\calculator\srv\calculator_binder.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="calculator_binder"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\calculator\calculator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="calculator"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\calculator\srv\logger_extension.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit15>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="wst_http_server"/>
+    </Target>
+    <SearchPaths>
+      <OtherUnitFiles Value="..\..;..\calculator;..\calculator\srv"/>
+      <UnitOutputDirectory Value="obj"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsStabs"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-Xi"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

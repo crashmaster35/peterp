@@ -1,0 +1,1811 @@
+LazarusResources.Add('TIDANTIFREEZE','XPM',[
+  '/* XPM */'#10'static char *TIDANTIFREEZE[]={'#10'"24 24 8 1",'#10'"a c #0000'
+  +'00",'#10'"# c #00007b",'#10'". c #41a314",'#10'"d c #525478",'#10'"e c #850'
+  +'005",'#10'"f c #f19cc8",'#10'"c c #ffff00",'#10'"b c #ffffff",'#10'".......'
+  +'.................",'#10'"..#####aaa#############.",'#10'".#bbbbbaaabccccccb'
+  +'bbbb##",'#10'".#bbbbbccccbbbbbccbbbb##",'#10'".#bbbbccccbbbbbbccbbbb##",'#10
+  +'".#bbbbccccbbbbcccccbbb##",'#10'".#bbbbcccccccccccccbbb##",'#10'".#bbbccccc'
+  +'cccccccccbbb##",'#10'".#bbbcdeeeeeeee.e.cbbb##",'#10'".#bbbcdaaaaaaaaaaecbb'
+  +'b##",'#10'".#bbbcdaaaaaaaaaaecbbb##",'#10'".#bbbcdaaaaaaaaaa.cbbb##",'#10'"'
+  +'.#bbbcdaaaaaaaaaa.cbbb##",'#10'".#bbbcddddddddddd.cbbb##",'#10'".#bbbcddddd'
+  +'ddddda.cbbb##",'#10'".#bbbcddaaadddada.cbbb##",'#10'".#bbbcdaaaaaaaaaa.cbbb'
+  +'##",'#10'".#bbbcdaaaaaaaaaa.cbbb##",'#10'".#bbbcdaaaaaaaaaa.cbbb##",'#10'".'
+  +'#bbbcdaaaaaaaaae.cbbb##",'#10'".#bbbccddddddddffccbbb##",'#10'".#bbbccccccc'
+  +'cccccccbbb##",'#10'".#####cccccccccccc######",'#10'"..#####################'
+  +'."};'#10
+]);
+LazarusResources.Add('TIDBLOCKCIPHERINTERCEPT','XPM',[
+  '/* XPM */'#10'static char *TIDBLOCKCIPHERINTERCEPT[]={'#10'"24 24 7 1",'#10
+  +'"# c #00017c",'#10'". c #41a314",'#10'"c c #525478",'#10'"e c #850005",'#10
+  +'"b c #f49dc0",'#10'"d c #ff0000",'#10'"a c #ffffff",'#10'".................'
+  +'.......",'#10'"..#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'
+  +#10'".#aaaaaaabcbaaaaaaaaaa##",'#10'".#aaaabcdddcccbbaaaaaa##",'#10'".#aacee'
+  +'ecbbbbbceecbaaa##",'#10'".#aaeeeeedccccdeeeebaa##",'#10'".#aaeeeeeeeeeeeeee'
+  +'ebaa##",'#10'".#abeeeeeeeeeeeeeeecba##",'#10'".#abecbeeceeeeecbeecba##",'#10
+  +'".#aceceeeceececeeeccba##",'#10'".#aceceeeecececeeeccba##",'#10'".#acecceec'
+  +'cececeeecbba##",'#10'".#aeeebbcbeeeccececbaa##",'#10'".#aeeeecceeeeebceecba'
+  +'a##",'#10'".#aceeeeeeeeeeeeeccbaa##",'#10'".#aabcceeeeceeecccbbaa##",'#10'"'
+  +'.#aabbccccececccccbaaa##",'#10'".#aaabbbbccccccbbbbaaa##",'#10'".#aaaaaabbb'
+  +'bbbbbbaaaaa##",'#10'".#aaaaaaaaabbbaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa'
+  +'##",'#10'".#######################",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDCHARGENSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDCHARGENSERVER[]={'#10'"24 24 7 1",'#10'"# c #0'
+  +'00000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #41a314",'#10'"d c #'
+  +'525478",'#10'"e c #ead9b8",'#10'"a c #ffffff",'#10'"..#######..............'
+  +'.",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b'
+  +'#accca#############abb",'#10'".b#adddd#aaaaaaaaaaaaabb",'#10'".b###########'
+  +'########abb",'#10'"###aaeee###aaaaaaaaaaabb",'#10'"#aaeeeeeed###########abb'
+  +'",'#10'"#adddddddd#aaaaaaaaaaabb",'#10'"#####################abb",'#10'".ba'
+  +'aaaaaaaaaaaaaaaaaaabb",'#10'".ba##################abb",'#10'".baaaaaaaaaaaa'
+  +'aaaaaaaabb",'#10'".ba##################abb",'#10'".baaaaaaaaaaaaaaaaaaaabb"'
+  +','#10'".ba##################abb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".ba#'
+  +'#################abb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".ba############'
+  +'######abb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'
+  +#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDCHARGENUDPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDCHARGENUDPSERVER[]={'#10'"24 24 8 1",'#10'"# c'
+  +' #000000",'#10'"b c #00007b",'#10'"f c #0000ff",'#10'"c c #00ffff",'#10'". '
+  +'c #41a314",'#10'"d c #525478",'#10'"e c #f19abc",'#10'"a c #ffffff",'#10'".'
+  +'.#######...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaa'
+  +'aaaaaaaaaabb",'#10'".b#accca#############abb",'#10'".b#adddd#aaaaaaaaaaaaab'
+  +'b",'#10'".b###################abb",'#10'"###aaeee###aaaaaaaaaaabb",'#10'"#a'
+  +'aeeeeeed###########abb",'#10'"#adddddddd#aaaaaaaaaaabb",'#10'"#############'
+  +'########abb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".ba##################abb'
+  +'",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".ba##################abb",'#10'".fa'
+  +'aaafaaffffaaaafffffbb",'#10'".fa###f##f###f###f###afb",'#10'".faaaafaafaaaa'
+  +'faafaaaafb",'#10'".fa###f##f####f##f###afb",'#10'".faaaafaafaaaafaafffffbb"'
+  +','#10'".fa###f##f####f##f###abb",'#10'".faaaafaafaaaafaafaaaabb",'#10'".faa'
+  +'aafaafaaafaaafaaaabb",'#10'".bffffbbbffffbbbbfbbbbbb",'#10'"..bbbbbbbbbbbbb'
+  +'bbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDCODERMD2','XPM',[
+  '/* XPM */'#10'static char *TIDCODERMD2[]={'#10'"24 24 5 1",'#10'"# c #00007b'
+  +'",'#10'". c #42125c",'#10'"c c #850005",'#10'"b c #ff0000",'#10'"a c #fffff'
+  +'f",'#10'"........................",'#10'"..#####################.",'#10'".#'
+  +'aaaaaaaaaaaaaaaaaaaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'#10'".#aaccccccccc'
+  +'cccccccaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##'
+  +'",'#10'".#acaaaaacacccaaaaccaa##",'#10'".#accaaaccacaacaacaaca##",'#10'".#a'
+  +'ccaaaccacaaacaaaaca##",'#10'".#acacacacacaaacaaaaca##",'#10'".#acacacacacaa'
+  +'acaaacaa##",'#10'".#acacacacacaaacaacaaa##",'#10'".#acacacacacaacaacaaaa##"'
+  +','#10'".#acaacaacacccaaacccca##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aa'
+  +'aaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaa'
+  +'aaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..#####'
+  +'################."};'#10
+]);
+LazarusResources.Add('TIDCODERMD4','XPM',[
+  '/* XPM */'#10'static char *TIDCODERMD4[]={'#10'"24 24 5 1",'#10'"# c #00007b'
+  +'",'#10'". c #42125c",'#10'"c c #850005",'#10'"b c #ff0000",'#10'"a c #fffff'
+  +'f",'#10'"........................",'#10'"..#####################.",'#10'".#'
+  +'aaaaaaaaaaaaaaaaaaaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'#10'".#aaccccccccc'
+  +'cccccccaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##'
+  +'",'#10'".#acaaaaacacccaaaaaaca##",'#10'".#accaaaccacaacaaaacca##",'#10'".#a'
+  +'ccaaaccacaaacaacaca##",'#10'".#acacacacacaaacaacaca##",'#10'".#acacacacacaa'
+  +'acacaaca##",'#10'".#acacacacacaaacaccccc##",'#10'".#acacacacacaacaaaaaca##"'
+  +','#10'".#acaacaacacccaaaaaaca##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aa'
+  +'aaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaa'
+  +'aaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..#####'
+  +'################."};'#10
+]);
+LazarusResources.Add('TIDCODERMD5','XPM',[
+  '/* XPM */'#10'static char *TIDCODERMD5[]={'#10'"24 24 5 1",'#10'"# c #00017c'
+  +'",'#10'". c #42125c",'#10'"c c #850005",'#10'"b c #ff0000",'#10'"a c #fffff'
+  +'f",'#10'"........................",'#10'"..#####################.",'#10'".#'
+  +'aaaaaaaaaaaaaaaaaaaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'#10'".#aaccccccccc'
+  +'cccccccaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##'
+  +'",'#10'".#acaaaaacacccaaaaccca##",'#10'".#accaaaccacaacaaacaaa##",'#10'".#a'
+  +'ccaaaccacaaacacaaaa##",'#10'".#acacacacacaaacacccaa##",'#10'".#acacacacacaa'
+  +'acaaaaca##",'#10'".#acacacacacaaacaaaaca##",'#10'".#acacacacacaacaacaaca##"'
+  +','#10'".#acaacaacacccaaaaccaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aa'
+  +'aaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaa'
+  +'aaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..#####'
+  +'################."};'#10
+]);
+LazarusResources.Add('TIDCOMPRESSIONINTERCEPT','XPM',[
+  '/* XPM */'#10'static char *TIDCOMPRESSIONINTERCEPT[]={'#10'"24 24 9 1",'#10
+  +'"b c #000000",'#10'"# c #00017c",'#10'"f c #00ffff",'#10'"e c #41a988",'#10
+  +'". c #42125c",'#10'"c c #525478",'#10'"g c #850005",'#10'"d c #f19dc8",'#10
+  +'"a c #ffffff",'#10'"........................",'#10'"..#####################'
+  +'.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#'
+  +'aaaaaaaaabbabccbbbaa##",'#10'".#aaaaaaaaabbbcdcbbbaa##",'#10'".#aaabbbbbbbb'
+  +'bbcbaaaaa##",'#10'".#aaabccccccccbbbbaaaa##",'#10'".#aaabbbbbbbabdddcaaaa##'
+  +'",'#10'".#aaacecfcfebbbcbbaaaa##",'#10'".#aaaabfffffeabcbaaaaa##",'#10'".#a'
+  +'aabefcfcebabbbaaaaa##",'#10'".#aaaaeefefebabcbaaaaa##",'#10'".#aaagfcfcfbaa'
+  +'bcbaaaaa##",'#10'".#aaabeeeeeebabbbaaaaa##",'#10'".#aaaabfefefebbcbaaaaa##"'
+  +','#10'".#aaabcececegbcccbaaaa##",'#10'".#aaabbbbbbbbegegeaaaa##",'#10'".#aa'
+  +'abcccccccbbcbbaaaa##",'#10'".#aaaaaadadaaabbbaaaaa##",'#10'".#aaaaaaaaaaaaa'
+  +'aaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'
+  +#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDCONNECTIONINTERCEPTOPENSSL','XPM',[
+  '/* XPM */'#10'static char *TIDCONNECTIONINTERCEPTOPENSSL[]={'#10'"24 24 5 1"'
+  +','#10'"b c #000000",'#10'"# c #00017c",'#10'". c #42125c",'#10'"c c #525478'
+  +'",'#10'"a c #ffffff",'#10'"........................",'#10'"..##############'
+  +'#######.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaabbbbbaaaaaaa##",'#10'".#aaaaa'
+  +'aabaaaaabaaaaaa##",'#10'".#aaaaaaccabbbaccaaaaa##",'#10'".#aaaaaababaaababa'
+  +'aaaa##",'#10'".#aaaaaababaaababaaaaa##",'#10'".#aaaaaababaaababaaaaa##",'#10
+  +'".#aaaaabbbbbbbbbbbaaaa##",'#10'".#aaaabaaaaaaaaaaabaaa##",'#10'".#aaaabccc'
+  +'cbbbccccbaaa##",'#10'".#aaaabaaaabbbaaaabaaa##",'#10'".#aaaabcccaabaacccbaa'
+  +'a##",'#10'".#aaaabaaaacbcaaaabaaa##",'#10'".#aaaaabccacbcaccbaaaa##",'#10'"'
+  +'.#aaaaaabbaaaaabbaaaaa##",'#10'".#aaaaaaaabbbbbaaaaaaa##",'#10'".#aaaaaaaaa'
+  +'aaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#####################'
+  +'##",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDCONNECTIONINTERCEPT','XPM',[
+  '/* XPM */'#10'static char *TIDCONNECTIONINTERCEPT[]={'#10'"24 24 5 1",'#10'"'
+  +'# c #00017c",'#10'"b c #41a314",'#10'". c #42125c",'#10'"c c #ff0000",'#10
+  +'"a c #ffffff",'#10'"........................",'#10'"..#####################'
+  +'.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaabaaaaaaaaaaaaaa##",'#10'".#'
+  +'aaaabbaaaaaaaaaaaaaa##",'#10'".#aaabbbaaaaaaaaaaaaaa##",'#10'".#aabbbbbbbbb'
+  +'bbaaaaaaa##",'#10'".#aabbbbbbbbbbbbaaaaaa##",'#10'".#aaabbbaaaaaaabbaaaaa##'
+  +'",'#10'".#aaaabbaaaaaaaabbaaaa##",'#10'".#aaaaabaaaaaaaaabbaaa##",'#10'".#a'
+  +'aaaaaaaacccccccccca##",'#10'".#aaaaaaaaacccccccccca##",'#10'".#aabaaaaaaaaa'
+  +'aaabbaaa##",'#10'".#aabbaaaaaaaaaabbaaaa##",'#10'".#aabbbaaaaaaaabbaaaaa##"'
+  +','#10'".#aabbbbbbbbbbbbaaaaaa##",'#10'".#aabbbbbbbbbbbaaaaaaa##",'#10'".#aa'
+  +'bbbaaaaaaaaaaaaaaa##",'#10'".#aabbaaaaaaaaaaaaaaaa##",'#10'".#aabaaaaaaaaaa'
+  +'aaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'
+  +#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDCOOKIEMANAGER','XPM',[
+  '/* XPM */'#10'static char *TIDCOOKIEMANAGER[]={'#10'"24 24 8 1",'#10'"a c #0'
+  +'00000",'#10'"c c #00017c",'#10'"d c #41a314",'#10'". c #42125c",'#10'"# c #'
+  +'525478",'#10'"b c #f199c4",'#10'"f c #ffff00",'#10'"e c #ffffff",'#10'"....'
+  +'...##a#aa#ab#.......",'#10'"..cccc#ddbbe#be###ccccc.",'#10'".ceb#addbd###dd'
+  +'beba#eecc",'#10'".ce#dbe#dbf#dbbddbeb#ecc",'#10'".c#a#b#fdbdbdddbebbb##cc",'
+  +#10'".cadf##b##bbdbed#dbfeacc",'#10'".#dbd##dbd##dddbd##ded#c",'#10'"#abdbdb'
+  +'ddd###bddfbbdbd##",'#10'"##ddddbbebddbfddbdddde##",'#10'"d#dbdddddbddbdbebb'
+  +'dbdebd",'#10'"adbfbdbdbfdddddddbdbdbba",'#10'"ad##ddfdd#d##bbbf###defc",'#10
+  +'"addb#dd#fb#d#dde#dbbddbd",'#10'"adbbf#debbbbdded#bfbbb#a",'#10'"adbdbddbdd'
+  +'dfddbd#bd#fdbd",'#10'"bdddef#ebbebddebbb#beb##",'#10'"#add#bfd###ddebbf#dbd'
+  +'bd#",'#10'".#dddeddb#ddebdddd#fdb#c",'#10'".caddddbbdd#bdddbbbbbdcc",'#10'"'
+  +'.c#ddbddbdbefbdddfddd#cc",'#10'".cb#dddbdddd###ebddd#bcc",'#10'".ceb#addddd'
+  +'bd#bdddc#becc",'#10'".ccccc#addddddddadcccccc",'#10'"..ccccc##ad#ada#cccccc'
+  +'c."};'#10
+]);
+LazarusResources.Add('TIDDATETIMESTAMP','XPM',[
+  '/* XPM */'#10'static char *TIDDATETIMESTAMP[]={'#10'"24 24 6 1",'#10'"c c #0'
+  +'00000",'#10'"# c #00007b",'#10'"b c #41a314",'#10'". c #42125c",'#10'"d c #'
+  +'525478",'#10'"a c #ffffff",'#10'"........................",'#10'"..########'
+  +'#############.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaa'
+  +'a##",'#10'".#aaababababababababaa##",'#10'".#aabbbbbbbbbbbbbbbaaa##",'#10'"'
+  +'.#aaabaaaaaaaaaaaabbaa##",'#10'".#aabbaacaacaacacabaaa##",'#10'".#aaabaacac'
+  +'acacdcabbaa##",'#10'".#aabbaacacccacdcabaaa##",'#10'".#aaabaccacacacacabbaa'
+  +'##",'#10'".#aabbaaaaaaaaaaaabaaa##",'#10'".#aaabaaaaaacaaaaabbaa##",'#10'".'
+  +'#aabbaaaaaccaaaaabaaa##",'#10'".#aaabaaaaaacaaaaabbaa##",'#10'".#aabbaaaaac'
+  +'ccaaaabaaa##",'#10'".#aaabaaaaaaaaaaaabbaa##",'#10'".#aabbaaaaaaaaaaaabaaa#'
+  +'#",'#10'".#aaabbbbbbbbbbbbbbbaa##",'#10'".#aababababababababaaa##",'#10'".#'
+  +'aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".############'
+  +'###########",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDDAYTIMESERVER','XPM',[
+  '/* XPM */'#10'static char *TIDDAYTIMESERVER[]={'#10'"24 24 8 1",'#10'"# c #0'
+  +'00000",'#10'"b c #00017c",'#10'"c c #00ffff",'#10'". c #41a314",'#10'"d c #'
+  +'525478",'#10'"e c #ea9dc4",'#10'"f c #ff0000",'#10'"a c #ffffff",'#10'"..##'
+  +'#####...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaa'
+  +'aaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd########aaaaaabb",'
+  +#10'".b#######aaaaaa##aaaaabb",'#10'"###aaeee###ffff#a#aaaabb",'#10'"#aaeeee'
+  +'eed#aaaa#aa#aaabb",'#10'"#adddddddd#aaaa####aaabb",'#10'"############aa#a#a'
+  +'#aaabb",'#10'".baaaa#a#a#a#a#d#a#aaabb",'#10'".baaaa#a#a###a#d#a#aaabb",'#10
+  +'".baaaa###a#a#a#a#a#aaabb",'#10'".baaaa#aaaaaaaaaaa#aaabb",'#10'".baaaa#aaa'
+  +'aa#aaaaa#aaabb",'#10'".baaaa#aaaa##aaaaa#aaabb",'#10'".baaaa#aaaaa#aaaaa#aa'
+  +'abb",'#10'".baaaa#aaaa###aaaa#aaabb",'#10'".baaaa#aaaaaaaaaaa#aaabb",'#10'"'
+  +'.baaaa#############aaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaa'
+  +'aaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbb'
+  +'b."};'#10
+]);
+LazarusResources.Add('TIDDAYTIMEUDPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDDAYTIMEUDPSERVER[]={'#10'"24 24 9 1",'#10'"# c'
+  +' #000000",'#10'"b c #00007b",'#10'"g c #0000ff",'#10'"c c #00ffff",'#10'". '
+  +'c #41a314",'#10'"d c #525478",'#10'"e c #f19eb8",'#10'"f c #ff0000",'#10'"a'
+  +' c #ffffff",'#10'"..#######...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb."'
+  +','#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#a'
+  +'dddd########aaaaaabb",'#10'".b#######aaaaaa##aaaaabb",'#10'"###aaeee###ffff'
+  +'#a#aaaabb",'#10'"#aaeeeeeed#aaaa#aa#aaabb",'#10'"#adddddddd#aaaa####aaabb",'
+  +#10'"############aa#a#a#aaabb",'#10'".baaaa#a#a#a#a#d#a#aaabb",'#10'".baaaa#'
+  +'a#a###a#d#a#aaabb",'#10'".baaaa###a#a#a#a#a#aaabb",'#10'".baaaa#aaaaaaaaaaa'
+  +'#aaabb",'#10'".gaaaagaaggggaaaagggggbb",'#10'".gaaaagaaga##gaaag#aaagb",'#10
+  +'".gaaaagaagaa#agaag#aaagb",'#10'".gaaaagaaga###gaag#aaagb",'#10'".gaaaagaag'
+  +'aaaagaagggggbb",'#10'".gaaaag##g####g##g#aaabb",'#10'".gaaaagaagaaaagaagaaa'
+  +'abb",'#10'".gaaaagaagaaagaaagaaaabb",'#10'".bggggbbbggggbbbbgbbbbbb",'#10'"'
+  +'..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDDAYTIMEUDP','XPM',[
+  '/* XPM */'#10'static char *TIDDAYTIMEUDP[]={'#10'"24 24 7 1",'#10'"b c #0000'
+  +'00",'#10'"# c #00007b",'#10'"e c #0000ff",'#10'". c #42125c",'#10'"d c #525'
+  +'478",'#10'"c c #ff0000",'#10'"a c #ffffff",'#10'"........................",'
+  +#10'"..#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaa'
+  +'aaaaaaaaaaaaaaa##",'#10'".#aaabbbbbbbbbbaaaaaaa##",'#10'".#aaabaaaaaaaabbaa'
+  +'aaaa##",'#10'".#aaabccccccccbabaaaaa##",'#10'".#aaabaaaaaaaabaabaaaa##",'#10
+  +'".#aaabaaaaaaaabbbbaaaa##",'#10'".#aaababaabaabababaaaa##",'#10'".#aaababab'
+  +'ababdbabaaaa##",'#10'".#aaabababbbabdbabaaaa##",'#10'".#aaabbbabababababaaa'
+  +'a##",'#10'".#aaabaaaaaaaaaaabaaaa##",'#10'".eaaabeaaeeeeaaaaeeeee##",'#10'"'
+  +'.eaaabeaaebbaeaaaeaaaae#",'#10'".eaaabeaaeabaaeaaeaaaae#",'#10'".eaaabeaaeb'
+  +'bbaeaaeaaaae#",'#10'".eaaabeaaeaaaaeaaeeeee##",'#10'".eaaabebbebbbbebbeaaaa'
+  +'##",'#10'".eaaaaeaaeaaaaeaaeaaaa##",'#10'".eaaaaeaaeaaaeaaaeaaaa##",'#10'".'
+  +'#eeee###eeee####e######",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDDAYTIME','XPM',[
+  '/* XPM */'#10'static char *TIDDAYTIME[]={'#10'"24 24 6 1",'#10'"b c #000000"'
+  +','#10'"# c #00007b",'#10'". c #42125c",'#10'"d c #525478",'#10'"c c #ff0000'
+  +'",'#10'"a c #ffffff",'#10'"........................",'#10'"..##############'
+  +'#######.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'
+  +#10'".#aaabbbbbbbbbbaaaaaaa##",'#10'".#aaabaaaaaaaabbaaaaaa##",'#10'".#aaabc'
+  +'cccccccbabaaaaa##",'#10'".#aaabaaaaaaaabaabaaaa##",'#10'".#aaabaaaaaaaabbbb'
+  +'aaaa##",'#10'".#aaababaabaabababaaaa##",'#10'".#aaabababababdbabaaaa##",'#10
+  +'".#aaabababbbabdbabaaaa##",'#10'".#aaabbbabababababaaaa##",'#10'".#aaabaaaa'
+  +'aaaaaaabaaaa##",'#10'".#aaabaaaaabaaaaabaaaa##",'#10'".#aaabaaaabbaaaaabaaa'
+  +'a##",'#10'".#aaabaaaaabaaaaabaaaa##",'#10'".#aaabaaaabbbaaaabaaaa##",'#10'"'
+  +'.#aaabaaaaaaaaaaabaaaa##",'#10'".#aaabbbbbbbbbbbbbaaaa##",'#10'".#aaaaaaaaa'
+  +'aaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#####################'
+  +'##",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDDECODERMIME','XPM',[
+  '/* XPM */'#10'static char *TIDDECODERMIME[]={'#10'"24 24 5 1",'#10'"b c #000'
+  +'000",'#10'"# c #00007b",'#10'"c c #0000ff",'#10'". c #42125c",'#10'"a c #ff'
+  +'ffff",'#10'"........................",'#10'"..#####################.",'#10
+  +'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaa'
+  +'aaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaa'
+  +'a##",'#10'".#aaaabbbbaaaaaabaaaaa##",'#10'".#aaabaaaabaaaabbaaaaa##",'#10'"'
+  +'.#aaabaaaaaaaaabbaaaaa##",'#10'".#aaabaaaaaaaababaaaaa##",'#10'".#aaababbba'
+  +'aaababaaaaa##",'#10'".#aaabbaaabaabaabaaaaa##",'#10'".#aaabaaaabaabaabaaaaa'
+  +'##",'#10'".#aaabaaaababbbbbbaaaa##",'#10'".#aaabaaaabaaaaabaaaaa##",'#10'".'
+  +'#aaaabbbbaaaaaabaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aacccccccc'
+  +'ccccccccaa##",'#10'".#aa################aa##",'#10'".#aaccccccccccccccccaa#'
+  +'#",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..'
+  +'#####################."};'#10
+]);
+LazarusResources.Add('TIDDECODERQUOTEDPRINTABLE','XPM',[
+  '/* XPM */'#10'static char *TIDDECODERQUOTEDPRINTABLE[]={'#10'"24 24 5 1",'#10
+  +'"b c #000000",'#10'"# c #00007b",'#10'"c c #0000ff",'#10'". c #42125c",'#10
+  +'"a c #ffffff",'#10'"........................",'#10'"..#####################'
+  +'.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#'
+  +'aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaa'
+  +'aaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaababaababaaaaaaaaa##'
+  +'",'#10'".#aaababaababaaaaaaaaa##",'#10'".#aaababaababaaaaaaaaa##",'#10'".#a'
+  +'aaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaa'
+  +'aaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aa'
+  +'ccccccccccccccccaa##",'#10'".#aa################aa##",'#10'".#aaccccccccccc'
+  +'cccccaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'
+  +#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDDECODERUUE','XPM',[
+  '/* XPM */'#10'static char *TIDDECODERUUE[]={'#10'"24 24 5 1",'#10'"b c #0000'
+  +'00",'#10'"# c #00007b",'#10'"c c #0000ff",'#10'". c #42125c",'#10'"a c #fff'
+  +'fff",'#10'"........................",'#10'"..#####################.",'#10'"'
+  +'.#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaa'
+  +'aaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa'
+  +'##",'#10'".#aabaaaaabaabaaaaabaa##",'#10'".#aabaaaaabaabaaaaabaa##",'#10'".'
+  +'#aabaaaaabaabaaaaabaa##",'#10'".#aabaaaaabaabaaaaabaa##",'#10'".#aabaaaaaba'
+  +'abaaaaabaa##",'#10'".#aabaaaaabaabaaaaabaa##",'#10'".#aabaaaaabaabaaaaabaa#'
+  +'#",'#10'".#aabaaaaabaabaaaaabaa##",'#10'".#aaabaaabaaaabaaabaaa##",'#10'".#'
+  +'aaaabbbaaaaaabbbaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaccccccccc'
+  +'cccccccaa##",'#10'".#aa################aa##",'#10'".#aaccccccccccccccccaa##'
+  +'",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..#'
+  +'####################."};'#10
+]);
+LazarusResources.Add('TIDDECODERXXE','XPM',[
+  '/* XPM */'#10'static char *TIDDECODERXXE[]={'#10'"24 24 5 1",'#10'"# c #0000'
+  +'7b",'#10'"c c #0000ff",'#10'". c #42125c",'#10'"b c #850005",'#10'"a c #fff'
+  +'fff",'#10'"........................",'#10'"..#####################.",'#10'"'
+  +'.#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaa'
+  +'aaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa'
+  +'##",'#10'".#abbbaaabbbabbbaaabbb##",'#10'".#aabbbabbbaaabbbabbba##",'#10'".'
+  +'#aabbbabbbaaabbbabbba##",'#10'".#aaabbbbbaaaaabbbbbaa##",'#10'".#aaaabbbaaa'
+  +'aaaabbbaaa##",'#10'".#aaabbbbbaaaaabbbbbaa##",'#10'".#aaabbbbbaaaaabbbbbaa#'
+  +'#",'#10'".#aabbbabbbaaabbbabbba##",'#10'".#aabbbabbbaaabbbabbba##",'#10'".#'
+  +'abbbaaabbbabbbaaabbb##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaccccccccc'
+  +'cccccccaa##",'#10'".#aa################aa##",'#10'".#aaccccccccccccccccaa##'
+  +'",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..#'
+  +'####################."};'#10
+]);
+LazarusResources.Add('TIDDICTSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDDICTSERVER[]={'#10'"24 24 8 1",'#10'"# c #0000'
+  +'00",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #41a314",'#10'"d c #525'
+  +'478",'#10'"f c #850005",'#10'"e c #e9e8f0",'#10'"a c #ffffff",'#10'"..#####'
+  +'##...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaa'
+  +'aaaabb",'#10'".b#accca#aaaaaaa##aaaabb",'#10'".b#adddd#aaaaaa#aa#aaabb",'#10
+  +'".b#########aa##a###aaabb",'#10'"###aaeee#####aa#ff#aaabb",'#10'"#aaeeeeeed'
+  +'#aa##fff#aaabb",'#10'"#adddddddd###fffff#aaabb",'#10'"###########fffffff#aa'
+  +'abb",'#10'".baaa#ffffffffffff#aaabb",'#10'".baaa#ffffffffffff#aaabb",'#10'"'
+  +'.baaa#ffffffffffff#aaabb",'#10'".baaa#ffffffffffff#aaabb",'#10'".baaa#fffff'
+  +'fffffff#aaabb",'#10'".baaa#ffffffffffff#aaabb",'#10'".baaa#ffffffffffff#aaa'
+  +'bb",'#10'".baaaa##ffffffff##aaaabb",'#10'".baaaaaa#ffffff#aaaaaabb",'#10'".'
+  +'baaaaaaa##ff##aaaaaaabb",'#10'".baaaaaaaaa##aaaaaaaaabb",'#10'".baaaaaaaaaa'
+  +'aaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb'
+  +'."};'#10
+]);
+LazarusResources.Add('TIDDISCARDSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDDISCARDSERVER[]={'#10'"24 24 6 1",'#10'"# c #0'
+  +'00000",'#10'"b c #00017c",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #'
+  +'525478",'#10'"a c #ffffff",'#10'"..#######...............",'#10'"..#aaaaa#b'
+  +'bbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accca#aaaaaaaaaaaa'
+  +'abb",'#10'".b#adddd#a#####aaaaaaabb",'#10'".b#######a#ddd#aaaaaaabb",'#10'"'
+  +'###aaaaa##########aaaabb",'#10'"#aaaaaaaad#addddd#aaaabb",'#10'"#adddddddd#'
+  +'#######aaaabb",'#10'"###########d#d#d#aaaaabb",'#10'".baaaaaa#a#a#d#d#aaaaa'
+  +'bb",'#10'".baaaaa##a#a#a#d##aaaabb",'#10'".baaaa#a#a#a#d#d#a#aaabb",'#10'".'
+  +'baaaaaa#a#a#a#d#aaaaabb",'#10'".baaaaaa#a#a#d#d#aaaaabb",'#10'".baaaaaa#a#a'
+  +'#a#d#aaaaabb",'#10'".baaaaaa#a#a#d#d#aaaaabb",'#10'".baaaaaa#a#a#a#d#aaaaab'
+  +'b",'#10'".baaaaaa#adddddd#aaaaabb",'#10'".baaaaaa#########aaaaabb",'#10'".b'
+  +'aaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".bbbbbbbbbbbb'
+  +'bbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDDISCARDUDPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDDISCARDUDPSERVER[]={'#10'"24 24 7 1",'#10'"# c'
+  +' #000000",'#10'"b c #00007b",'#10'"e c #0000ff",'#10'"c c #00ffff",'#10'". '
+  +'c #42125c",'#10'"d c #525478",'#10'"a c #ffffff",'#10'"..#######...........'
+  +'....",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10
+  +'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#a#####aaaaaaabb",'#10'".b#######a'
+  +'#ddd#aaaaaaabb",'#10'"###aaaaa##########aaaabb",'#10'"#aaaaaaaad#addddd#aaa'
+  +'abb",'#10'"#adddddddd########aaaabb",'#10'"###########d#d#d#aaaaabb",'#10'"'
+  +'.baaaaaa#a#a#d#d#aaaaabb",'#10'".baaaaa##a#a#a#d##aaaabb",'#10'".baaaa#a#a#'
+  +'a#d#d#a#aaabb",'#10'".baaaaaa#a#a#a#d#aaaaabb",'#10'".eaaaaea#eeeed#d#eeeee'
+  +'bb",'#10'".eaaaaea#e#a#e#d#eaaaaeb",'#10'".eaaaaea#e#a#ded#eaaaaeb",'#10'".'
+  +'eaaaaea#e#a#aed#eaaaaeb",'#10'".eaaaaea#edddded#eeeeebb",'#10'".eaaaaea#e##'
+  +'##e##eaaaabb",'#10'".eaaaaeaaeaaaaeaaeaaaabb",'#10'".eaaaaeaaeaaaeaaaeaaaab'
+  +'b",'#10'".beeeebbbeeeebbbbebbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDDNSRESOLVER','XPM',[
+  '/* XPM */'#10'static char *TIDDNSRESOLVER[]={'#10'"24 24 4 1",'#10'"# c #000'
+  +'07b",'#10'". c #42125c",'#10'"b c #850005",'#10'"a c #ffffff",'#10'".......'
+  +'.................",'#10'"..#####################.",'#10'".#aaaaaaaaaaaaaaaa'
+  +'aaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10
+  +'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaa'
+  +'aaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaa'
+  +'a##",'#10'".#bbbbaaabaaaabaabbbba##",'#10'".#baaabaabbaaababaaaab##",'#10'"'
+  +'.#baaaabababaababaaaaa##",'#10'".#baaaabababaabaabbaaa##",'#10'".#baaaababa'
+  +'ababaaaabba##",'#10'".#baaaababaababaaaaaab##",'#10'".#baaabaabaaabbabaaaab'
+  +'##",'#10'".#bbbbaaabaaaabaabbbba##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".'
+  +'#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaa'
+  +'aaaaaaaaaa##",'#10'".#######################",'#10'"..#####################'
+  +'."};'#10
+]);
+LazarusResources.Add('TIDECHOSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDECHOSERVER[]={'#10'"24 24 8 1",'#10'"# c #0000'
+  +'00",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #525'
+  +'478",'#10'"e c #f199b0",'#10'"f c #ffff00",'#10'"a c #ffffff",'#10'"..#####'
+  +'##...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaa'
+  +'aaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'#10
+  +'".b#######aaaaaaaaaaaaabb",'#10'"###aaeee###a##aaaaaaaabb",'#10'"#aaeeeeeed'
+  +'#a#f#aaaaaaabb",'#10'"#adddddddd#aa#f#aa##aabb",'#10'"###########aaa#f##f#a'
+  +'abb",'#10'".baaa#fff#aaaaa#fff#aabb",'#10'".baaa#f##f#aaaa#fff#aabb",'#10'"'
+  +'.baaa##aa#f#aa#ffff#aabb",'#10'".baaaaaaaa#f#a######aabb",'#10'".baaaaaaaaa'
+  +'#f#aaaaaaaabb",'#10'".baaaaaaaaaa#f#aaaaaaabb",'#10'".baaaaaaaaaaa#f#aaaaaa'
+  +'bb",'#10'".baaaaaaaaaaaa#f#aaaaabb",'#10'".baaaaaaaaaaaaa#f#aaaabb",'#10'".'
+  +'baaaaaaaaaaaaaa##aaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaa'
+  +'aaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb'
+  +'."};'#10
+]);
+LazarusResources.Add('TIDECHOUDPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDECHOUDPSERVER[]={'#10'"24 24 9 1",'#10'"# c #0'
+  +'00000",'#10'"g c #0000ff",'#10'"b c #00017c",'#10'"c c #00ffff",'#10'". c #'
+  +'42125c",'#10'"d c #525478",'#10'"e c #f1d9b0",'#10'"f c #ffff00",'#10'"a c '
+  +'#ffffff",'#10'"..#######...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'
+  +#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#addd'
+  +'d#aaaaaaaaaaaaabb",'#10'".b#######aaaaaaaaaaaaabb",'#10'"###aaeee###a##aaaa'
+  +'aaaabb",'#10'"#aaeeeeeed#a#f#aaaaaaabb",'#10'"#adddddddd#aa#f#aa##aabb",'#10
+  +'"###########aaa#f##f#aabb",'#10'".baaa#fff#aaaaa#fff#aabb",'#10'".baaa#f##f'
+  +'#aaaa#fff#aabb",'#10'".baaa##aa#f#aa#ffff#aabb",'#10'".baaaaaaaa#f#a######a'
+  +'abb",'#10'".gaaaagaagggg#aaagggggbb",'#10'".gaaaagaagaa#g#aagaaaagb",'#10'"'
+  +'.gaaaagaagaaa#g#agaaaagb",'#10'".gaaaagaagaaaagf#gaaaagb",'#10'".gaaaagaaga'
+  +'aaag#fgggggbb",'#10'".gaaaagaagaaaaga#gaaaabb",'#10'".gaaaagaagaaaagaagaaaa'
+  +'bb",'#10'".gaaaagaagaaagaaagaaaabb",'#10'".bggggbbbggggbbbbgbbbbbb",'#10'".'
+  +'.bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDECHOUDP','XPM',[
+  '/* XPM */'#10'static char *TIDECHOUDP[]={'#10'"24 24 6 1",'#10'"b c #000000"'
+  +','#10'"# c #00007b",'#10'"d c #0000ff",'#10'". c #42125c",'#10'"c c #ffff00'
+  +'",'#10'"a c #ffffff",'#10'"........................",'#10'"..##############'
+  +'#######.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaa'
+  +'aaaaabbaaaaaaaa##",'#10'".#aaabbbbbbabcbaaaaaaa##",'#10'".#aaabccccbaabcbaa'
+  +'bbaa##",'#10'".#aaabcccbaaaabcbbcbaa##",'#10'".#aaabcccbaaaaabcccbaa##",'#10
+  +'".#aaabcbbcbaaaabcccbaa##",'#10'".#aaabbaabcbaabccccbaa##",'#10'".#aaaaaaaa'
+  +'bcbabbbbbbaa##",'#10'".daaaadaaddddbaaaddddd##",'#10'".daaaadaadaabdbaadaaa'
+  +'ad#",'#10'".daaaadaadaaabdbadaaaad#",'#10'".daaaadaadaaaadcbdaaaad#",'#10'"'
+  +'.daaaadaadaaaadbcddddd##",'#10'".daaaadaadaaaadabdaaaa##",'#10'".daaaadaada'
+  +'aaadaadaaaa##",'#10'".daaaadaadaaadaaadaaaa##",'#10'".#dddd###dddd####d####'
+  +'##",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDECHO','XPM',[
+  '/* XPM */'#10'static char *TIDECHO[]={'#10'"24 24 5 1",'#10'"b c #000000",'
+  +#10'"# c #00017c",'#10'". c #42125c",'#10'"c c #ffff00",'#10'"a c #ffffff",'
+  +#10'"........................",'#10'"..#####################.",'#10'".#aaaaa'
+  +'aaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaa'
+  +'aaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaabbaaaaaaaa##",'#10
+  +'".#aaabbbbbbabcbaaaaaaa##",'#10'".#aaabccccbaabcbaabbaa##",'#10'".#aaabcccb'
+  +'aaaabcbbcbaa##",'#10'".#aaabcccbaaaaabcccbaa##",'#10'".#aaabcbbcbaaaabcccba'
+  +'a##",'#10'".#aaabbaabcbaabccccbaa##",'#10'".#aaaaaaaabcbabbbbbbaa##",'#10'"'
+  +'.#aaaaaaaaabcbaaaaaaaa##",'#10'".#aaaaaaaaaabcbaaaaaaa##",'#10'".#aaaaaaaaa'
+  +'aabcbaaaaaa##",'#10'".#aaaaaaaaaaaabcbaaaaa##",'#10'".#aaaaaaaaaaaaabcbaaaa'
+  +'##",'#10'".#aaaaaaaaaaaaaabbaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".'
+  +'#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..##########'
+  +'###########."};'#10
+]);
+LazarusResources.Add('TIDENCODERMIME','XPM',[
+  '/* XPM */'#10'static char *TIDENCODERMIME[]={'#10'"24 24 6 1",'#10'"d c #000'
+  +'000",'#10'"# c #00007b",'#10'". c #42125c",'#10'"c c #850005",'#10'"b c #ff'
+  +'0000",'#10'"a c #ffffff",'#10'"........................",'#10'"..##########'
+  +'###########.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aabbbbbbbbbbbbbbbbaa#'
+  +'#",'#10'".#aaccccccccccccccccaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'#10'".#'
+  +'aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaddddaaaaaadaaaaa##",'#10'".#aaadaaaadaa'
+  +'aaddaaaaa##",'#10'".#aaadaaaaaaaaaddaaaaa##",'#10'".#aaadaaaaaaaadadaaaaa##'
+  +'",'#10'".#aaadadddaaaadadaaaaa##",'#10'".#aaaddaaadaadaadaaaaa##",'#10'".#a'
+  +'aadaaaadaadaadaaaaa##",'#10'".#aaadaaaadaddddddaaaa##",'#10'".#aaadaaaadaaa'
+  +'aadaaaaa##",'#10'".#aaaaddddaaaaaadaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aa'
+  +'aaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".##############'
+  +'#########",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDENCODERQUOTEDPRINTABLE','XPM',[
+  '/* XPM */'#10'static char *TIDENCODERQUOTEDPRINTABLE[]={'#10'"24 24 6 1",'#10
+  +'"d c #000000",'#10'"# c #00007b",'#10'". c #42125c",'#10'"c c #850005",'#10
+  +'"b c #ff0000",'#10'"a c #ffffff",'#10'"........................",'#10'"..##'
+  +'###################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aabbbbbbbbbbb'
+  +'bbbbbaa##",'#10'".#aaccccccccccccccccaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaada'
+  +'daadadaaaaaaaaa##",'#10'".#aaadadaadadaaaaaaaaa##",'#10'".#aaadadaadadaaaaa'
+  +'aaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10
+  +'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaa'
+  +'aaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaa'
+  +'a##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'"'
+  +'.#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".##########'
+  +'#############",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDENCODERUUE','XPM',[
+  '/* XPM */'#10'static char *TIDENCODERUUE[]={'#10'"24 24 6 1",'#10'"d c #0000'
+  +'00",'#10'"# c #00007b",'#10'". c #42125c",'#10'"c c #850005",'#10'"b c #ff0'
+  +'000",'#10'"a c #ffffff",'#10'"........................",'#10'"..###########'
+  +'##########.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##'
+  +'",'#10'".#aaccccccccccccccccaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'#10'".#a'
+  +'aaaaaaaaaaaaaaaaaaa##",'#10'".#aadaaaaadaadaaaaadaa##",'#10'".#aadaaaaadaad'
+  +'aaaaadaa##",'#10'".#aadaaaaadaadaaaaadaa##",'#10'".#aadaaaaadaadaaaaadaa##"'
+  +','#10'".#aadaaaaadaadaaaaadaa##",'#10'".#aadaaaaadaadaaaaadaa##",'#10'".#aa'
+  +'daaaaadaadaaaaadaa##",'#10'".#aadaaaaadaadaaaaadaa##",'#10'".#aaadaaadaaaad'
+  +'aaadaaa##",'#10'".#aaaadddaaaaaadddaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaa'
+  +'aaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#################'
+  +'######",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDENCODERXXE','XPM',[
+  '/* XPM */'#10'static char *TIDENCODERXXE[]={'#10'"24 24 5 1",'#10'"# c #0000'
+  +'7b",'#10'". c #42125c",'#10'"c c #850005",'#10'"b c #ff0000",'#10'"a c #fff'
+  +'fff",'#10'"........................",'#10'"..#####################.",'#10'"'
+  +'.#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'#10'".#aaccccccc'
+  +'cccccccccaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa'
+  +'##",'#10'".#acccaaacccacccaaaccc##",'#10'".#aacccacccaaacccaccca##",'#10'".'
+  +'#aacccacccaaacccaccca##",'#10'".#aaacccccaaaaacccccaa##",'#10'".#aaaacccaaa'
+  +'aaaacccaaa##",'#10'".#aaacccccaaaaacccccaa##",'#10'".#aaacccccaaaaacccccaa#'
+  +'#",'#10'".#aacccacccaaacccaccca##",'#10'".#aacccacccaaacccaccca##",'#10'".#'
+  +'acccaaacccacccaaaccc##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaa'
+  +'aaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##'
+  +'",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..#'
+  +'####################."};'#10
+]);
+LazarusResources.Add('TIDFINGERSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDFINGERSERVER[]={'#10'"24 24 9 1",'#10'"# c #00'
+  +'0000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #41a314",'#10'"f c #4'
+  +'2125c",'#10'"d c #525478",'#10'"e c #f19dc4",'#10'"g c #ff00ff",'#10'"a c #'
+  +'ffffff",'#10'"..#######...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10
+  +'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#a'
+  +'aaaaaaaaaaaabb",'#10'".b#######aaaaaaaaaaaaabb",'#10'"###aaeee###aaaaaaaaaa'
+  +'abb",'#10'"#aaeeeeeed#aaaaaaaaaaabb",'#10'"#adddddddd#aaaaaaaaaaabb",'#10'"'
+  +'###########aadddaeddaabb",'#10'".baaadddddd##eeeddfgaabb",'#10'".baaadd#d##'
+  +'dd##eeefgaabb",'#10'".baaaaaadddd#d#dedfgaabb",'#10'".baaaaaaedddedddedfgaa'
+  +'bb",'#10'".baaaaaaa#dddddeddffaabb",'#10'".baaaaaaadddd#ddddffaabb",'#10'".'
+  +'baaaaaaaaddd##daaddaabb",'#10'".baaaaaaaaedddeaaaaaaabb",'#10'".baaaaaaaaaa'
+  +'aaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaab'
+  +'b",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..'
+  +'bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDFINGER','XPM',[
+  '/* XPM */'#10'static char *TIDFINGER[]={'#10'"24 24 7 1",'#10'"d c #000000",'
+  +#10'"# c #00007b",'#10'". c #42125c",'#10'"b c #525478",'#10'"c c #e9e8f0",'
+  +#10'"e c #ff00ff",'#10'"a c #ffffff",'#10'"........................",'#10'".'
+  +'.#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaa'
+  +'aaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa#'
+  +'#",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#'
+  +'aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaabbbacbbaa##",'#10'".#aaabbbbbbdd'
+  +'cccbb.eaa##",'#10'".#aaabbdbddbbddccc.eaa##",'#10'".#aaaaaabbbbdbdbcb.eaa##'
+  +'",'#10'".#aaaaaacbbbcbbbcb.eaa##",'#10'".#aaaaaaadbbbbbcbb..aa##",'#10'".#a'
+  +'aaaaaabbbbdbbbb..aa##",'#10'".#aaaaaaaabbbddbaabbaa##",'#10'".#aaaaaaaacbbb'
+  +'caaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".###'
+  +'####################",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDFTPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDFTPSERVER[]={'#10'"24 24 8 1",'#10'"# c #00000'
+  +'0",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #5254'
+  +'78",'#10'"f c #f1d8b8",'#10'"e c #ffff00",'#10'"a c #ffffff",'#10'"..######'
+  +'#...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaa'
+  +'aaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaeaaaaaaaeaabb",'#10
+  +'".b#######aaeeaaaaeeaaabb",'#10'"###aafff#####aaaeeaaaabb",'#10'"#aaffffffd'
+  +'#a##aeeaaaaabb",'#10'"#adddddddd#a#a#eaaaaaabb",'#10'"###########a#aa#aaaaa'
+  +'abb",'#10'".baaaaa#a##a#####aaaaabb",'#10'".baaaee#aaaaaaaa#eeeaabb",'#10'"'
+  +'.baaeee#a####a#a#eeaaabb",'#10'".baaaaa#aaaaaaaa#daaaabb",'#10'".baaaaa#a##'
+  +'a###a#daaaabb",'#10'".baaaaa#aaaaaaaa#daaaabb",'#10'".baaaaa#aaaaaaaa#daaaa'
+  +'bb",'#10'".baaaae##########eaaaabb",'#10'".baaaeeadddeeddddeeaaabb",'#10'".'
+  +'baaaaaaaaaaeaaaaaaeaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaa'
+  +'aaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb'
+  +'."};'#10
+]);
+LazarusResources.Add('TIDFTP','XPM',[
+  '/* XPM */'#10'static char *TIDFTP[]={'#10'"24 24 7 1",'#10'"c c #000000",'#10
+  +'"# c #00007b",'#10'". c #42125c",'#10'"e c #525478",'#10'"d c #ea9dd0",'#10
+  +'"b c #ffff00",'#10'"a c #ffffff",'#10'"........................",'#10'"..##'
+  +'###################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaa'
+  +'aaaaaaa##",'#10'".#aabaaaaaabaaaaaaabaa##",'#10'".#aaabbaaaabbaaaabbaaa##",'
+  +#10'".#aaaabccccccaaabbaaaa##",'#10'".#aaaaacaaaaccabbaaaaa##",'#10'".#aaaaa'
+  +'cacdacacbaaaaaa##",'#10'".#aaaaacaaaacaacaaaaaa##",'#10'".#aaaaacaccaccccca'
+  +'aaaa##",'#10'".#aaabbcaaaaaaaacbbbaa##",'#10'".#aabbbcaccccacacbbaaa##",'#10
+  +'".#aaaaacaaaaaaaaceaaaa##",'#10'".#aaaaacaccacccaceaaaa##",'#10'".#aaaaacaa'
+  +'aaaaaaceaaaa##",'#10'".#aaaaacaaaaaaaaceaaaa##",'#10'".#aaaabccccccccccbaaa'
+  +'a##",'#10'".#aaabbaeeebbeeeebbaaa##",'#10'".#aaaaaaaaaabaaaaaabaa##",'#10'"'
+  +'.#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".##########'
+  +'#############",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDGOPHERSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDGOPHERSERVER[]={'#10'"24 24 8 1",'#10'"# c #00'
+  +'0000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'"d c #41a314",'#10'"e c #5'
+  +'25478",'#10'"f c #f1c4d8",'#10'". c #ff00ff",'#10'"a c #ffffff",'#10'"..###'
+  +'####...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaa'
+  +'aa####ab",'#10'".b#accca#aaaaaaaa#ddd#ab",'#10'".b#aeeee#########ddd#aab",'
+  +#10'".b#######dddddddd##d#aab",'#10'"###aafff###dddddddd##aab",'#10'"#aaffff'
+  +'ffe#ddd###ddd#aab",'#10'"#aeeeeeeee#ddd#aa#dd#aab",'#10'"###########ddd###a'
+  +'#d#aab",'#10'".ba#dd#a###ddd###a#dd#ab",'#10'".ba#ddd####ddd####ddd#ab",'#10
+  +'".ba#dddd##ddddd##dddd#ab",'#10'".ba#ddddddddddddddddd#ab",'#10'".ba#dddddd'
+  +'ddddddddddd#ab",'#10'".ba#dddddddd#dddddddd#ab",'#10'".baa#ddddd#####ddddd#'
+  +'aab",'#10'".baa#ddddddd#ddddddd#aab",'#10'".baaa#dd#dddddddddd#aaab",'#10'"'
+  +'.baaaa#dd##a#a#ddd#aaaab",'#10'".baaaaa##d#a#a#d##aaaaab",'#10'".baaaaaaa##'
+  +'a#a##aaaaaaab",'#10'".bbbbbbbbb#a#a#bbbbbbbbb",'#10'"..bbbbbbbb#####bbbbbbb'
+  +'b."};'#10
+]);
+LazarusResources.Add('TIDGOPHER','XPM',[
+  '/* XPM */'#10'static char *TIDGOPHER[]={'#10'"24 24 5 1",'#10'"b c #000000",'
+  +#10'"# c #00007b",'#10'"c c #41a314",'#10'". c #ff00ff",'#10'"a c #ffffff",'
+  +#10'"........................",'#10'"..#####################.",'#10'".#abbba'
+  +'aaaaaaaaaaabbbba#",'#10'".#abccbaaaaaaaaaabcccba#",'#10'".#aabccbbbbbbbbbbc'
+  +'ccbaa#",'#10'".#aabcbbcccccccccbbcbaa#",'#10'".#aabbcccccccccccccbbaa#",'#10
+  +'".#aabcccbbbcccbbbcccbaa#",'#10'".#aabccbaabcccbaabccbaa#",'#10'".#aabcbabb'
+  +'bcccbbbabcbaa#",'#10'".#abccbabbbcccbbbabccba#",'#10'".#abcccbbbbcccbbbbccc'
+  +'ba#",'#10'".#abccccbbcccccbbccccba#",'#10'".#abcccccccccccccccccba#",'#10'"'
+  +'.#abcccccccccccccccccba#",'#10'".#abccccccccbccccccccba#",'#10'".#aabcccccb'
+  +'bbbbcccccbaa#",'#10'".#aabcccccccbcccccccbaa#",'#10'".#aaabccbccccccccccbaa'
+  +'a#",'#10'".#aaaabccbbababcccbaaaa#",'#10'".#aaaaabbcbababcbbaaaaa#",'#10'".'
+  +'#aaaaaaabbababbaaaaaaa#",'#10'".#########babab#########",'#10'"..########bb'
+  +'bbb########."};'#10
+]);
+LazarusResources.Add('TIDHTTPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDHTTPSERVER[]={'#10'"24 24 8 1",'#10'"# c #0000'
+  +'00",'#10'"b c #00007b",'#10'"e c #0000ff",'#10'"c c #00ffff",'#10'"f c #41a'
+  +'314",'#10'". c #42125c",'#10'"d c #525478",'#10'"a c #ffffff",'#10'"..#####'
+  +'##...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaa'
+  +'aaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#ebeeeaaaaaaaabb",'#10
+  +'".b#######eebebeeaaaaaabb",'#10'"###aaaaa###efeffeaaaaabb",'#10'"#aaaaaaaad'
+  +'#fffffeeaaaabb",'#10'"#adddddddd#fffffbeaaaabb",'#10'"###########bfffeebeaa'
+  +'abb",'#10'".baabeeffffffffebebaaabb",'#10'".baaebffffffefebeeeaaabb",'#10'"'
+  +'.baabeefffffeeebbbeaaabb",'#10'".baaeeeeefffeeebebbaaabb",'#10'".baaabeeeff'
+  +'fbbbbffaaaabb",'#10'".baaabebeffbebebffaaaabb",'#10'".baaaabebffbbbbbbaaaaa'
+  +'bb",'#10'".baaaaabebbbebbbaaaaaabb",'#10'".baaaaaaabbebeaaaaaaaabb",'#10'".'
+  +'baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaa'
+  +'aaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb'
+  +'."};'#10
+]);
+LazarusResources.Add('TIDHTTP','XPM',[
+  '/* XPM */'#10'static char *TIDHTTP[]={'#10'"24 24 5 1",'#10'"# c #00007b",'
+  +#10'"b c #0000ff",'#10'"c c #41a314",'#10'". c #42125c",'#10'"a c #ffffff",'
+  +#10'"........................",'#10'"..#####################.",'#10'".#aaaaa'
+  +'aaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaab#bbbaaaa'
+  +'aaaa##",'#10'".#aaaaaccbb#b#bbaaaaaa##",'#10'".#aaaaccccbbcbccbaaaaa##",'#10
+  +'".#aaa#bcccccccccbbaaaa##",'#10'".#aaabbbbbcccccc#baaaa##",'#10'".#aabbbccb'
+  +'b#cccbb#baaa##",'#10'".#aa#bbccccccccb#b#aaa##",'#10'".#aab#ccccccbcb#bbbaa'
+  +'a##",'#10'".#aa#bbcccccbbb###baaa##",'#10'".#aabbbbbcccbbb#b##aaa##",'#10'"'
+  +'.#aaa#bbbccc####ccaaaa##",'#10'".#aaa#b#bcc#b#b#ccaaaa##",'#10'".#aaaa#b#cc'
+  +'######aaaaa##",'#10'".#aaaaa#b###b###aaaaaa##",'#10'".#aaaaaaa##b#baaaaaaaa'
+  +'##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".'
+  +'#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..##########'
+  +'###########."};'#10
+]);
+LazarusResources.Add('TIDICMPCLIENT','XPM',[
+  '/* XPM */'#10'static char *TIDICMPCLIENT[]={'#10'"24 24 6 1",'#10'"d c #0000'
+  +'00",'#10'"# c #00017c",'#10'". c #41a314",'#10'"b c #42125c",'#10'"c c #ff0'
+  +'0ff",'#10'"a c #ffffff",'#10'"........................",'#10'"..###########'
+  +'##########.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#bbbbbbbbbbbbbbbaaaaa##'
+  +'",'#10'".#ccccccccccccccbaaaaa##",'#10'".#cccccccccccccbaaaaaa##",'#10'".#b'
+  +'bbbbbbbbcccbaaaaaaa##",'#10'".#aaaaaaabcccbbbbbbbbb##",'#10'".#aaaaaabccccc'
+  +'cccccccc##",'#10'".#aaaaabcccccccccccccc##",'#10'".#aaaaabbbbbbbbbbbbbbb##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#ad'
+  +'daddddaddaddadddda##",'#10'".#addaddaaadddddaddada##",'#10'".#addaddaaadada'
+  +'daddada##",'#10'".#addaddaaadadadadddda##",'#10'".#addaddaaadadadaddaaa##",'
+  +#10'".#addaddaaadadadaddaaa##",'#10'".#addaddddadadadaddaaa##",'#10'".#aaaaa'
+  +'aaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#################'
+  +'######",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDIDENTSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDIDENTSERVER[]={'#10'"24 24 11 1",'#10'"# c #00'
+  +'0000",'#10'"d c #00007b",'#10'"e c #00ffff",'#10'"a c #41a314",'#10'". c #4'
+  +'2125c",'#10'"c c #525478",'#10'"g c #850005",'#10'"f c #ebe9c0",'#10'"i c #'
+  +'ff0000",'#10'"h c #ffff00",'#10'"b c #ffffff",'#10'"..#######aa............'
+  +'.",'#10'"..#bbbbb#acddddaacddddd.",'#10'".d#beeeb#abbbbccc#abbbdd",'#10'".d'
+  +'#beeeb#cbbbccffc#cbbdd",'#10'".d#bcccc#bbbbccffc#cbbdd",'#10'".d#######bbbb'
+  +'c#ccc#cbbdd",'#10'"###bbfff###bcag###gcbbdd",'#10'"#bbffffffc#b#ffgggaaabdd'
+  +'",'#10'"#bcccccccc#c#hhfcaaa#bdd",'#10'"###########a#haahfaa#bdd",'#10'".da'
+  +'aahhhhhab#haaaaia#bdd",'#10'".dccaaahhaab#haaaaaa#bdd",'#10'".dbbbahhhabb#h'
+  +'aaaaaa#bdd",'#10'".dbbbahhhabbcahaaaaa#bdd",'#10'".dbbbahhabbbcahaaaigcbdd"'
+  +','#10'".dbbbahhabbbcaaahaggcbdd",'#10'".dbbbahacbbbcaaahaagcbdd",'#10'".dbb'
+  +'cahabbbbcaaahaagcbdd",'#10'".dbbcaacbbbbcaaahaagcbdd",'#10'".dbbcaabbbbbcaa'
+  +'ahaagcbdd",'#10'".dbbaaabbbbbcgaahaagcbdd",'#10'".dbbaabbbbbbbaaghaagfbdd",'
+  +#10'".dddaaddddddddccaaaddddd",'#10'"..ddacddddddddddddddddd."};'#10
+]);
+LazarusResources.Add('TIDIDENT','XPM',[
+  '/* XPM */'#10'static char *TIDIDENT[]={'#10'"24 24 10 1",'#10'"e c #000000",'
+  +#10'"b c #00007b",'#10'"# c #41a314",'#10'". c #42125c",'#10'"c c #525478",'
+  +#10'"g c #850005",'#10'"f c #f1c49c",'#10'"h c #ff0000",'#10'"a c #ffff00",'
+  +#10'"d c #ffffff",'#10'"...#aaaaa##.............",'#10'"..b#aaaaa#cbbbb##cbb'
+  +'bbb.",'#10'".bd#aaaaa#ddddccce#dddbb",'#10'".bd#aaaa#cdddccffcecddbb",'#10
+  +'".bd#aaaa#ddddccffcecddbb",'#10'".bc#aaa##ddddcecccecddbb",'#10'".bc#aaa#cd'
+  +'ddc#geeegcddbb",'#10'".bc#aaa#ddddeffggg###dbb",'#10'".b##aa##cccceaafc###e'
+  +'dbb",'#10'".b##aaa#####ea##af##edbb",'#10'".b###aaaaa#dea####h#edbb",'#10'"'
+  +'.bcc###aa##dea######edbb",'#10'".bddd#aaa#ddea######edbb",'#10'".bddd#aaa#d'
+  +'dc#a#####edbb",'#10'".bddd#aa#dddc#a###hgcdbb",'#10'".bddd#aa#dddc###a#ggcd'
+  +'bb",'#10'".bddd#a#cdddc###a##gcdbb",'#10'".bddc#a#ddddc###a##gcdbb",'#10'".'
+  +'bddc##cddddc###a##gcdbb",'#10'".bddc##dddddc###a##gcdbb",'#10'".bdd###ddddd'
+  +'cg##a##gcdbb",'#10'".bdd##ddddddd##ga##gfdbb",'#10'".bbb##bbbbbbbbcc###bbbb'
+  +'b",'#10'"..bb#cbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDIMAP4SERVER','XPM',[
+  '/* XPM */'#10'static char *TIDIMAP4SERVER[]={'#10'"24 24 8 1",'#10'"# c #000'
+  +'000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #52'
+  +'5478",'#10'"e c #f186cc",'#10'"f c #ff0000",'#10'"a c #ffffff",'#10'"..####'
+  +'###...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaa'
+  +'aaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'
+  +#10'".b#######aaaaaaaaaaaaabb",'#10'"###aaeee###aaaaaaaaaaabb",'#10'"#aaeeee'
+  +'eed#aaaaaaaaaaabb",'#10'"#adddddddd###########abb",'#10'"###########aaaaaaa'
+  +'aa#abb",'#10'".ba#aaaaaaaaaaaaaffa#abb",'#10'".ba#addddddaaaaaaffa#abb",'#10
+  +'".ba#aaaaaaaaaaaaaaaa#abb",'#10'".ba#aaaaaaaaaaaaaaaa#abb",'#10'".ba#aaaaaa'
+  +'addddddaaa#abb",'#10'".ba#aaaaaaaaaaaaaaaa#abb",'#10'".ba#aaaaaaaddddddaaa#'
+  +'abb",'#10'".ba#aaaaaaaaaaaaaaaa#abb",'#10'".ba##################abb",'#10'"'
+  +'.baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaa'
+  +'aaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbb'
+  +'b."};'#10
+]);
+LazarusResources.Add('TIDIMAP4','XPM',[
+  '/* XPM */'#10'static char *TIDIMAP4[]={'#10'"24 24 6 1",'#10'"b c #000000",'
+  +#10'"# c #00007b",'#10'". c #42125c",'#10'"d c #525478",'#10'"c c #ff0000",'
+  +#10'"a c #ffffff",'#10'"........................",'#10'"..##################'
+  +'###.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10
+  +'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaa'
+  +'aaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#abbbbbbbbbbbbbbbbbb'
+  +'a##",'#10'".#abaaaaaaaaaaaaaaaaba##",'#10'".#abaaaaaaaaaaaaaccaba##",'#10'"'
+  +'.#abaddddddaaaaaaccaba##",'#10'".#abaaaaaaaaaaaaaaaaba##",'#10'".#abaaaaaaa'
+  +'aaaaaaaaaba##",'#10'".#abaaaaaaaddddddaaaba##",'#10'".#abaaaaaaaaaaaaaaaaba'
+  +'##",'#10'".#abaaaaaaaddddddaaaba##",'#10'".#abaaaaaaaaaaaaaaaaba##",'#10'".'
+  +'#abbbbbbbbbbbbbbbbbba##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaa'
+  +'aaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".######################'
+  +'#",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDIMFDECODER','XPM',[
+  '/* XPM */'#10'static char *TIDIMFDECODER[]={'#10'"24 24 5 1",'#10'"b c #0000'
+  +'00",'#10'"# c #00007b",'#10'"c c #0000ff",'#10'". c #42125c",'#10'"a c #fff'
+  +'fff",'#10'"........................",'#10'"..#####################.",'#10'"'
+  +'.#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaa'
+  +'aaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa'
+  +'##",'#10'".#aababaaaaababbbbbaaa##",'#10'".#aababbaaabbabaaaaaaa##",'#10'".'
+  +'#aababbaaabbabaaaaaaa##",'#10'".#aababababababbbbaaaa##",'#10'".#aababababa'
+  +'babaaaaaaa##",'#10'".#aababababababaaaaaaa##",'#10'".#aababaabaababaaaaaaa#'
+  +'#",'#10'".#aababaabaababaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#'
+  +'aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaccccccccc'
+  +'cccccccaa##",'#10'".#aa################aa##",'#10'".#aaccccccccccccccccaa##'
+  +'",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..#'
+  +'####################."};'#10
+]);
+LazarusResources.Add('TIDIOHANDLERSOCKET','XPM',[
+  '/* XPM */'#10'static char *TIDIOHANDLERSOCKET[]={'#10'"24 24 8 1",'#10'"# c '
+  +'#000000",'#10'"b c #00007b",'#10'"d c #0000ff",'#10'"f c #41a314",'#10'". c'
+  +' #42125c",'#10'"a c #525478",'#10'"c c #f1ceb0",'#10'"e c #ffffff",'#10'"..'
+  +'......................",'#10'"..#a##bb#bb#bb##cbbbbbb.",'#10'".baacaddddddd'
+  +'ddbaeeeeecb",'#10'".baac#dbdbdbdbdbaeeeeebb",'#10'".b#caaaaaaaaaaafaeeeeebb'
+  +'",'#10'".baeeeeeeeeeeeeaaeeeeecb",'#10'".baeeccccccaeeeaaeeeeebb",'#10'".ba'
+  +'eccccaccaaeeaaeeeeebb",'#10'".bacccca#accaaeaaeeeeecb",'#10'".baecccaaaccaa'
+  +'eaaeeeeebb",'#10'".bacccaacc#caaeaaeeeeecb",'#10'".baeccaacaacfacaaeeeeebb"'
+  +','#10'".baeccaacaaaacc#aceeeecb",'#10'".baceaaacaaaaeec#acceebb",'#10'".bae'
+  +'eea#a#aabceaaaeacebb",'#10'".baeeeeeeeeea#cacccccabb",'#10'".bacccccccccca#'
+  +'ccccccacb",'#10'".ba#a#a#a#afbfaccccccaab",'#10'".beeeeceeececaaacccccacb",'
+  +#10'".beeeeeeeeeeecaaccccc#cb",'#10'".beeeeeeeeeeeeaaaaaacacb",'#10'".beeeee'
+  +'eeeeeeeeaa#a#acab",'#10'".bbbbbbbbbbbbbbbccccaccb",'#10'"..bbbbbbbbbbbbbbbb'
+  +'bbbbb."};'#10
+]);
+LazarusResources.Add('TIDIOHANDLERSTREAM','XPM',[
+  '/* XPM */'#10'static char *TIDIOHANDLERSTREAM[]={'#10'"24 24 9 1",'#10'"# c '
+  +'#000000",'#10'"a c #00007b",'#10'"f c #0000ff",'#10'"d c #41a314",'#10'"e c'
+  +' #41a988",'#10'". c #42125c",'#10'"b c #525478",'#10'"g c #f1d9f0",'#10'"c '
+  +'c #ffffff",'#10'"...........###..........",'#10'"..aaaaaaaaa#baaaaaaaaaa.",'
+  +#10'".accccccccdeecccccccccaa",'#10'".accccccccceeeccccccccaa",'#10'".accccc'
+  +'cccc#efecccccccaa",'#10'".acccccgcccaeeebccccccaa",'#10'".acccccb#c#eaeagcc'
+  +'ccccaa",'#10'".accccccb#eaee#cccccccaa",'#10'".accccc#eeeea#ccccccccaa",'#10
+  +'".accccaeefeee#ccccccccaa",'#10'".accc#eeeeefebccccccccaa",'#10'".accceeaef'
+  +'eeed#cccccccaa",'#10'".acc#aeaeeeef#ccccccccaa",'#10'".accedea#efgg#c#cbccc'
+  +'caa",'#10'".accebeeeeaee#dc#ddcccaa",'#10'".acc#eaefeeeeeeb##ccccaa",'#10'"'
+  +'.acc#eeaeeeaefee##ccccaa",'#10'".acccaebeeeeeeeeee#bccaa",'#10'".accc#eb#ea'
+  +'ea#eaefeeccaa",'#10'".acccce#deabeea#eeeeccaa",'#10'".accccdeed#eeea#eaaecc'
+  +'aa",'#10'".acccccdd##baeeefeecccaa",'#10'".aaaaaaaa#eeeeaaebaaaaaa",'#10'".'
+  +'.aaaaaaaaaaaaaaaaaaaaa."};'#10
+]);
+LazarusResources.Add('TIDIOHANDLERTHROTTLE','XPM',[
+  '/* XPM */'#10'static char *TIDIOHANDLERTHROTTLE[]={'#10'"24 24 7 1",'#10'"e '
+  +'c #000000",'#10'"b c #00007b",'#10'"d c #41a314",'#10'". c #42125c",'#10'"a'
+  +' c #525478",'#10'"# c #f19998",'#10'"c c #ffffff",'#10'"...################'
+  +'#a...",'#10'"..b#cccccccccccccccc#bb.",'#10'".bc#c##c##c##c##c##c#cbb",'#10
+  +'".bc#ca##a#a#######ac#cbb",'#10'".bc#c#a#aa#aa#a#ac###cbb",'#10'".bc#caa##c'
+  +'#a##a##aac#cbb",'#10'".bc#cccccccccccccccc#cbb",'#10'".bc#cccccccccc#c#ccc#'
+  +'cbb",'#10'".bc#cc##caa##aa#a#cc#cbb",'#10'".bc#ccc#ca#a#a#caccc#cbb",'#10'"'
+  +'.bc#cc#a#a#a#a#caccc#cbb",'#10'".bc#cccccccccccccccc#cbb",'#10'".bc#cccabdb'
+  +'#c#eaaccc#cbb",'#10'".bc#ccce###ccec#eccc#cbb",'#10'".bc#cccecccc#accaacc#c'
+  +'bb",'#10'".bc#cc#eaeacaaccaacc#cbb",'#10'".bc#cccacce#aaccaacc#cbb",'#10'".'
+  +'bc#ccccccaaaaccaacc#cbb",'#10'".bc#ccaaccaa#eccaacc#cbb",'#10'".bc#ccceaaec'
+  +'caaaeccc#cbb",'#10'".bc#cccca#cccca#cccc#cbb",'#10'".bc#cccccccccccccccc#cb'
+  +'b",'#10'".bb#cccccccccccccccc#bbb",'#10'"..b##################bb."};'#10
+]);
+LazarusResources.Add('TIDIPMCASTCLIENT','XPM',[
+  '/* XPM */'#10'static char *TIDIPMCASTCLIENT[]={'#10'"24 24 6 1",'#10'"d c #0'
+  +'00000",'#10'"# c #00017c",'#10'". c #42125c",'#10'"b c #525478",'#10'"c c #'
+  +'f19bc4",'#10'"a c #ffffff",'#10'"........................",'#10'"..########'
+  +'#############.",'#10'".#aaaaaaabbbbbbaaaaaaa##",'#10'".#aaaaabbacbcccbcaaaa'
+  +'a##",'#10'".#aaaacccbccccbcccaaaa##",'#10'".#aaaabccccbbbabcbaaaa##",'#10'"'
+  +'.#aaabababcacccababaaa##",'#10'".#aaabccbacbbccbccbaaa##",'#10'".#aaabbcbcb'
+  +'ccccbccbaaa##",'#10'".#aaabbabccbcbabcbbaaa##",'#10'".#aaabccbacbbacbccbaaa'
+  +'##",'#10'".#aaababcbaddabababaaa##",'#10'".#aaaccccabddcaccbcaaa##",'#10'".'
+  +'#aaaabcbcbddcbbabaaaa##",'#10'".#aaaaabcadddbacbaaaaa##",'#10'".#aaaaaaacdb'
+  +'bdacaaaaaa##",'#10'".#aaaaaaabddddaaaaaaaa##",'#10'".#aaaaaaaddbcdcaaaaaaa#'
+  +'#",'#10'".#aaaaaacdcdbdbaaaaaaa##",'#10'".#aaaaaacdbdbdbaaaaaaa##",'#10'".#'
+  +'aaaaaabdbbaddcaaaaaa##",'#10'".#aaaaaadbbdbbdcaaaaaa##",'#10'".######cdcbdd'
+  +'adb########",'#10'"..#####cdbbbcdbb#######."};'#10
+]);
+LazarusResources.Add('TIDIPMCASTSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDIPMCASTSERVER[]={'#10'"24 24 7 1",'#10'"# c #0'
+  +'00000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #'
+  +'525478",'#10'"e c #f1dbc8",'#10'"a c #ffffff",'#10'"..#######..............'
+  +'.",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#ddddddaaaaaaabb",'#10'".b'
+  +'#accca#aedeeedeaaaaabb",'#10'".b#adddd#deeeedeeeaaaabb",'#10'".b#######eedd'
+  +'dadedaaaabb",'#10'"###aaeee###aeeeadadaaabb",'#10'"#aaeeeeeed#ddeedeedaaabb'
+  +'",'#10'"#adddddddd#eeeedeedaaabb",'#10'"###########dedadeddaaabb",'#10'".ba'
+  +'aadeedaeddaedeedaaabb",'#10'".baaadadeda##adadadaaabb",'#10'".baaaeeeead##e'
+  +'aeedeaaabb",'#10'".baaaadeded##eddadaaaabb",'#10'".baaaaadea###daedaaaaabb"'
+  +','#10'".baaaaaaae#dd#aeaaaaaabb",'#10'".baaaaaaad####aaaaaaaabb",'#10'".baa'
+  +'aaaaa##de#eaaaaaaabb",'#10'".baaaaaae#e#d#daaaaaaabb",'#10'".baaaaaae#d#d#d'
+  +'aaaaaaabb",'#10'".baaaaaad#dda##eaaaaaabb",'#10'".baaaaaa#dd#dd#eaaaaaabb",'
+  +#10'".bbbbbbe#ed##a#dbbbbbbbb",'#10'"..bbbbbe#ddde#ddbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDIPWATCH','XPM',[
+  '/* XPM */'#10'static char *TIDIPWATCH[]={'#10'"24 24 4 1",'#10'"b c #000000"'
+  +','#10'"# c #00007b",'#10'". c #41a314",'#10'"a c #ffffff",'#10'"...........'
+  +'.............",'#10'"..#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa'
+  +'##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".'
+  +'#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaa'
+  +'aaaaaaaaaa##",'#10'".#aabbbbbaabbbbbbbaaaa##",'#10'".#aaabbaaaaabbaabbbaaa#'
+  +'#",'#10'".#aaabbaaaaabbaaabbaaa##",'#10'".#aaabbaaaaabbaaabbaaa##",'#10'".#'
+  +'aaabbaaaaabbaabbaaaa##",'#10'".#aaabbaaaaabbbbaaaaaa##",'#10'".#aaabbaaaaab'
+  +'baaaaaaaa##",'#10'".#aaabbaaaaabbaaaaaaaa##",'#10'".#aaabbaaaaabbaaaaaaaa##'
+  +'",'#10'".#aabbbbbaabbbbbaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#a'
+  +'aaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaa'
+  +'aaaaaaaa##",'#10'".#######################",'#10'"..#####################."'
+  +'};'#10
+]);
+LazarusResources.Add('TIDIRCSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDIRCSERVER[]={'#10'"24 24 7 1",'#10'"# c #00000'
+  +'0",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #41a314",'#10'"d c #5254'
+  +'78",'#10'"e c #f197b4",'#10'"a c #ffffff",'#10'"..#######...............",'
+  +#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accc'
+  +'a#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaa######aabb",'#10'".b#######aaaa#aaaa'
+  +'aa#abb",'#10'"###aaeee###a#aaaaaaaa#bb",'#10'"#aaeeeeeed#aa#aaaaaa#abb",'#10
+  +'"#adddddddd#aaa######aabb",'#10'"###########aaa#a#aaaaabb",'#10'".baaaaaaaa'
+  +'aaaa##aaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaa##aaaaa'
+  +'abb",'#10'".baaaaaaaaaaaa#a#aaaaabb",'#10'".baaaaaaaaaaaa######aabb",'#10'"'
+  +'.baaaaaaaaaaa#aaaaaa#abb",'#10'".baaaaaaaaaa#aaaaaaaa#bb",'#10'".baaaaaaaaa'
+  +'aa#aaaaaa#abb",'#10'".baaaaaaaaaaaa######aabb",'#10'".baaaaaaaaaaaaaaaaaaaa'
+  +'bb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".'
+  +'bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDIRC','XPM',[
+  '/* XPM */'#10'static char *TIDIRC[]={'#10'"24 24 4 1",'#10'"b c #000000",'#10
+  +'"# c #00007b",'#10'". c #41a314",'#10'"a c #ffffff",'#10'".................'
+  +'.......",'#10'"..#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaabbbbbbaa##",'#10'".#aaaaa'
+  +'aaaaaabaaaaaaba##",'#10'".#aaaaaaaaaabaaaaaaaab##",'#10'".#aaaaaaaaaaabaaaa'
+  +'aaba##",'#10'".#aaaaaaaaaaaabbbbbbaa##",'#10'".#aaaaaaaaaaaababaaaaa##",'#10
+  +'".#aaaaaaaaaaaabbaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaa'
+  +'aaaabbaaaaaa##",'#10'".#aaaaaaaaaaaababaaaaa##",'#10'".#aaaaaaaaaaaabbbbbba'
+  +'a##",'#10'".#aaaaaaaaaaabaaaaaaba##",'#10'".#aaaaaaaaaabaaaaaaaab##",'#10'"'
+  +'.#aaaaaaaaaaabaaaaaaba##",'#10'".#aaaaaaaaaaaabbbbbbaa##",'#10'".#aaaaaaaaa'
+  +'aaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa'
+  +'##",'#10'".#######################",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDLOGDEBUG','XPM',[
+  '/* XPM */'#10'static char *TIDLOGDEBUG[]={'#10'"24 24 9 1",'#10'"g c #000000'
+  +'",'#10'"# c #00007b",'#10'"d c #41a314",'#10'". c #42125c",'#10'"c c #52547'
+  +'8",'#10'"f c #850005",'#10'"b c #f1d5cc",'#10'"e c #ff0000",'#10'"a c #ffff'
+  +'ff",'#10'"........................",'#10'"..#####################.",'#10'".'
+  +'#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaa'
+  +'aaaaaaaaaa##",'#10'".#aaaaaabaaaaaaaaaaaaa##",'#10'".#aaaaaabbbaabbaaaaaaa#'
+  +'#",'#10'".#aaaaaabccccbcaaaaaaa##",'#10'".#aaaaaabccddccbaaaaaa##",'#10'".#'
+  +'aaaaaabeffffcbaaaaaa##",'#10'".#aaaaabccceeffcaaaaaa##",'#10'".#aaabcbcffef'
+  +'ffccbaaaa##",'#10'".#aaacbcfffefffcbcaaaa##",'#10'".#aabbbccgeeefgdbcbaaa##'
+  +'",'#10'".#aaaaaccfffffcccbbaaa##",'#10'".#aaaaacbcggggcbccaaaa##",'#10'".#a'
+  +'aaacbbabcbcbaacaaaa##",'#10'".#aaaaabbaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaa'
+  +'aaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..##'
+  +'###################."};'#10
+]);
+LazarusResources.Add('TIDLOGEVENT','XPM',[
+  '/* XPM */'#10'static char *TIDLOGEVENT[]={'#10'"24 24 9 1",'#10'"b c #00007b'
+  +'",'#10'"# c #0000ff",'#10'"d c #00ffff",'#10'". c #42125c",'#10'"g c #52547'
+  +'8",'#10'"e c #850005",'#10'"f c #ff00ff",'#10'"c c #ffff00",'#10'"a c #ffff'
+  +'ff",'#10'"............#aa.........",'#10'"..bbbbbbbbbb#aabbbbbbbb.",'#10'".'
+  +'bcccccccccc#aacccccccbb",'#10'".bccccccccccaa#cccccccbb",'#10'".bcccccccccc'
+  +'aa#cccccccbb",'#10'".bcccccccc##aa#cccccccbb",'#10'".bccccccc##aaaacccccccb'
+  +'b",'#10'".b##ccccc#aa##a###ccccbb",'#10'".b####cc##a#c#aaaa#cccbb",'#10'".b'
+  +'#d#a#aaa##cc#a##aaacbb",'#10'".b#aaaaa#a#ecc#aa####cbb",'#10'".b#a#####a#cc'
+  +'cc#aa#fccbb",'#10'".bccccc#d#ccccc#a#a##cbb",'#10'".bcccc##a##eccc#a#aaa##b'
+  +'",'#10'".bccc#aaaa##ccc#a###aa##",'#10'".bccc###c#aacc#aaac#a#f#",'#10'".bc'
+  +'##d#ec##acc#a#ac#acbb",'#10'".bc#aa#cc#dacc###ac#a#bb",'#10'".b#a##e##aa#c#'
+  +'a#da###aa#",'#10'".b###ec#aa##c#a####c##aa",'#10'"##d#ecc#a##ec#acc##gc###"'
+  +','#10'"#a##ccc#acccccccc#a##cbb",'#10'"#a#ebbb#abbbbbbbbbaa#ebb",'#10'".a#b'
+  +'bbb#abbbbbbbbb#a#bb."};'#10
+]);
+LazarusResources.Add('TIDLOGFILE','XPM',[
+  '/* XPM */'#10'static char *TIDLOGFILE[]={'#10'"24 24 10 1",'#10'"a c #000000'
+  +'",'#10'"b c #00017c",'#10'"h c #00ffff",'#10'"d c #41a314",'#10'"f c #41a98'
+  +'8",'#10'". c #42125c",'#10'"# c #525478",'#10'"g c #850005",'#10'"e c #ffff'
+  +'00",'#10'"c c #ffffff",'#10'".........#aaa#aa#.......",'#10'"..bb##c##acccc'
+  +'ca##c##bb.",'#10'".bc#ddddea#ccc##adddd#bb",'#10'".bcae#c#dcccccc#d##deabb"'
+  +','#10'".bcd#cc##aa#aaaabcccaabb",'#10'".bcaeccfccccccccccc#dabb",'#10'".bcd'
+  +'#cc#ccccccccccccdabb",'#10'".bcae#ffff#ff#ff#fffgabb",'#10'".bcaecc#ccccccc'
+  +'cccccdabb",'#10'".bcd#ccfcccccccccccfgabb",'#10'".bcaechfchcchchchcc#dabb",'
+  +#10'".bcaecc#ccccccccccc#dabb",'#10'".bcdc#fff#ff#ff#ffffdabb",'#10'".bcgecc'
+  +'#ccccccccccccgabb",'#10'".bcae#hf#h#cfc#h#cf#dabb",'#10'".bcacccfcccccccccc'
+  +'c#dabb",'#10'".bcddccfcccccccccccfdabb",'#10'".bcae#hfcfh#hch#h#h#aabb",'#10
+  +'".bcdccc#ccccccccccc#dabb",'#10'".bcge#fff#ff#ff#ff#fdabb",'#10'".bcaeccfcc'
+  +'ccccccccc#dabb",'#10'".bca###fc##c##c##c##aabb",'#10'".bbdeddgddgddgddgddgd'
+  +'abb",'#10'"..b#aaaaaaaaaaaaaaaadcb."};'#10
+]);
+LazarusResources.Add('TIDLOGSTREAM','XPM',[
+  '/* XPM */'#10'static char *TIDLOGSTREAM[]={'#10'"24 24 9 1",'#10'"# c #00000'
+  +'0",'#10'"f c #0000ff",'#10'"a c #00017c",'#10'"d c #41a314",'#10'"e c #41a9'
+  +'88",'#10'". c #42125c",'#10'"b c #525478",'#10'"c c #ffff00",'#10'"g c #fff'
+  +'fff",'#10'"...........###..........",'#10'"..aaaaaaaaa#baaaaaaaaaa.",'#10'"'
+  +'.accccccccdeecccccccccaa",'#10'".accccccccceeeccccccccaa",'#10'".accccccccc'
+  +'#efecccccccaa",'#10'".acccccgcccaeeebccccccaa",'#10'".acccccb#c#eaeagcccccc'
+  +'aa",'#10'".accccccb#eaee#cccccccaa",'#10'".accccc#eeeea#ccccccccaa",'#10'".'
+  +'accccaeefeee#ccccccccaa",'#10'".accc#eeeeefebccccccccaa",'#10'".accceeaefee'
+  +'ed#cccccccaa",'#10'".acc#aeaeeeef#ccccccccaa",'#10'".accedea#efgg#c#cbcccca'
+  +'a",'#10'".accebeeeeaee#dg#ddcccaa",'#10'".acc#eaefeeeeeeb##ccccaa",'#10'".a'
+  +'cc#eeaeeeaefee##ccccaa",'#10'".acccaebeeeeeeeeee#bccaa",'#10'".accc#eb#eaea'
+  +'#eaefeeccaa",'#10'".acccce#deabeea#eeeeccaa",'#10'".accccdeed#eeea#eaaeccaa'
+  +'",'#10'".acccccdd##baeeefeecccaa",'#10'".aaaaaaaa#eeeeaaebaaaaaa",'#10'"..a'
+  +'aaaaaaaaaaaaaaaaaaaa."};'#10
+]);
+LazarusResources.Add('TIDLPR','XPM',[
+  '/* XPM */'#10'static char *TIDLPR[]={'#10'"24 24 6 1",'#10'"b c #000000",'#10
+  +'"# c #00007b",'#10'". c #41a314",'#10'"c c #525478",'#10'"d c #ffff00",'#10
+  +'"a c #ffffff",'#10'"........................",'#10'"..#####################'
+  +'.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#'
+  +'aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaabbbbbbbbbaaaa##",'#10'".#aaaaaabaaaa'
+  +'aaaabaaaa##",'#10'".#aaaaaababbbbbabaaaaa##",'#10'".#aaaaabaaaaaaaabaaaaa##'
+  +'",'#10'".#aaaaababbbbbabbbbaaa##",'#10'".#aaaabaaaaaaaabababaa##",'#10'".#a'
+  +'aabbbbbbbbbbababbaa##",'#10'".#aabaaaaaaaaaabababaa##",'#10'".#aabbbbbbbbbb'
+  +'bbbaabaa##",'#10'".#aabaaaaaacccaababaaa##",'#10'".#aabaaaaaadddaabbbaaa##"'
+  +','#10'".#aabbbbbbbbbbbbbabaaa##",'#10'".#aaabaaaaaaaaababaaaa##",'#10'".#aa'
+  +'aabbbbbbbbbbbaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaa'
+  +'aaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'
+  +#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDMAILBOX','XPM',[
+  '/* XPM */'#10'static char *TIDMAILBOX[]={'#10'"24 24 10 1",'#10'"d c #000000'
+  +'",'#10'"# c #00007b",'#10'"f c #0000ff",'#10'"h c #41a314",'#10'"e c #41a98'
+  +'8",'#10'". c #42125c",'#10'"b c #525478",'#10'"g c #850005",'#10'"c c #f19a'
+  +'d0",'#10'"a c #ffffff",'#10'"........................",'#10'"..############'
+  +'#########.",'#10'".#aaaaaaaaaaaaaaaabcaa##",'#10'".#aaaaaaaaaaaaaacdbbca##"'
+  +','#10'".#aabdbdbdbdbdddbbbeca##",'#10'".#acbcccccccbbbccebb#a##",'#10'".#ab'
+  +'ebccccbdbcaabbfagc##",'#10'".#cbb.bebdbaaaaaccaace##",'#10'".#dabddgbcaaaaa'
+  +'ecaaaagc#",'#10'".cccbdbcebaaacdacaaaace#",'#10'".bbdbccecaccdccccaaaacgc",'
+  +#10'"cbcbcbcaabbbabbbcbcacedc",'#10'"bcccbaaaaccbdca.bbaacd##",'#10'"ddbdcac'
+  +'accdcacdaccddbd##",'#10'"dccbbcacaaaacacacbccch##",'#10'"bbcce.h.h.dbdbdbhc'
+  +'ccb###",'#10'"dccccbcbbbbhbbcbccbcch##",'#10'"dccbccbdddbd.dccccccb###",'#10
+  +'"eccccbb#ccccccccbcbcch##",'#10'"gcbcccbhccccccccccccc###",'#10'"degegdegeg'
+  +'egeh#h#h#geg##",'#10'"c#b.ebbbbbbb.bbeb.hebh##",'#10'".####################'
+  +'###",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDMAPPEDFTP','XPM',[
+  '/* XPM */'#10'static char *TIDMAPPEDFTP[]={'#10'"24 24 9 1",'#10'"# c #00000'
+  +'0",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #5254'
+  +'78",'#10'"f c #eb9ac8",'#10'"g c #ff0000",'#10'"e c #ffff00",'#10'"a c #fff'
+  +'fff",'#10'"..#######...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'"'
+  +'.b#accca#aaaaaaaaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aa'
+  +'eaaaaaaaeaabb",'#10'".b####################bb",'#10'"###aafff###ggggggggggg'
+  +'bb",'#10'"#aaffffffd#gggggggggggbb",'#10'"#adddddddd############bb",'#10'"#'
+  +'##########a#aa#aaaaaabb",'#10'".baaaaa#a##a#####aaaaabb",'#10'".baaaee#aaaa'
+  +'aaaa#eeeaabb",'#10'".baaeee#a####a#a#eeaaabb",'#10'".baaaaa#aaaaaaaa#daaaab'
+  +'b",'#10'".baaaaa#a##a###a#daaaabb",'#10'".baaaaa#aaaaaaaa#daaaabb",'#10'".b'
+  +'aaaaa#aaaaaaaa#daaaabb",'#10'".baaaae##########eaaaabb",'#10'".baaaeeadddee'
+  +'ddddeeaaabb",'#10'".baaaaaaaaaaeaaaaaaeaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb'
+  +'",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..b'
+  +'bbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDMAPPEDPOP3','XPM',[
+  '/* XPM */'#10'static char *TIDMAPPEDPOP3[]={'#10'"24 24 10 1",'#10'"# c #000'
+  +'000",'#10'"b c #00017c",'#10'"c c #00ffff",'#10'"g c #41a314",'#10'". c #42'
+  +'125c",'#10'"d c #525478",'#10'"e c #f19fac",'#10'"f c #ff0000",'#10'"h c #f'
+  +'fff00",'#10'"a c #ffffff",'#10'"..#######...............",'#10'"..#aaaaa#bb'
+  +'bbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaa'
+  +'bb",'#10'".b#adddd#daaaaaaaaaaaabb",'#10'".b####################bb",'#10'"#'
+  +'##aaeee###fffffffffffbb",'#10'"#aaeeeeeed#fffffffffffbb",'#10'"#adddddddd##'
+  +'##########bb",'#10'"###########dddddd#aaaabb",'#10'".baa#fefee#dddddd#aaaab'
+  +'b",'#10'".baa#eee#e#dddddd#aaaabb",'#10'".baa#eeeee##ddddd#aaaabb",'#10'".b'
+  +'aa##deee####ddd#aaaabb",'#10'".baaaa##de######d#aaaabb",'#10'".baaaa#g#####'
+  +'#####aaaabb",'#10'".baaaa#hg#########aaaabb",'#10'".baaaa#hg#a#eeeeee#aaabb'
+  +'",'#10'".baaaa#hg#aa#eeeeee#aabb",'#10'".baaaa#hg#aaa#######aabb",'#10'".ba'
+  +'aaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".bbbbbbbbbbbbb'
+  +'bbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDMAPPEDPORTTCP','XPM',[
+  '/* XPM */'#10'static char *TIDMAPPEDPORTTCP[]={'#10'"24 24 8 1",'#10'"# c #0'
+  +'00000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #'
+  +'525478",'#10'"e c #f1d9c0",'#10'"f c #ff0000",'#10'"a c #ffffff",'#10'"..##'
+  +'#####...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaa'
+  +'aaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'
+  +#10'".b####################bb",'#10'"###aaeee###fffffffffffbb",'#10'"#aaeeee'
+  +'eed#fffffffffffbb",'#10'"#adddddddd############bb",'#10'"###########aaaaaaa'
+  +'aaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10
+  +'".baaaaaaaaaaaaaaaaaaaabb",'#10'".ba######a#####a#####abb",'#10'".baaa##aaa'
+  +'##aaaa##a##abb",'#10'".baaa##aaa##aaaa##a##abb",'#10'".baaa##aaa##aaaa#####'
+  +'abb",'#10'".baaa##aaa##aaaa##aaaabb",'#10'".baaa##aaa##aaaa##aaaabb",'#10'"'
+  +'.baaa##aaa#####a##aaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaa'
+  +'aaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbb'
+  +'b."};'#10
+]);
+LazarusResources.Add('TIDMAPPEDPORTUDP','XPM',[
+  '/* XPM */'#10'static char *TIDMAPPEDPORTUDP[]={'#10'"24 24 8 1",'#10'"# c #0'
+  +'00000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #'
+  +'525478",'#10'"e c #f19dbc",'#10'"f c #ff0000",'#10'"a c #ffffff",'#10'"..##'
+  +'#####...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaa'
+  +'aaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'
+  +#10'".b####################bb",'#10'"###aaeee###fffffffffffbb",'#10'"#aaeeee'
+  +'eed#fffffffffffbb",'#10'"#adddddddd############bb",'#10'"###########aaaaaaa'
+  +'aaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10
+  +'".baaaaaaaaaaaaaaaaaaaabb",'#10'".ba##aa##a####aa#####abb",'#10'".ba##aa##a'
+  +'##a##a##a##abb",'#10'".ba##aa##a##a##a##a##abb",'#10'".ba##aa##a##a##a#####'
+  +'abb",'#10'".ba##aa##a##a##a##aaaabb",'#10'".ba##aa##a##a##a##aaaabb",'#10'"'
+  +'.baa####aa####aa##aaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaa'
+  +'aaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbb'
+  +'b."};'#10
+]);
+LazarusResources.Add('TIDMAPPEDTELNET','XPM',[
+  '/* XPM */'#10'static char *TIDMAPPEDTELNET[]={'#10'"24 24 8 1",'#10'"# c #00'
+  +'0000",'#10'"b c #00017c",'#10'"f c #00ff00",'#10'"c c #00ffff",'#10'". c #4'
+  +'2125c",'#10'"d c #525478",'#10'"e c #ff0000",'#10'"a c #ffffff",'#10'"..###'
+  +'####...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaa'
+  +'aaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'
+  +#10'".b####################bb",'#10'"###aaaaa###eeeeeeeeeeebb",'#10'"#aaaaaa'
+  +'aad#eeeeeeeeeeebb",'#10'"#adddddddd############bb",'#10'"##################'
+  +'#daabb",'#10'".baaa#fffffffff####daabb",'#10'".baaa##############daabb",'#10
+  +'".baaa#ff##ff##ff#f#daabb",'#10'".baaa##############daabb",'#10'".baaa##ff#'
+  +'#ff##fff#daabb",'#10'".baaa##############daabb",'#10'".baaa##f#f#f#f#f#f#da'
+  +'abb",'#10'".baaa##############daabb",'#10'".baaa##############daabb",'#10'"'
+  +'.baaadddddddddddddddaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaa'
+  +'aaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbb'
+  +'b."};'#10
+]);
+LazarusResources.Add('TIDMESSAGEDECODER','XPM',[
+  '/* XPM */'#10'static char *TIDMESSAGEDECODER[]={'#10'"24 24 6 1",'#10'"b c #'
+  +'000000",'#10'"# c #00007b",'#10'"d c #0000ff",'#10'". c #42125c",'#10'"c c '
+  +'#f0dbc4",'#10'"a c #ffffff",'#10'"........................",'#10'"..#######'
+  +'##############.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaabbbbbbbbbbbba'
+  +'aa##",'#10'".#aaaabccccccccccbabaa##",'#10'".#aaabcbbbbbbbccbaaaaa##",'#10
+  +'".#aaabccccccccccbaaaaa##",'#10'".#aaabcbbbbbbbccbaaaaa##",'#10'".#aaabcccc'
+  +'ccccccbaaaaa##",'#10'".#aaaabcbbbbbbbccbaaaa##",'#10'".#aaaabccccccccccbaaa'
+  +'a##",'#10'".#aaaabcbbbbbbbccbaaaa##",'#10'".#aaaabccccccccccbaaaa##",'#10'"'
+  +'.#aaaabcbbbbbbbccbaaaa##",'#10'".#aaabccccccccccbaaaaa##",'#10'".#aaabcbbbb'
+  +'bbbccbaaaaa##",'#10'".#aaabccccccccccbaaaaa##",'#10'".#aaabcbbbbbbbccbaabaa'
+  +'##",'#10'".#aaddbccccccccccbdbaa##",'#10'".#aa###bbbbbbbbbbbb#aa##",'#10'".'
+  +'#aaddddddddddddddddaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".###########'
+  +'############",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDMESSAGE','XPM',[
+  '/* XPM */'#10'static char *TIDMESSAGE[]={'#10'"24 24 5 1",'#10'"b c #000000"'
+  +','#10'"# c #00007b",'#10'". c #41a314",'#10'"c c #eb9bc0",'#10'"a c #ffffff'
+  +'",'#10'"........................",'#10'"..#####################.",'#10'".#a'
+  +'aaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaabbbbbbb'
+  +'bbbbbaaa##",'#10'".#aaaabccccccccccbabaa##",'#10'".#aaabcbbbbbbbccbaaaaa##"'
+  +','#10'".#aaabccccccccccbaaaaa##",'#10'".#aaabcbbbbbbbccbaaaaa##",'#10'".#aa'
+  +'abccccccccccbaaaaa##",'#10'".#aaaabcbbbbbbbccbaaaa##",'#10'".#aaaabcccccccc'
+  +'ccbaaaa##",'#10'".#aaaabcbbbbbbbccbaaaa##",'#10'".#aaaabccccccccccbaaaa##",'
+  +#10'".#aaaabcbbbbbbbccbaaaa##",'#10'".#aaabccccccccccbaaaaa##",'#10'".#aaabc'
+  +'bbbbbbbccbaaaaa##",'#10'".#aaabccccccccccbaaaaa##",'#10'".#aaabcbbbbbbbccba'
+  +'abaa##",'#10'".#aaaabccccccccccbabaa##",'#10'".#aaaaabbbbbbbbbbbbaaa##",'#10
+  +'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..########'
+  +'#############."};'#10
+]);
+LazarusResources.Add('TIDNETWORKCALCULATOR','XPM',[
+  '/* XPM */'#10'static char *TIDNETWORKCALCULATOR[]={'#10'"24 24 8 1",'#10'"d '
+  +'c #000000",'#10'"# c #00007b",'#10'"b c #41a314",'#10'". c #42125c",'#10'"e'
+  +' c #525478",'#10'"f c #f18dc0",'#10'"c c #ffff00",'#10'"a c #ffffff",'#10'"'
+  +'........................",'#10'"..#####################.",'#10'".#aaaaaaaaa'
+  +'aaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa'
+  +'##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaabbbbbbbbbbbbbbaaa##",'#10'".'
+  +'#aabacacacacacacabdaa##",'#10'".#aabcddddddddbbbbedaa##",'#10'".#aabadaaaaa'
+  +'afbbbbedaa##",'#10'".#aabcdfffffffbbbbedaa##",'#10'".#aababbbbbbbbbbbbedaa#'
+  +'#",'#10'".#aabcbdadadadadadedaa##",'#10'".#aababbbbbbbbbbbbedaa##",'#10'".#'
+  +'aabcbdadadadaafdedaa##",'#10'".#aababbbbbbbbbbbbedaa##",'#10'".#aabbeeeeeee'
+  +'eeeeeedaa##",'#10'".#aaaddddddddddddddaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##'
+  +'",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#a'
+  +'aaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..############'
+  +'#########b"};'#10
+]);
+LazarusResources.Add('TIDNNTPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDNNTPSERVER[]={'#10'"24 24 7 1",'#10'"# c #0000'
+  +'00",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #525'
+  +'478",'#10'"e c #e9e8f0",'#10'"a c #ffffff",'#10'"..#######...............",'
+  +#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accc'
+  +'a#aaaaaaaaaaaaabb",'#10'".b#adddd#aaa#aaaaaaaaabb",'#10'".b#######a##daaaaa'
+  +'aaaabb",'#10'"###aaeee###ee#aaaaaaaabb",'#10'"#aaeeeeeed#eee#aaaaaaabb",'#10
+  +'"#adddddddd#ed#d#aaaaaabb",'#10'"###############dd#aaaabb",'#10'".baa##adae'
+  +'da##daee#aaabb",'#10'".baa#edaeedeeeedae#aaabb",'#10'".baa#dededaeeaeede#aa'
+  +'abb",'#10'".baadddedadedaeee##aaabb",'#10'".baa#ddd#dedada###aaaabb",'#10'"'
+  +'.baad##d#deede#ddaaaaabb",'#10'".baaded###eee#d#aaaaaabb",'#10'".baaddeed#d'
+  +'##daaaaaaaabb",'#10'".baadddddd#d#aaaaaaaaabb",'#10'".baaaaaaa#d#aaaaaaaaaa'
+  +'bb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".'
+  +'bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDNNTP','XPM',[
+  '/* XPM */'#10'static char *TIDNNTP[]={'#10'"24 24 6 1",'#10'"b c #000000",'
+  +#10'"# c #00007b",'#10'". c #42125c",'#10'"c c #525478",'#10'"d c #f19bd0",'
+  +#10'"a c #ffffff",'#10'"........................",'#10'"..##################'
+  +'###.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10
+  +'".#aaaaaaaaaabaaaaaaaaa##",'#10'".#aaaaaaaabbcaaaaaaaaa##",'#10'".#aaaaaaab'
+  +'dddbaaaaaaaa##",'#10'".#aaaaaabdddddbaaaaaaa##",'#10'".#aaaaabdbcdcbcbaaaaa'
+  +'a##",'#10'".#aaabbacbdbbbbccbaaaa##",'#10'".#aabbacadcabbcaddbaaa##",'#10'"'
+  +'.#aabdcaddcddddcadbaaa##",'#10'".#aabcdcdcaddaddcdbaaa##",'#10'".#aacccdcac'
+  +'dcadddbbaaa##",'#10'".#aabcccbcdcacabbbaaaa##",'#10'".#aacbbcbcddcdbccaaaaa'
+  +'##",'#10'".#aacdcbbbdddbcbaaaaaa##",'#10'".#aaccddcbcbbcaaaaaaaa##",'#10'".'
+  +'#aaccccccbcbaaaaaaaaa##",'#10'".#aaaaaaabcbaaaaaaaaaa##",'#10'".#aaaaaaaaaa'
+  +'aaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".######################'
+  +'#",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDPOP3SERVER','XPM',[
+  '/* XPM */'#10'static char *TIDPOP3SERVER[]={'#10'"24 24 9 1",'#10'"# c #0000'
+  +'00",'#10'"b c #00017c",'#10'"c c #00ffff",'#10'"f c #41a314",'#10'". c #421'
+  +'25c",'#10'"d c #525478",'#10'"e c #ff0000",'#10'"g c #ffff00",'#10'"a c #ff'
+  +'ffff",'#10'"..#######...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10
+  +'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#d'
+  +'aaaaaaaaaaaabb",'#10'".b#######a#daaaaaaaaaabb",'#10'"###aaaaa###a#daaaaaaa'
+  +'abb",'#10'"#aaaaaaaad#aa###aaaaaabb",'#10'"#adddddddd##dddd#aaaaabb",'#10'"'
+  +'###########dddddd#aaaabb",'#10'".baa#eaeaa#dddddd#aaaabb",'#10'".baa#aaa#a#'
+  +'dddddd#aaaabb",'#10'".baa#aaaaa##ddddd#aaaabb",'#10'".baa##daaa####ddd#aaaa'
+  +'bb",'#10'".baaaa##da######d#aaaabb",'#10'".baaaa#f##########aaaabb",'#10'".'
+  +'baaaa#gf#########aaaabb",'#10'".baaaa#gf#a#aaaaaa#aaabb",'#10'".baaaa#gf#aa'
+  +'#aaaaaa#aabb",'#10'".baaaa#gf#aaa#######aabb",'#10'".baaaaaaaaaaaaaaaaaaaab'
+  +'b",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..'
+  +'bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDPOP3','XPM',[
+  '/* XPM */'#10'static char *TIDPOP3[]={'#10'"24 24 9 1",'#10'"b c #000000",'
+  +#10'"# c #00007b",'#10'"f c #41a314",'#10'". c #42125c",'#10'"c c #525478",'
+  +#10'"d c #f49abc",'#10'"e c #ff0000",'#10'"g c #ffff00",'#10'"a c #ffffff",'
+  +#10'"........................",'#10'"..#####################.",'#10'".#aaaaa'
+  +'aaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaabbbcaaaaaaaa'
+  +'aaaa##",'#10'".#aaabddddbcaaaaaaaaaa##",'#10'".#aabdddddddbcaaaaaaaa##",'#10
+  +'".#aabddddddddbbbaaaaaa##",'#10'".#aabedddddbccccbaaaaa##",'#10'".#aaeeeddd'
+  +'bccccccbaaaa##",'#10'".#aabededdbccccccbaaaa##",'#10'".#aabdddbdbccccccbaaa'
+  +'a##",'#10'".#aabdddddbbcccccbaaaa##",'#10'".#aabbcdddbbbbcccbaaaa##",'#10'"'
+  +'.#aaaabbcdbbbbbbcbaaaa##",'#10'".#aaaabfbbbbbbbbbbaaaa##",'#10'".#aaaabgfbb'
+  +'bbbbbbbaaaa##",'#10'".#aaaabgfbabddddddbaaa##",'#10'".#aaaabgfbaabddddddbaa'
+  +'##",'#10'".#aaaabgfbaaabbbbbbbaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".'
+  +'#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..##########'
+  +'###########."};'#10
+]);
+LazarusResources.Add('TIDQOTDSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDQOTDSERVER[]={'#10'"24 24 7 1",'#10'"# c #0000'
+  +'00",'#10'"b c #00017c",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #525'
+  +'478",'#10'"e c #f19ac0",'#10'"a c #ffffff",'#10'"..#######...............",'
+  +#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accc'
+  +'a#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'#10'".b#######aaaaa####'
+  +'aaaabb",'#10'"###aaeee###aa#aaaa#aaabb",'#10'"#aaeeeeeed#a#aaaaaa#aabb",'#10
+  +'"#adddddddd##aaaaaaaa#abb",'#10'"############aaaaaaaa#abb",'#10'".baaaaaaaa'
+  +'a#aaaaaaaa#abb",'#10'".baaaaaaaaa#aaaaaaaa#abb",'#10'".baaaaaaaaa#aaaaaaaa#'
+  +'abb",'#10'".baaaaaaaaa#aaaaaaaa#abb",'#10'".baaaaaaaaaa#aaaaaa#aabb",'#10'"'
+  +'.baaaaaaaaaaa#aaaa#aaabb",'#10'".baaaaaaaaaaaa####aaaabb",'#10'".baaaaaaaaa'
+  +'aaa#a#aaaaabb",'#10'".baaaaaaaaaaa#a#aaaaaabb",'#10'".baaaaaaaaaa###aaaaaaa'
+  +'bb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".'
+  +'bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDQOTDUDPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDQOTDUDPSERVER[]={'#10'"24 24 7 1",'#10'"# c #0'
+  +'00000",'#10'"e c #0000ff",'#10'"b c #00017c",'#10'"c c #00ffff",'#10'". c #'
+  +'42125c",'#10'"d c #525478",'#10'"a c #ffffff",'#10'"..#######..............'
+  +'.",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b'
+  +'#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'#10'".b#######aaaa'
+  +'a####aaaabb",'#10'"###aaaaa###aa#aaaa#aaabb",'#10'"#aaaaaaaad#a#aaaaaa#aabb'
+  +'",'#10'"#adddddddd##aaaaaaaa#abb",'#10'"############aaaaaaaa#abb",'#10'".ba'
+  +'aaaaaaaa#aaaaaaaa#abb",'#10'".baaaaaaaaa#aaaaaaaa#abb",'#10'".baaaaaaaaa#aa'
+  +'aaaaaa#abb",'#10'".baaaaaaaaa#aaaaaaaa#abb",'#10'".eaaaaeaaeeeeaaaaeeeeebb"'
+  +','#10'".eaaaaeaaeaaaeaaae#aaaeb",'#10'".eaaaaeaaeaaaae##eaaaaeb",'#10'".eaa'
+  +'aaeaaeaaaaea#eaaaaeb",'#10'".eaaaaeaaeaaa#e#aeeeeebb",'#10'".eaaaaeaaeaa##e'
+  +'aaeaaaabb",'#10'".eaaaaeaaeaaaaeaaeaaaabb",'#10'".eaaaaeaaeaaaeaaaeaaaabb",'
+  +#10'".beeeebbbeeeebbbbebbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDQOTDUDP','XPM',[
+  '/* XPM */'#10'static char *TIDQOTDUDP[]={'#10'"24 24 5 1",'#10'"b c #000000"'
+  +','#10'"# c #00007b",'#10'"c c #0000ff",'#10'". c #42125c",'#10'"a c #ffffff'
+  +'",'#10'"........................",'#10'"..#####################.",'#10'".#a'
+  +'aaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaa'
+  +'aaaaaaaa##",'#10'".#aaaaaaaaaaaabbbbaaaa##",'#10'".#aaaaaaaaaaabaaaabaaa##"'
+  +','#10'".#aaaaaaaaaabaaaaaabaa##",'#10'".#aaaaaaaaabaaaaaaaaba##",'#10'".#aa'
+  +'aaaaaaabaaaaaaaaba##",'#10'".#aaaaaaaaabaaaaaaaaba##",'#10'".#aaaaaaaaabaaa'
+  +'aaaaaba##",'#10'".#aaaaaaaaabaaaaaaaaba##",'#10'".#aaaaaaaaabaaaaaaaaba##",'
+  +#10'".caaaacaaccccaaaaccccc##",'#10'".caaaacaacaaacaaacbaaac#",'#10'".caaaac'
+  +'aacaaaacbbcaaaac#",'#10'".caaaacaacaaaacabcaaaac#",'#10'".caaaacaacaaabcbac'
+  +'cccc##",'#10'".caaaacaacaabbcaacaaaa##",'#10'".caaaacaacaaaacaacaaaa##",'#10
+  +'".caaaacaacaaacaaacaaaa##",'#10'".#cccc###cccc####c######",'#10'"..########'
+  +'#############."};'#10
+]);
+LazarusResources.Add('TIDQOTD','XPM',[
+  '/* XPM */'#10'static char *TIDQOTD[]={'#10'"24 24 4 1",'#10'"b c #000000",'
+  +#10'"# c #00017c",'#10'". c #42125c",'#10'"a c #ffffff",'#10'"..............'
+  +'..........",'#10'"..#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aa'
+  +'aaaaaaaaaabbbbaaaa##",'#10'".#aaaaaaaaaaabaaaabaaa##",'#10'".#aaaaaaaaaabaa'
+  +'aaaabaa##",'#10'".#aaaaaaaaabaaaaaaaaba##",'#10'".#aaaaaaaaabaaaaaaaaba##",'
+  +#10'".#aaaaaaaaabaaaaaaaaba##",'#10'".#aaaaaaaaabaaaaaaaaba##",'#10'".#aaaaa'
+  +'aaaabaaaaaaaaba##",'#10'".#aaaaaaaaabaaaaaaaaba##",'#10'".#aaaaaaaaaabaaaaa'
+  +'abaa##",'#10'".#aaaaaaaaaaabaaaabaaa##",'#10'".#aaaaaaaaaaaabbbbaaaa##",'#10
+  +'".#aaaaaaaaaaaababaaaaa##",'#10'".#aaaaaaaaaaababaaaaaa##",'#10'".#aaaaaaaa'
+  +'aabbbaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaa'
+  +'a##",'#10'".#######################",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDRAWCLIENT','XPM',[
+  '/* XPM */'#10'static char *TIDRAWCLIENT[]={'#10'"24 24 6 1",'#10'"d c #00000'
+  +'0",'#10'"# c #00007b",'#10'". c #41a314",'#10'"b c #42125c",'#10'"c c #ff00'
+  +'ff",'#10'"a c #ffffff",'#10'"........................",'#10'"..############'
+  +'#########.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#bbbbbbbbbbbbbbbaaaaa##"'
+  +','#10'".#ccccccccccccccbaaaaa##",'#10'".#cccccccccccccbaaaaaa##",'#10'".#bb'
+  +'bbbbbbbcccbaaaaaaa##",'#10'".#aaaaaaabcccbbbbbbbbb##",'#10'".#aaaaaabcccccc'
+  +'ccccccc##",'#10'".#aaaaabcccccccccccccc##",'#10'".#aaaaabbbbbbbbbbbbbbb##",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#adddd'
+  +'dadddddaddadada##",'#10'".#addaddaddaddaddadada##",'#10'".#addaddaddaddadda'
+  +'dada##",'#10'".#adddddadddddaddadada##",'#10'".#addadaaddaddaddadada##",'#10
+  +'".#addaddaddaddadddddda##",'#10'".#addaadaddaddadddadda##",'#10'".#aaaaaaaa'
+  +'aaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".####################'
+  +'###",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDREXECSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDREXECSERVER[]={'#10'"24 24 10 1",'#10'"# c #00'
+  +'0000",'#10'"e c #00017c",'#10'"g c #00ffff",'#10'"d c #41a314",'#10'". c #4'
+  +'2125c",'#10'"a c #525478",'#10'"f c #850005",'#10'"h c #f19bc4",'#10'"c c #'
+  +'ffff00",'#10'"b c #ffffff",'#10'"..#######aaa.aaaaaaaaa..",'#10'"..#bbbbb#c'
+  +'daefcccccfabe.",'#10'".e#bgggb#caabfcccccfbbee",'#10'".e#bgggb#caabfccccdab'
+  +'bee",'#10'".e#baaaa#cadbfccccfbbbee",'#10'".e#######ccfbfcccadbbbee",'#10'"'
+  +'###bbhhh###fafcccfabbbee",'#10'"#bbhhhhhha#fadcccfbbbbee",'#10'"#baaaaaaaa#'
+  +'fadccdfaaabee",'#10'"###########fadccadddfbee",'#10'".ebbfcccccaffdaccccaab'
+  +'ee",'#10'".ebbaaccdfaaaadfcccfbbee",'#10'".ebbbfccdabbbbbfcccfbbee",'#10'".'
+  +'ebbbdacaabbbbbfccdabbee",'#10'".ebbbbfcafbbbbbfccfbbbee",'#10'".ebbbbfccfbb'
+  +'bbbfcdabbbee",'#10'".ebbbbadcfbbbbadcfbbbbee",'#10'".ebbbbbfcfbbbbadaabbbbe'
+  +'e",'#10'".ebbbbbadfbbbbadfbbbbbee",'#10'".ebbbbbbffbbbbafabbbbbee",'#10'".e'
+  +'bbbbbbafabbbdfbbbbbbee",'#10'".ebbbbbbbfabbbffbbbbbbee",'#10'".eeeeeeeedaee'
+  +'efaeeeeeeee",'#10'"..eeeeeeeeeeeeeeeeeeeee."};'#10
+]);
+LazarusResources.Add('TIDREXEC','XPM',[
+  '/* XPM */'#10'static char *TIDREXEC[]={'#10'"24 24 7 1",'#10'"a c #00017c",'
+  +#10'"b c #41a314",'#10'". c #42125c",'#10'"# c #525478",'#10'"d c #850005",'
+  +#10'"c c #ffff00",'#10'"e c #ffffff",'#10'"...#########.#########..",'#10'".'
+  +'.aab#ccccb#adcccccd#ea.",'#10'".aee#dcccc##edcccccdeeaa",'#10'".aeeedcccc##'
+  +'edccccb#eeaa",'#10'".aeee#bccc#bedccccdeeeaa",'#10'".aeeeedccccdedccc#beeea'
+  +'a",'#10'".aeeeeb#cccd#dcccd#eeeaa",'#10'".aeeee#dcccd#bcccdeeeeaa",'#10'".a'
+  +'ee###dcccd#bccbd###eaa",'#10'".ae#dbbbcccd#bcc#bbbdeaa",'#10'".aeedccccc#dd'
+  +'b#cccc##eaa",'#10'".aee##ccbd####bdcccdeeaa",'#10'".aeeedccb#eeeeedcccdeeaa'
+  +'",'#10'".aeeeb#c##eeeeedccb#eeaa",'#10'".aeeeedc#deeeeedccdeeeaa",'#10'".ae'
+  +'eeedccdeeeeedcb#eeeaa",'#10'".aeeee#bcdeeee#bcdeeeeaa",'#10'".aeeeeedcdeeee'
+  +'#b##eeeeaa",'#10'".aeeeee#bdeeee#bdeeeeeaa",'#10'".aeeeeeeddeeee#d#eeeeeaa"'
+  +','#10'".aeeeeee#d#eeebdeeeeeeaa",'#10'".aeeeeeeed#eeeddeeeeeeaa",'#10'".aaa'
+  +'aaaaab#aaad#aaaaaaaa",'#10'"..aaaaaaaaaaaaaaaaaaaaa."};'#10
+]);
+LazarusResources.Add('TIDRLECOMPRESS','XPM',[
+  '/* XPM */'#10'static char *TIDRLECOMPRESS[]={'#10'"24 24 7 1",'#10'"# c #000'
+  +'17c",'#10'"e c #41a314",'#10'". c #42125c",'#10'"c c #850005",'#10'"d c #f3'
+  +'d8b0",'#10'"b c #ff0000",'#10'"a c #ffffff",'#10'"........................"'
+  +','#10'"..#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aa'
+  +'bbbbbbbbbbbbbbbbaa##",'#10'".#aaccccccccccccccccaa##",'#10'".#aabbbbbbbbbbb'
+  +'bbbbbaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaadaeadaaaaaaaa##",'
+  +#10'".#aaaaaaadeeedaaaaaaaa##",'#10'".#aaaaaaadeeedaaaaaaaa##",'#10'".#aaaaa'
+  +'aadeeedaaaaaaaa##",'#10'".#aaaaaaadeeedaaaaaaaa##",'#10'".#aaddddddeeeddddd'
+  +'ddaa##",'#10'".#aaaaaaadeeedaaaaaaaa##",'#10'".#aaaaaaadeeedaaaaaaaa##",'#10
+  +'".#aaaaaaadeeedaaaaaaaa##",'#10'".#aaaaaaadaeadaaaaaaaa##",'#10'".#aaaaaaaa'
+  +'aaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaa'
+  +'a##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'"'
+  +'.#######################",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDRLEDECOMPRESS','XPM',[
+  '/* XPM */'#10'static char *TIDRLEDECOMPRESS[]={'#10'"24 24 6 1",'#10'"# c #0'
+  +'0007b",'#10'"d c #0000ff",'#10'"c c #41a314",'#10'". c #42125c",'#10'"b c #'
+  +'f49ebc",'#10'"a c #ffffff",'#10'"........................",'#10'"..########'
+  +'#############.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaa'
+  +'a##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'"'
+  +'.#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaabacabaaaaaaaa##",'#10'".#aaaaaaabc'
+  +'ccbaaaaaaaa##",'#10'".#aaaaaaabcccbaaaaaaaa##",'#10'".#aaaaaaabcccbaaaaaaaa'
+  +'##",'#10'".#aaaaaaabcccbaaaaaaaa##",'#10'".#aabbbbbbcccbbbbbbbaa##",'#10'".'
+  +'#aaaaaaabcccbaaaaaaaa##",'#10'".#aaaaaaabcccbaaaaaaaa##",'#10'".#aaaaaaabcc'
+  +'cbaaaaaaaa##",'#10'".#aaaaaaabacabaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa#'
+  +'#",'#10'".#aaddddddddddddddddaa##",'#10'".#aa################aa##",'#10'".#'
+  +'aaddddddddddddddddaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".############'
+  +'###########",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDRSHSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDRSHSERVER[]={'#10'"24 24 7 1",'#10'"# c #00000'
+  +'0",'#10'"b c #00017c",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #5254'
+  +'78",'#10'"e c #edc3a4",'#10'"a c #ffffff",'#10'"..#######...............",'
+  +#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accc'
+  +'a#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'#10'".b#######aaaaaaaaa'
+  +'aaaabb",'#10'"###aaeee###aaaaaaaaaaabb",'#10'"#aaeeeeeed#aaaaaaaaaaabb",'#10
+  +'"#adddddddd#aaaaaa#aaaabb",'#10'"##############aaa##aaabb",'#10'".##aaaaaaa'
+  +'a###aaaa##aabb",'#10'".##aaaaaaaaaaaaaaaa##abb",'#10'".##aaaaaaaaaaaaaaaaa#'
+  +'#bb",'#10'".##aaa##aaa###aaaaaaa##b",'#10'".b##aa##aaa###aaaaaaaa##",'#10'"'
+  +'.ba####aaaaaaaaaaaaaaab#",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaa'
+  +'aaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaa'
+  +'bb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".'
+  +'bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDRSH','XPM',[
+  '/* XPM */'#10'static char *TIDRSH[]={'#10'"24 24 4 1",'#10'"b c #000000",'#10
+  +'"# c #00007b",'#10'". c #42125c",'#10'"a c #ffffff",'#10'".................'
+  +'.......",'#10'"..#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaa'
+  +'aaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#abbbbaaaaaaaaaaa'
+  +'aaaa##",'#10'".#bbaabbaaaaaaaaabaaaa##",'#10'".bbaaabbaaabbbaaabbaaa##",'#10
+  +'".bbaaaaaaaabbbaaaabbaa##",'#10'".bbaaaaaaaaaaaaaaaabba##",'#10'".bbaaaaaaa'
+  +'aaaaaaaaaabb##",'#10'".bbaaabbaaabbbaaaaaaabb#",'#10'".#bbaabbaaabbbaaaaaaa'
+  +'abb",'#10'".#abbbbaaaaaaaaaaaaaaa#b",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'"'
+  +'.#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaa'
+  +'aaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa'
+  +'##",'#10'".#######################",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDSERVERIOHANDLEROPENSSL','XPM',[
+  '/* XPM */'#10'static char *TIDSERVERIOHANDLEROPENSSL[]={'#10'"24 24 7 1",'#10
+  +'"# c #000000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10
+  +'"d c #525478",'#10'"e c #f19bc0",'#10'"a c #ffffff",'#10'"..#######........'
+  +'.......",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'
+  +#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'#10'".b#####'
+  +'##aa####aaaaaaabb",'#10'"###aaeee###eeee#aaaaaabb",'#10'"#aaeeeeeed####edda'
+  +'aaaabb",'#10'"#adddddddd#aaa#e#aaaaabb",'#10'"###########aaa#e#aaaaabb",'#10
+  +'".baaaaaa#e#aaa#e#aaaaabb",'#10'".baaaaa###########aaaabb",'#10'".baaaa#eee'
+  +'eeeeeeee#aaabb",'#10'".baaaa#dddd###dddd#aaabb",'#10'".baaaa#eeee###eeee#aa'
+  +'abb",'#10'".baaaa#dddee#eeddd#aaabb",'#10'".baaaa#eeeed#deeee#aaabb",'#10'"'
+  +'.baaaaa#dded#dedd#aaaabb",'#10'".baaaaaa##eeeee##aaaaabb",'#10'".baaaaaaaa#'
+  +'####aaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaa'
+  +'bb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDSERVERIOHANDLERSOCKET','XPM',[
+  '/* XPM */'#10'static char *TIDSERVERIOHANDLERSOCKET[]={'#10'"24 24 9 1",'#10
+  +'"# c #000000",'#10'"b c #00007b",'#10'"e c #0000ff",'#10'"d c #00ffff",'#10
+  +'"g c #41a314",'#10'". c #42125c",'#10'"f c #525478",'#10'"c c #f19bac",'#10
+  +'"a c #ffffff",'#10'"..#######...............",'#10'"..#aaaaa#bb#bb##cbbbbbb'
+  +'.",'#10'".b#addda#eeeeeebfaaaaacb",'#10'".b#addda#bebebebfaaaaabb",'#10'".b'
+  +'#affff#ffffffgfaaaaabb",'#10'".b#######aaaaaaffaaaaacb",'#10'"###aaccc###fa'
+  +'aaffaaaaabb",'#10'"#aaccccccf#ffaaffaaaaabb",'#10'"#affffffff#cffaffaaaaacb'
+  +'",'#10'"###########cffaffaaaaabb",'#10'".bfcccffcc#cffaffaaaaacb",'#10'".bf'
+  +'accffcffcgfcffaaaaabb",'#10'".bfaccffcffffcc#fcaaaacb",'#10'".bfcafffcffffa'
+  +'ac#fccaabb",'#10'".bfaaaf#f#ffbcafffafcabb",'#10'".bfaaaaaaaaaf#cfcccccfbb"'
+  +','#10'".bfccccccccccf#ccccccfcb",'#10'".bf#f#f#f#fgbgfccccccffb",'#10'".baa'
+  +'aacaaacacfffcccccfcb",'#10'".baaaaaaaaaaacffccccc#cb",'#10'".baaaaaaaaaaaaf'
+  +'fffffcfcb",'#10'".baaaaaaaaaaaaaff#f#fcfb",'#10'".bbbbbbbbbbbbbbbccccfccb",'
+  +#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDSERVERIOHANDLERSSL','XPM',[
+  '/* XPM */'#10'static char *TIDSERVERIOHANDLERSSL[]={'#10'"24 24 7 1",'#10'"#'
+  +' c #000000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"'
+  +'d c #525478",'#10'"e c #f184d0",'#10'"a c #ffffff",'#10'"..#######.........'
+  +'......",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10
+  +'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'#10'".b#######a'
+  +'#####aaaaaaabb",'#10'"###aaeee###eeee#aaaaaabb",'#10'"#aaeeeeeed####eddaaaa'
+  +'abb",'#10'"#adddddddd#aaa#e#aaaaabb",'#10'"###########aaa#e#aaaaabb",'#10'"'
+  +'.baaaaaa#e#aaa#e#aaaaabb",'#10'".baaaaa###########aaaabb",'#10'".baaaa#eeee'
+  +'eeeeeee#aaabb",'#10'".baaaa#dddd###dddd#aaabb",'#10'".baaaa#eeee###eeee#aaa'
+  +'bb",'#10'".baaaa#dddee#eeddd#aaabb",'#10'".baaaa#eeeed#deeee#aaabb",'#10'".'
+  +'baaaaa#dded#dedd#aaaabb",'#10'".baaaaaa##eeeee##aaaaabb",'#10'".baaaaaaaa##'
+  +'###aaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaab'
+  +'b",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDSIMPLESERVER','XPM',[
+  '/* XPM */'#10'static char *TIDSIMPLESERVER[]={'#10'"24 24 7 1",'#10'"# c #00'
+  +'0000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d c #5'
+  +'25478",'#10'"e c #f1c5a8",'#10'"a c #ffffff",'#10'"..#######...............'
+  +'",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#'
+  +'accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'#10'".b#######aaaaa'
+  +'aaaaaaaabb",'#10'"###aaeee###aaaaaaaaaaabb",'#10'"#aaeeeeeed#aaaaaaaaaaabb"'
+  +','#10'"#adddddddd#aaaaaaaaaaabb",'#10'"###########aaaaaaaaaaabb",'#10'".baa'
+  +'aaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaa'
+  +'aaaaaaabb",'#10'".ba######a#####a#####abb",'#10'".baaa##aaa##aaaa##a##abb",'
+  +#10'".baaa##aaa##aaaa##a##abb",'#10'".baaa##aaa##aaaa#####abb",'#10'".baaa##'
+  +'aaa##aaaa##aaaabb",'#10'".baaa##aaa##aaaa##aaaabb",'#10'".baaa##aaa#####a##'
+  +'aaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10
+  +'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDSMTPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDSMTPSERVER[]={'#10'"24 24 8 1",'#10'"# c #0000'
+  +'00",'#10'"b c #00007b",'#10'"f c #0000ff",'#10'"c c #00ffff",'#10'". c #421'
+  +'25c",'#10'"d c #525478",'#10'"e c #f1d2b4",'#10'"a c #ffffff",'#10'"..#####'
+  +'##...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaa'
+  +'aaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#bbbbbbbdeaaaabb",'#10
+  +'".b########fffffffbaaaabb",'#10'"###aaeee####ddddbbdaaabb",'#10'"#aaeeeeeed'
+  +'#bdddd#fdaaabb",'#10'"#adddddddd#fffffffdaaabb",'#10'"###########fffffffdaa'
+  +'abb",'#10'".baa######bfffffffdaaabb",'#10'".baa######bfffffffdaaabb",'#10'"'
+  +'.baa######bfffffffdaaabb",'#10'".baa######bfffffffdaaabb",'#10'".baa######b'
+  +'fffffffdaaabb",'#10'".baa######bfffffffdaaabb",'#10'".baa######bfffffffdaaa'
+  +'bb",'#10'".baa#######bbbbbbbdaaabb",'#10'".baa#daaa#daaaaaabdaaabb",'#10'".'
+  +'baa#daaa#daaaaaa#daaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaa'
+  +'aaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb'
+  +'."};'#10
+]);
+LazarusResources.Add('TIDSMTP','XPM',[
+  '/* XPM */'#10'static char *TIDSMTP[]={'#10'"24 24 7 1",'#10'"c c #000000",'
+  +#10'"# c #00007b",'#10'"e c #0000ff",'#10'". c #42125c",'#10'"b c #525478",'
+  +#10'"d c #ead7bc",'#10'"a c #ffffff",'#10'"........................",'#10'".'
+  +'.#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaa'
+  +'aaaaaaaaaa##",'#10'".#aaabccc#######bdaaaa##",'#10'".#aabccccceeeeeee#aaaa#'
+  +'#",'#10'".#aacccccc#cbbbb##baaa##",'#10'".#aacccccc##bbbbcebaaa##",'#10'".#'
+  +'aacccccc#eeeeeeebaaa##",'#10'".#aacccccc#eeeeeeebaaa##",'#10'".#aacccccc#ee'
+  +'eeeeebaaa##",'#10'".#aacccccc#eeeeeeebaaa##",'#10'".#aacccccc#eeeeeeebaaa##'
+  +'",'#10'".#aacccccc#eeeeeeebaaa##",'#10'".#aacccccc#eeeeeeebaaa##",'#10'".#a'
+  +'acccccc#eeeeeeebaaa##",'#10'".#aacccccc#eeeeeeebaaa##",'#10'".#aaccccccc###'
+  +'####baaa##",'#10'".#aacbaaacbaaaaaa#baaa##",'#10'".#aacbaaacbaaaaaacbaaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".###'
+  +'####################",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDSNMP','XPM',[
+  '/* XPM */'#10'static char *TIDSNMP[]={'#10'"24 24 11 1",'#10'"c c #000000",'
+  +#10'"b c #00007b",'#10'"i c #00ffff",'#10'"f c #41a314",'#10'"g c #41a988",'
+  +#10'"# c #42125c",'#10'"a c #525478",'#10'"h c #850005",'#10'"d c #eac4b0",'
+  +#10'". c #ff00ff",'#10'"e c #ffffff",'#10'"........................",'#10'".'
+  +'#a#bba#bbcacacaaaaadaa.",'#10'".dddeeadaefaaaaaddddeedb",'#10'".#cg#agh#e#a'
+  +'aaaadddddedb",'#10'".aa##a#aa#gaaaaaaddddedb",'#10'".beeeeeeeecaaaaaadddddd'
+  +'b",'#10'".aaaeeaaeecaaaaaaadddddb",'#10'".#aaeegaaeccaaaaaadddddb",'#10'".a'
+  +'aa#faa##ccaaaaaaadddab",'#10'".###ee##ee##ha#a#a#aa#ab",'#10'".beeeeeeeeeee'
+  +'eeee#eeeebb",'#10'".beeeeeeeeeeeeeee#eeeebb",'#10'".beeeeeeeeeeeeeee#eeeebb'
+  +'",'#10'".beeeaeeaeeaeeeeeaeeeebb",'#10'".b#fghgf#fd#eeeee#eeeebb",'#10'".b#'
+  +'gddddeed#eeeee#eeeebb",'#10'".b#cidddeea#eeeee#eeeebb",'#10'".b#aidddeed#ee'
+  +'eeeaeeeebb",'#10'".b#agaaaaad#eeeee#eeeebb",'#10'".b###accaaaeeeeee#eeeebb"'
+  +','#10'".baa#a#a#a#aeeeeeaeeeebb",'#10'".baaaadddded#aa#a#eeeebb",'#10'".bf#'
+  +'aafaaaaa#bbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDSNPP','XPM',[
+  '/* XPM */'#10'static char *TIDSNPP[]={'#10'"24 24 12 1",'#10'"a c #000000",'
+  +#10'"b c #00007b",'#10'". c #0000ff",'#10'"j c #00ffff",'#10'"h c #41a314",'
+  +#10'"f c #42125c",'#10'"c c #525478",'#10'"g c #850005",'#10'"# c #e9e8f0",'
+  +#10'"i c #ff0000",'#10'"e c #ffff00",'#10'"d c #ffffff",'#10'"....#a........'
+  +'..........",'#10'"..bbbcbbbbbbbbbbbbbbbbb.",'#10'".bdddaadddddadddddddddbb"'
+  +','#10'".bddddcddaaeefddddddddbb",'#10'".bddddaaeegehaddddddddbb",'#10'".bdd'
+  +'ddaeeeaeeeddddddddbb",'#10'".bdddddeieeaeeadddddddbb",'#10'".bdddddheeeeiee'
+  +'dddddddbb",'#10'".bdddddaeeieadaaddddddbb",'#10'".bddddddeec##j#eddddddbb",'
+  +#10'".bdddddda#jj#aeeadddddbb",'#10'".bddddddda#aeea#hdddddbb",'#10'".bddddd'
+  +'ddheeb#ehadddddbb",'#10'".bdddddddaa#ehgaeaddddbb",'#10'".bddddddddeaa#ee#e'
+  +'ddddbb",'#10'".bddddddddaheg#eaaadddbb",'#10'".bdddddddddf#ee#beedddbb",'#10
+  +'".bdddddddddheheeeheaddbb",'#10'".bdddddddddaeeiaeieaddbb",'#10'".bdddddddd'
+  +'ddeeeheaecddbb",'#10'".bddddddddddaeeaeeadddbb",'#10'".bdddddddddddeieeaddd'
+  +'dbb",'#10'".bbbbbbbbbbbbb#cbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDSNTP','XPM',[
+  '/* XPM */'#10'static char *TIDSNTP[]={'#10'"24 24 6 1",'#10'"b c #000000",'
+  +#10'"d c #0000ff",'#10'"# c #00017c",'#10'". c #41a314",'#10'"c c #ff0000",'
+  +#10'"a c #ffffff",'#10'"........................",'#10'"..##################'
+  +'###.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10
+  +'".#aaaaaaabbbbbaaaaaaaa##",'#10'".#aaaaabbcccccbbaaaaaa##",'#10'".#aaaabcca'
+  +'adaaccbaaaaa##",'#10'".#aaabccaaadaaaccbaaaa##",'#10'".#aaabcadaaaaadacbaaa'
+  +'a##",'#10'".#aabcaaaaaaaaaaacbaaa##",'#10'".#aabcaaaaaaaaaaacbaaa##",'#10'"'
+  +'.#aabcadaaacbbbbacbaaa##",'#10'".#aabcaaaabaaaaaacbaaa##",'#10'".#aabcaaaba'
+  +'aaaaaacbaaa##",'#10'".#aaabcaaaaaaadacbaaaa##",'#10'".#aaabccaaadaaaccbaaaa'
+  +'##",'#10'".#aaaabccaaaaaccbaaaaa##",'#10'".#aaaaabbcccccbbaaaaaa##",'#10'".'
+  +'#aaaaaaabbbbbaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaa'
+  +'aaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".######################'
+  +'#",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDSOCKSINFO','XPM',[
+  '/* XPM */'#10'static char *TIDSOCKSINFO[]={'#10'"24 24 12 1",'#10'"b c #0000'
+  +'00",'#10'"d c #00007b",'#10'"f c #00ff00",'#10'"h c #00ffff",'#10'"c c #41a'
+  +'314",'#10'"g c #41a988",'#10'"j c #42125c",'#10'"a c #525478",'#10'"i c #85'
+  +'0005",'#10'". c #ff0000",'#10'"e c #ffff00",'#10'"# c #ffffff",'#10'"....#a'
+  +'bbbbcaa#..........",'#10'"..d#bceeeeecccbdddddddd.",'#10'".d##beeeeeeeecba#'
+  +'#####dd",'#10'".d##bceeeeeeecb#######dd",'#10'".d##bcececceecb#######dd",'
+  +#10'".d##bbbcdcacbaa#######dd",'#10'".d###bafafghci########dd",'#10'".d###bg'
+  +'hf#faca########dd",'#10'".d###bfaafhacd########dd",'#10'".d###bafhafgca####'
+  +'####dd",'#10'".d###bhafgafdc########dd",'#10'".d##abfaf#faca########dd",'#10
+  +'".d##abgfafhgcj########dd",'#10'".d##accbgafafd########dd",'#10'".d##abeebc'
+  +'afafaa######dd",'#10'".d##bceecbghagfac#a###dd",'#10'".d###ceeebcfafaggbbi#'
+  +'#dd",'#10'".d###beecbagfhaccccb##dd",'#10'".d####becbgf#ccceecb##dd",'#10'"'
+  +'.d#####bbcagfbeeeeeba#dd",'#10'".d######bgfagceeeecb##dd",'#10'".d########a'
+  +'bceeeeeba##dd",'#10'".dddddddddd#bcceeib#dddd",'#10'"..ddddddddddd#abbgdddd'
+  +'d."};'#10
+]);
+LazarusResources.Add('TIDSSLIOHANDLERSOCKET','XPM',[
+  '/* XPM */'#10'static char *TIDSSLIOHANDLERSOCKET[]={'#10'"24 24 6 1",'#10'"b'
+  +' c #000000",'#10'"# c #00007b",'#10'". c #42125c",'#10'"d c #525478",'#10'"'
+  +'c c #f19ebc",'#10'"a c #ffffff",'#10'"........................",'#10'"..###'
+  +'##################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaa'
+  +'aaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaabbbbbaaaaaaa##",'
+  +#10'".#aaaaaaabcccccbaaaaaa##",'#10'".#aaaaaaddcbbbcddaaaaa##",'#10'".#aaaaa'
+  +'abcbaaabcbaaaaa##",'#10'".#aaaaaabcbaaabcbaaaaa##",'#10'".#aaaaaabcbaaabcba'
+  +'aaaa##",'#10'".#aaaaabbbbbbbbbbbaaaa##",'#10'".#aaaabcccccccccccbaaa##",'#10
+  +'".#aaaabddddbbbddddbaaa##",'#10'".#aaaabccccbbbccccbaaa##",'#10'".#aaaabddd'
+  +'ccbccdddbaaa##",'#10'".#aaaabccccdbdccccbaaa##",'#10'".#aaaaabddcdbdcddbaaa'
+  +'a##",'#10'".#aaaaaabbcccccbbaaaaa##",'#10'".#aaaaaaaabbbbbaaaaaaa##",'#10'"'
+  +'.#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".##########'
+  +'#############",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDSYSLOGMESSAGE','XPM',[
+  '/* XPM */'#10'static char *TIDSYSLOGMESSAGE[]={'#10'"24 24 11 1",'#10'"d c #'
+  +'000000",'#10'"# c #00007b",'#10'"g c #00ffff",'#10'"f c #41a314",'#10'"e c '
+  +'#41a988",'#10'". c #42125c",'#10'"a c #525478",'#10'"i c #850005",'#10'"b c'
+  +' #f19cd4",'#10'"h c #ffff00",'#10'"c c #ffffff",'#10'".....................'
+  +'...",'#10'"..#########ab##########.",'#10'".#ccccccccababcccccccc##",'#10'"'
+  +'.#cccccbbdbbbabccccccc##",'#10'".#ccccaeeaefbcabcccccc##",'#10'".#cccdaaaaa'
+  +'geababccccc##",'#10'".#ccagbbbbcbbebbabcccc##",'#10'".#cbebagcbcbbbfbcfbccc'
+  +'##",'#10'".#cbebbcbbbbbbaaccabcc##",'#10'".#caebbbbbbaabefcbbabc##",'#10'".'
+  +'#aaecbbbbbeaaaaahccab##",'#10'".abbdgbbbba#ab#fbcabbab#",'#10'".babfdbbbbbb'
+  +'adacbfbabbf#",'#10'".#babfdefaf.faicabahca##",'#10'".#cbabifdddd.aaabhbbac#'
+  +'#",'#10'".#ccbaccaaadbfafacbacc##",'#10'".#cccbabcbbbbbfaaaaccc##",'#10'".#'
+  +'ccccbabbhcfbaaaaaccc##",'#10'".#cccccbacbababbiaaacc##",'#10'".#ccccccbacba'
+  +'bbfcfiabc##",'#10'".#cccccccbfcbbfccbaabc##",'#10'".#ccccccccbabfcccccccc##'
+  +'",'#10'".##########ba###########",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDSYSLOGSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDSYSLOGSERVER[]={'#10'"24 24 10 1",'#10'"# c #0'
+  +'00000",'#10'"c c #00007b",'#10'"h c #0000ff",'#10'"d c #00ffff",'#10'"f c #'
+  +'41a314",'#10'"g c #41a988",'#10'". c #42125c",'#10'"b c #525478",'#10'"e c '
+  +'#ffff00",'#10'"a c #ffffff",'#10'"..#######...............",'#10'"..#aaaaa#'
+  +'#b#b##cccccccc.",'#10'".c#addda#abbbbbbaaaaaacc",'#10'".c#addda#aeaafbbaaaa'
+  +'aacc",'#10'".c#abbbb#eaeafbbaaaaabbc",'#10'".c#######aea#abbaaaacgcc",'#10
+  +'"###aaaaa###fbbbbaaacghbc",'#10'"#aaaaaaaab#babbbaabhgbcc",'#10'"#abbbbbbbb'
+  +'#baabbbcghgacc",'#10'"###########aabb#hhhgbacc",'#10'".bb#b#bfbcbaabchgghaa'
+  +'acc",'#10'".ca#aaaaaaaacchhhhgaaacc",'#10'".cabaaaaaaachdhdhcaaaacc",'#10'"'
+  +'.ca#aaababchgdhh#aaaaacc",'#10'".caabbbbb#ghhhhcbaaaaacc",'#10'".caabbbba#b'
+  +'cdhcbaaaaaacc",'#10'".caaaaaaf#abchbaaaaaabbc",'#10'".caaaabfeefb#cbaaaabba'
+  +'cc",'#10'".caaaabfeefbaaaabbbaaacc",'#10'".caaaafffefaaabbbaaaaacc",'#10'".'
+  +'caaaafff#bbbbbaaaaaaacc",'#10'".caaa#bbbbbaaaaaaaaaaacc",'#10'".cccabbbaacc'
+  +'cccccccccccc",'#10'"..ccccccccccccccccccccc."};'#10
+]);
+LazarusResources.Add('TIDSYSLOG','XPM',[
+  '/* XPM */'#10'static char *TIDSYSLOG[]={'#10'"24 24 11 1",'#10'"b c #000000"'
+  +','#10'"# c #00007b",'#10'"h c #0000ff",'#10'"i c #00ffff",'#10'"f c #41a314'
+  +'",'#10'"g c #41a988",'#10'". c #42125c",'#10'"a c #525478",'#10'"d c #f19cc'
+  +'0",'#10'"e c #ffff00",'#10'"c c #ffffff",'#10'"........................",'
+  +#10'"..##abababababb########.",'#10'".#ccaaaaadaaaaaacccccc##",'#10'".#cdadd'
+  +'ecdeddfaacccccc##",'#10'".#caaededecedfaacccccaa#",'#10'".#cfdecdececbdaacc'
+  +'cc#g##",'#10'".#adddeddecfaaaaccc#gha#",'#10'".daeecedeceadaaacdahga##",'#10
+  +'".aaddececeaaddaaa#ghgc##",'#10'".fdeceddedfddaabhhhgac##",'#10'".aababafa#'
+  +'acda#hgghdcc##",'#10'".#cbdddddddc##hhhhgccc##",'#10'".#cadcccccd#hihih#dcc'
+  +'c##",'#10'".#cbdddada#hgihhbccccc##",'#10'".#cdaaaaabghhhh#accccc##",'#10'"'
+  +'.#cdaaaadba#ih#acccccc##",'#10'".#cccccdfbda#hadcccdcaa#",'#10'".#ccccafeef'
+  +'ab#accddaad##",'#10'".#ccccafeefaddddaaadcc##",'#10'".#ccccfffefdddaaadcccc'
+  +'##",'#10'".#cccdfffbaaaaadcccccc##",'#10'".#cccbaaaaadddcccccccc##",'#10'".'
+  +'###daaadd##############",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDTCPCLIENT','XPM',[
+  '/* XPM */'#10'static char *TIDTCPCLIENT[]={'#10'"24 24 6 1",'#10'"d c #00000'
+  +'0",'#10'"# c #000084",'#10'"b c #41a314",'#10'". c #42125c",'#10'"c c #ffff'
+  +'00",'#10'"a c #ffffff",'#10'"........................",'#10'"..############'
+  +'#########.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#bbbbbbbbbbbbbbbaaaaa##"'
+  +','#10'".#ccccccccccccccbaaaaa##",'#10'".#cccccccccccccbaaaaaa##",'#10'".#bb'
+  +'bbbbbbbcccbaaaaaaa##",'#10'".#aaaaaaabcccbbbbbbbbb##",'#10'".#aaaaaabcccccc'
+  +'ccccccc##",'#10'".#aaaaabcccccccccccccc##",'#10'".#aaaaabbbbbbbbbbbbbbb##",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#adddd'
+  +'ddadddddaddddda##",'#10'".#aaaddaaaddaaaaddadda##",'#10'".#aaaddaaaddaaaadd'
+  +'adda##",'#10'".#aaaddaaaddaaaaddddda##",'#10'".#aaaddaaaddaaaaddaaaa##",'#10
+  +'".#aaaddaaaddaaaaddaaaa##",'#10'".#aaaddaaadddddaddaaaa##",'#10'".#aaaaaaaa'
+  +'aaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".####################'
+  +'###",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDTCPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDTCPSERVER[]={'#10'"24 24 9 1",'#10'"# c #00000'
+  +'0",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'"e c #41a314",'#10'". c #4212'
+  +'5c",'#10'"d c #525478",'#10'"g c #ea9ccc",'#10'"f c #ffff00",'#10'"a c #fff'
+  +'fff",'#10'"..#######...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'"'
+  +'.b#accca#aaaaaaaaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#ee'
+  +'eeeeeeeeeaabb",'#10'".b#######ffffffffffeaabb",'#10'"###aaggg###fffffffeaaa'
+  +'bb",'#10'"#aaggggggd#eeeeffeeeeebb",'#10'"#adddddddd#aaeffffffffbb",'#10'"#'
+  +'##########aefffffffffbb",'#10'".baaaaaaaaaaeeeeeeeeeebb",'#10'".baaaaaaaaaa'
+  +'aaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".ba######a#####a#####ab'
+  +'b",'#10'".baaa##aaa##aaaa##a##abb",'#10'".baaa##aaa##aaaa##a##abb",'#10'".b'
+  +'aaa##aaa##aaaa#####abb",'#10'".baaa##aaa##aaaa##aaaabb",'#10'".baaa##aaa##a'
+  +'aaa##aaaabb",'#10'".baaa##aaa#####a##aaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb'
+  +'",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..b'
+  +'bbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDTELNETSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDTELNETSERVER[]={'#10'"24 24 8 1",'#10'"# c #00'
+  +'0000",'#10'"b c #00017c",'#10'"f c #00ff00",'#10'"c c #00ffff",'#10'". c #4'
+  +'2125c",'#10'"d c #525478",'#10'"e c #ebdcd4",'#10'"a c #ffffff",'#10'"..###'
+  +'####...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaa'
+  +'aaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#eeeeeeeeeeeaabb",'
+  +#10'".b#################daabb",'#10'"###aaeee###########daabb",'#10'"#aaeeee'
+  +'eed#########daabb",'#10'"#adddddddd#f#######daabb",'#10'"##################'
+  +'#daabb",'#10'".baae#fffffffff####daabb",'#10'".baae##############daabb",'#10
+  +'".baae#ff##ff##ff#f#daabb",'#10'".baae##############daabb",'#10'".baae##ff#'
+  +'#ff##fff#daabb",'#10'".baae##############daabb",'#10'".baae##f#f#f#f#f#f#da'
+  +'abb",'#10'".baae##############daabb",'#10'".baae##############daabb",'#10'"'
+  +'.baaedddddddddddddddaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaa'
+  +'aaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbb'
+  +'b."};'#10
+]);
+LazarusResources.Add('TIDTELNET','XPM',[
+  '/* XPM */'#10'static char *TIDTELNET[]={'#10'"24 24 7 1",'#10'"c c #000000",'
+  +#10'"# c #00007b",'#10'"e c #00ff00",'#10'". c #42125c",'#10'"d c #525478",'
+  +#10'"b c #ea99bc",'#10'"a c #ffffff",'#10'"........................",'#10'".'
+  +'.#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaa'
+  +'aaaaaaaaaa##",'#10'".#aabbbbbbbbbbbbbbbbaa##",'#10'".#aabccccccccccccccdaa#'
+  +'#",'#10'".#aabceeeccccccccccdaa##",'#10'".#aabccccccccccccccdaa##",'#10'".#'
+  +'aabcceeeeecccccccdaa##",'#10'".#aabccccccccccccccdaa##",'#10'".#aabceeeeeee'
+  +'eeccccdaa##",'#10'".#aabccccccccccccccdaa##",'#10'".#aabceecceecceececdaa##'
+  +'",'#10'".#aabccccccccccccccdaa##",'#10'".#aabcceecceecceeecdaa##",'#10'".#a'
+  +'abccccccccccccccdaa##",'#10'".#aabccececececececdaa##",'#10'".#aabccccccccc'
+  +'cccccdaa##",'#10'".#aabccccccccccccccdaa##",'#10'".#aabdddddddddddddddaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".###'
+  +'####################",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDTHREADCOMPONENT','XPM',[
+  '/* XPM */'#10'static char *TIDTHREADCOMPONENT[]={'#10'"24 24 4 1",'#10'"# c '
+  +'#00007b",'#10'". c #42125c",'#10'"b c #ff00ff",'#10'"a c #ffffff",'#10'"...'
+  +'.....................",'#10'"..#####################.",'#10'".#aaaaaaaaaaaa'
+  +'aaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aa'
+  +'aaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'"bbbbbbbbbbbbbbb'
+  +'bbbbbbbbb",'#10'"bbbbbbbbbbbbbbbbbbbbbbbb",'#10'"bbbbbbbbbbbbbbbbbbbbbbbb",'
+  +#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaa'
+  +'aaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaa'
+  +'aaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10
+  +'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaa'
+  +'aaaaaaaaaaaa##",'#10'".#######################",'#10'"..###################'
+  +'##."};'#10
+]);
+LazarusResources.Add('TIDTHREADMGRDEFAULT','XPM',[
+  '/* XPM */'#10'static char *TIDTHREADMGRDEFAULT[]={'#10'"24 24 6 1",'#10'"c c'
+  +' #000000",'#10'"# c #00007b",'#10'"b c #00ffff",'#10'". c #41a314",'#10'"d '
+  +'c #edcdc8",'#10'"a c #ff0000",'#10'"........................",'#10'"..#####'
+  +'################.",'#10'".#abbabbbbbbbbbbbbabba##",'#10'".#bababbbbbbbbbbbb'
+  +'abab##",'#10'".#bbababbbbbbbbbbababb##",'#10'".#aabababbbbbbbbababaa##",'#10
+  +'".#bbabababbbbbbabababb##",'#10'".#bbcacaaccccccaacacbb##",'#10'".#bbcdaaaa'
+  +'ddddaaaadcbb##",'#10'".#bbcdddaaaddaaadddcbb##",'#10'".#bbcddddaaddaaddddcb'
+  +'b##",'#10'".#bbcddddddaaddddddcbb##",'#10'".#bbcddddddaaddddddcbb##",'#10'"'
+  +'.#bbcddddaaddaaddddcbb##",'#10'".#bbcdddaaaddaaadddcbb##",'#10'".#bbcdaaaad'
+  +'dddaaaadcbb##",'#10'".#bbcacaaccccccaacacbb##",'#10'".#bbabababbbbbbabababb'
+  +'##",'#10'".#aabababbbbbbbbababaa##",'#10'".#bbababbbbbbbbbbababb##",'#10'".'
+  +'#bababbbbbbbbbbbbabab##",'#10'".#abbabbbbbbbbbbbbabba##",'#10'".###########'
+  +'############",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDTHREADMGRPOOL','XPM',[
+  '/* XPM */'#10'static char *TIDTHREADMGRPOOL[]={'#10'"24 24 6 1",'#10'"c c #0'
+  +'00000",'#10'"# c #00007b",'#10'"b c #00ffff",'#10'". c #41a314",'#10'"a c #'
+  +'42125c",'#10'"d c #e9e8f0",'#10'"........................",'#10'"..########'
+  +'#############.",'#10'".#aaabbbbbbbbbbbbbbaaa##",'#10'".#bbbaaaabbbbbbaaaabb'
+  +'b##",'#10'".#bbbbbbbaaaaaabbbbbbb##",'#10'".#aaabbbbbbbbbbbbbbaaa##",'#10'"'
+  +'.#bbbaaaabbbbbbaaaabbb##",'#10'".#bbcccccaaaaaacccccbb##",'#10'".#aaadddddd'
+  +'ddddddddaaa##",'#10'".#bbcaaaaddddddaaaacbb##",'#10'".#bbcddddaaaaaaddddcbb'
+  +'##",'#10'".#bbcddddddddddddddcbb##",'#10'".#bbcddddddddddddddcbb##",'#10'".'
+  +'#bbcddddaaaaaaddddcbb##",'#10'".#bbcaaaaddddddaaaacbb##",'#10'".#aaaddddddd'
+  +'dddddddaaa##",'#10'".#bbcccccaaaaaacccccbb##",'#10'".#bbbaaaabbbbbbaaaabbb#'
+  +'#",'#10'".#aaabbbbbbbbbbbbbbaaa##",'#10'".#bbbbbbbaaaaaabbbbbbb##",'#10'".#'
+  +'bbbaaaabbbbbbaaaabbb##",'#10'".#aaabbbbbbbbbbbbbbaaa##",'#10'".############'
+  +'###########",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDTIMESERVER','XPM',[
+  '/* XPM */'#10'static char *TIDTIMESERVER[]={'#10'"24 24 7 1",'#10'"# c #0000'
+  +'00",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #41a314",'#10'"d c #525'
+  +'478",'#10'"e c #f19dbc",'#10'"a c #ffffff",'#10'"..#######...............",'
+  +#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accc'
+  +'a#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'#10'".b#######aaaaaaaaa'
+  +'aaaabb",'#10'"###aaeee###aaaaaaaaaaabb",'#10'"#aaeeeeeed#aaaaaaaaaaabb",'#10
+  +'"#adddddddd#aaaaaaaaaaabb",'#10'"###########aa######aaabb",'#10'".baaaaaaaa'
+  +'aa#aaaaaa#aabb",'#10'".baaaaaaaaa#aaaaaa#a#abb",'#10'".baaaaaaaa#aaaaaa#aaa'
+  +'#bb",'#10'".baaaaaaaa#aaaaa#aaaa#bb",'#10'".baaaaaaaa#aaaa#aaaaa#bb",'#10'"'
+  +'.baaaaaaaa#aaaaa#aaaa#bb",'#10'".baaaaaaaa#aaaaaa#aaa#bb",'#10'".baaaaaaaa#'
+  +'aaaaaaaaaa#bb",'#10'".baaaaaaaaa#aaaaaaaa#abb",'#10'".baaaaaaaaaa#aaaaaa#aa'
+  +'bb",'#10'".baaaaaaaaaaa######aaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".'
+  +'bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDTIMEUDPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDTIMEUDPSERVER[]={'#10'"24 24 8 1",'#10'"# c #0'
+  +'00000",'#10'"b c #00007b",'#10'"f c #0000ff",'#10'"c c #00ffff",'#10'". c #'
+  +'41a314",'#10'"d c #525478",'#10'"e c #f185e4",'#10'"a c #ffffff",'#10'"..##'
+  +'#####...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaa'
+  +'aaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'
+  +#10'".b#######aaaaaaaaaaaaabb",'#10'"###aaeee###aaaaaaaaaaabb",'#10'"#aaeeee'
+  +'eed#aaaaaaaaaaabb",'#10'"#adddddddd#aaaaaaaaaaabb",'#10'"###########aa#####'
+  +'#aaabb",'#10'".baaaaaaaaaa#aaaaaa#aabb",'#10'".baaaaaaaaa#aaaaaa#a#abb",'#10
+  +'".baaaaaaaa#aaaaaa#aaa#bb",'#10'".baaaaaaaa#aaaaa#aaaa#bb",'#10'".faaaafaaf'
+  +'fffaa#afffffbb",'#10'".faaaafaaf#aafaa#faaa#fb",'#10'".faaaafaaf#aaafaafaaa'
+  +'#fb",'#10'".faaaafaaf#aaafaafaaa#fb",'#10'".faaaafaafa#aafaafffffbb",'#10'"'
+  +'.faaaafaafaa#afaafa#aabb",'#10'".faaaafaafaaa#f##f#aaabb",'#10'".faaaafaafa'
+  +'aafaaafaaaabb",'#10'".bffffbbbffffbbbbfbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbb'
+  +'b."};'#10
+]);
+LazarusResources.Add('TIDTIMEUDP','XPM',[
+  '/* XPM */'#10'static char *TIDTIMEUDP[]={'#10'"24 24 5 1",'#10'"b c #000000"'
+  +','#10'"# c #00007b",'#10'"c c #0000ff",'#10'". c #41a314",'#10'"a c #ffffff'
+  +'",'#10'"........................",'#10'"..#####################.",'#10'".#a'
+  +'aaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaa'
+  +'aaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aa'
+  +'aaaaaaaaabbbbbbaaa##",'#10'".#aaaaaaaaaabaaaaaabaa##",'#10'".#aaaaaaaaabaaa'
+  +'aaababa##",'#10'".#aaaaaaaabaaaaaabaaab##",'#10'".#aaaaaaaabaaaaabaaaab##",'
+  +#10'".caaaacaaccccaabaccccc##",'#10'".caaaacaacbaacaabcaaabc#",'#10'".caaaac'
+  +'aacbaaacaacaaabc#",'#10'".caaaacaacbaaacaacaaabc#",'#10'".caaaacaacabaacaac'
+  +'cccc##",'#10'".caaaacaacaabacaacabaa##",'#10'".caaaacaacaaabcbbcbaaa##",'#10
+  +'".caaaacaacaaacaaacaaaa##",'#10'".#cccc###cccc####c######",'#10'"..########'
+  +'#############."};'#10
+]);
+LazarusResources.Add('TIDTIME','XPM',[
+  '/* XPM */'#10'static char *TIDTIME[]={'#10'"24 24 4 1",'#10'"b c #000000",'
+  +#10'"# c #00017c",'#10'". c #41a314",'#10'"a c #ffffff",'#10'"..............'
+  +'..........",'#10'"..#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aa'
+  +'aaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaa'
+  +'aaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaabbbbbbaaa##",'
+  +#10'".#aaaaaaaaaabaaaaaabaa##",'#10'".#aaaaaaaaabaaaaaababa##",'#10'".#aaaaa'
+  +'aaabaaaaaabaaab##",'#10'".#aaaaaaaabaaaaabaaaab##",'#10'".#aaaaaaaabaaaabaa'
+  +'aaab##",'#10'".#aaaaaaaabaaaaabaaaab##",'#10'".#aaaaaaaabaaaaaabaaab##",'#10
+  +'".#aaaaaaaabaaaaaaaaaab##",'#10'".#aaaaaaaaabaaaaaaaaba##",'#10'".#aaaaaaaa'
+  +'aabaaaaaabaa##",'#10'".#aaaaaaaaaaabbbbbbaaa##",'#10'".#aaaaaaaaaaaaaaaaaaa'
+  +'a##",'#10'".#######################",'#10'"..#####################."};'#10
+]);
+LazarusResources.Add('TIDTRIVIALFTPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDTRIVIALFTPSERVER[]={'#10'"24 24 6 1",'#10'"# c'
+  +' #000000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #42125c",'#10'"d '
+  +'c #525478",'#10'"a c #ffffff",'#10'"..#######...............",'#10'"..#aaaa'
+  +'a#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accca#aaaaaaaaa'
+  +'aaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'#10'".b#######aaaaaaaaaaaaabb",'#10
+  +'"###aaaaa###aaaaaaaaaaabb",'#10'"#aaaaaaaad#aaaaaaaaaaabb",'#10'"#adddddddd'
+  +'#aaaaaaaaaaabb",'#10'"###########aaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaa'
+  +'abb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'"'
+  +'.b####a####a####a####abb",'#10'".ba##aa##aaaa##aa##a##bb",'#10'".ba##aa###a'
+  +'aa##aa####abb",'#10'".ba##aa##aaaa##aa##aaabb",'#10'".ba##aa##aaaa##aa##aaa'
+  +'bb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".'
+  +'baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".bbbbbbbbbbb'
+  +'bbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDTRIVIALFTP','XPM',[
+  '/* XPM */'#10'static char *TIDTRIVIALFTP[]={'#10'"24 24 4 1",'#10'"b c #0000'
+  +'00",'#10'"# c #00007b",'#10'". c #42125c",'#10'"a c #ffffff",'#10'"........'
+  +'................",'#10'"..#####################.",'#10'".#aaaaaaaaaaaaaaaaa'
+  +'aaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10
+  +'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaa'
+  +'aaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaa'
+  +'a##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'"'
+  +'.#aaaaaaaaaaaaaaaaaaaa##",'#10'".#bbbbabbbbabbbbabbbba##",'#10'".#abbaabbaa'
+  +'aabbaabbabb##",'#10'".#abbaabbbaaabbaabbbba##",'#10'".#abbaabbaaaabbaabbaaa'
+  +'##",'#10'".#abbaabbaaaabbaabbaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".'
+  +'#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaa'
+  +'aaaaaaaaaa##",'#10'".#######################",'#10'"..#####################'
+  +'."};'#10
+]);
+LazarusResources.Add('TIDTUNNELMASTER','XPM',[
+  '/* XPM */'#10'static char *TIDTUNNELMASTER[]={'#10'"24 24 7 1",'#10'"# c #00'
+  +'0000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #41a314",'#10'"d c #5'
+  +'25478",'#10'"e c #f19dd0",'#10'"a c #ffffff",'#10'"..#######...............'
+  +'",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaa..bb",'#10'".b#'
+  +'accca#aaaaaaaaaa...bb",'#10'".b#adddd#aaaaaaaaa...abb",'#10'".b#######aaaaa'
+  +'aaa...aabb",'#10'"###aaeee###aaaaa...aaabb",'#10'"#aaeeeeeed#aaaa...aaaabb"'
+  +','#10'"#adddddddd#aaa...aaaaabb",'#10'"###########aa...aaaaaabb",'#10'".baa'
+  +'aaaaaaaa...aaaaaaabb",'#10'".b............aaaaaaaabb",'#10'".b............a'
+  +'aaaaaaabb",'#10'".baaaaaaaaaa...aaaaaaabb",'#10'".baaaaaaaaaaa...aaaaaabb",'
+  +#10'".baaaaaaaaaaaa...aaaaabb",'#10'".baaaaaaaaaaaaa...aaaabb",'#10'".baaaaa'
+  +'aaaaaaaaa...aaabb",'#10'".baaaaaaaaaaaaaaa...aabb",'#10'".baaaaaaaaaaaaaaaa'
+  +'...abb",'#10'".baaaaaaaaaaaaaaaaa...bb",'#10'".baaaaaaaaaaaaaaaaaa..bb",'#10
+  +'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDTUNNELSLAVE','XPM',[
+  '/* XPM */'#10'static char *TIDTUNNELSLAVE[]={'#10'"24 24 6 1",'#10'"# c #000'
+  +'000",'#10'"b c #00007b",'#10'"c c #00ffff",'#10'". c #41a314",'#10'"d c #52'
+  +'5478",'#10'"a c #ffffff",'#10'"..#######...............",'#10'"..#aaaaa#bbb'
+  +'bbbbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaab'
+  +'b",'#10'".b#adddd#aaaaaaaaaaaaabb",'#10'".b#######aaaaaaaaaaaaabb",'#10'"##'
+  +'#aaaaa###aaaaaaaaaaabb",'#10'"#aaaaaaaad#aaaaaaaaaaabb",'#10'"#adddddddd#aa'
+  +'aaaaaaaaabb",'#10'"###########aaaaaaaaaaabb",'#10'".baaaaaaa...aaaaaaaaaabb'
+  +'",'#10'".baaaaaaaa............bb",'#10'".baaaaaaaa............bb",'#10'".ba'
+  +'aaaaaa...aaaaaaaaaabb",'#10'".baaaaaa...aaaaaaaaaaabb",'#10'".baaaaa...aaaa'
+  +'aaaaaaaabb",'#10'".baaaa...aaaaaaaaaaaaabb",'#10'".baaa...aaaaaaaaaaaaaabb"'
+  +','#10'".baa...aaaaaaaaaaaaaaabb",'#10'".ba...aaaaaaaaaaaaaaaabb",'#10'".b..'
+  +'.aaaaaaaaaaaaaaaaabb",'#10'".b..aaaaaaaaaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbb'
+  +'bbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDUDPCLIENT','XPM',[
+  '/* XPM */'#10'static char *TIDUDPCLIENT[]={'#10'"24 24 5 1",'#10'"c c #00000'
+  +'0",'#10'"# c #000084",'#10'"b c #41a198",'#10'". c #41a314",'#10'"a c #ffff'
+  +'ff",'#10'"........................",'#10'"..#####################.",'#10'".'
+  +'#aaaaaaaaaaaaaaaaaaaa##",'#10'".#bbbbbbbbbbbbbbbaaaaa##",'#10'".#aaaaaaaaaa'
+  +'aaaabaaaaa##",'#10'".#aaaaaaaaaaaaabaaaaaa##",'#10'".#bbbbbbbbbaaabaaaaaaa#'
+  +'#",'#10'".#aaaaaaabaaabbbbbbbbb##",'#10'".#aaaaaabaaaaaaaaaaaaa##",'#10'".#'
+  +'aaaaabaaaaaaaaaaaaaa##",'#10'".#aaaaabbbbbbbbbbbbbbb##",'#10'".#aaaaaaaaaaa'
+  +'aaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#accaaccaccccaaccccca##'
+  +'",'#10'".#accaaccaccaccaccacca##",'#10'".#accaaccaccaccaccacca##",'#10'".#a'
+  +'ccaaccaccaccaccccca##",'#10'".#accaaccaccaccaccaaaa##",'#10'".#accaaccaccac'
+  +'caccaaaa##",'#10'".#aaccccaaccccaaccaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#######################",'#10'"..##'
+  +'###################."};'#10
+]);
+LazarusResources.Add('TIDUDPSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDUDPSERVER[]={'#10'"24 24 6 1",'#10'"# c #00000'
+  +'0",'#10'"b c #00017c",'#10'"c c #00ffff",'#10'". c #41a314",'#10'"d c #5254'
+  +'78",'#10'"a c #ffffff",'#10'"..#######...............",'#10'"..#aaaaa#bbbbb'
+  +'bbbbbbbbb.",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb"'
+  +','#10'".b#adddd#dddddddddddaabb",'#10'".b#######aaaaaaaaaadaabb",'#10'"###a'
+  +'aaaa###aaaaaaadaaabb",'#10'"#aaaaaaaad#ddddaadddddbb",'#10'"#adddddddd#aada'
+  +'aaaaaaabb",'#10'"###########adaaaaaaaaabb",'#10'".baaaaaaaaaaddddddddddbb",'
+  +#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".ba##aa'
+  +'##a####aa#####abb",'#10'".ba##aa##a##a##a##a##abb",'#10'".ba##aa##a##a##a##'
+  +'a##abb",'#10'".ba##aa##a##a##a#####abb",'#10'".ba##aa##a##a##a##aaaabb",'#10
+  +'".ba##aa##a##a##a##aaaabb",'#10'".baa####aa####aa##aaaabb",'#10'".baaaaaaaa'
+  +'aaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbb'
+  +'bbb",'#10'"..bbbbbbbbbbbbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDUSERMANAGER','XPM',[
+  '/* XPM */'#10'static char *TIDUSERMANAGER[]={'#10'"24 24 2 1",'#10'"# c #ff0'
+  +'000",'#10'". c #ffffff",'#10'"........................",'#10'".............'
+  +'...........",'#10'"........................",'#10'"......############......'
+  +'",'#10'"......############......",'#10'"......############......",'#10'"...'
+  +'...############......",'#10'"......############......",'#10'"......########'
+  +'####......",'#10'"......############......",'#10'"......############......"'
+  +','#10'"......############......",'#10'"......############......",'#10'"....'
+  +'..############......",'#10'"......############......",'#10'"......#########'
+  +'###......",'#10'"......############......",'#10'"........................",'
+  +#10'"........................",'#10'"......############......",'#10'"......#'
+  +'###########......",'#10'"......############......",'#10'"..................'
+  +'......",'#10'"........................"};'#10
+]);
+LazarusResources.Add('TIDVCARD','XPM',[
+  '/* XPM */'#10'static char *TIDVCARD[]={'#10'"24 24 13 1",'#10'"g c #000000",'
+  +#10'". c #0000ff",'#10'"b c #00017c",'#10'"h c #41a314",'#10'"j c #41a988",'
+  +#10'"k c #42125c",'#10'"d c #525478",'#10'"f c #850005",'#10'"a c #ea6eac",'
+  +#10'"e c #ff0000",'#10'"i c #ff00ff",'#10'"# c #ffff00",'#10'"c c #ffffff",'
+  +#10'".............#a....a....",'#10'"..bbbbbb#aabbaaabbaabbb.",'#10'".bccccc'
+  +'caaaccadacceaccb#",'#10'".bccaaccc##cccccccaccad#",'#10'".bcca#acccacccadaf'
+  +'acc#ea",'#10'".bccca#accccadacccddccbb",'#10'"aadaccccccddccccggcccgdb",'#10
+  +'"aa#ecccccdgccccddacacaba",'#10'".b#ecccagcccgcccccgcccdh",'#10'".bcccadacc'
+  +'dgacccggccagge",'#10'".bcchfccdccadcccaccagghd",'#10'".bdgcccggaccgcccccagf'
+  +'eea",'#10'".bdgacgggggagcccccgfeeib",'#10'".bahgdcccdgggaccdgfeiaab",'#10'"'
+  +'.bcafgdccccagacggfeiacbb",'#10'".bciefgdccccccggddaaccbb",'#10'".bcaiefgacc'
+  +'cagfeeiacccbb",'#10'".bcaddefgdcagfeeacccccbb",'#10'".bcccdeefgjgkeaaaccccc'
+  +'bb",'#10'".bccccaeefgkedicccccccbb",'#10'".bccccaaeeeiaaccccccccbb",'#10'".'
+  +'bcccccaieeeacccccccccbb",'#10'".bbbbbbbaieabbbbbbbbbbbb",'#10'"..bbbbbbbaaa'
+  +'bbbbbbbbbbb."};'#10
+]);
+LazarusResources.Add('TIDWHOISSERVER','XPM',[
+  '/* XPM */'#10'static char *TIDWHOISSERVER[]={'#10'"24 24 8 1",'#10'"# c #000'
+  +'000",'#10'"b c #000080",'#10'"c c #00ffff",'#10'". c #808000",'#10'"d c #80'
+  +'8080",'#10'"e c #c0c0c0",'#10'"f c #ff00ff",'#10'"a c #ffffff",'#10'"..####'
+  +'###...............",'#10'"..#aaaaa#bbbbbbbbbbbbbb.",'#10'".b#accca#aaaaaaaa'
+  +'aaaaabb",'#10'".b#accca#aaaaaaaaaaaaabb",'#10'".b#adddd#aaaaaaaaaaaaabb",'
+  +#10'".b#######aaaaaaaaaaaaabb",'#10'"###aaeee###aaaaaaaaaaabb",'#10'"#aaeeee'
+  +'eed#fffaaaaaaaabb",'#10'"#adddddddd#ffffaaaaaaabb",'#10'"###########afffaaa'
+  +'aaaabb",'#10'".baaaaaaaaaafffaaaaaaabb",'#10'".baaaaaaaaafffaaaaaaaabb",'#10
+  +'".baaaaaaaafffaaaaaaaaabb",'#10'".baaaaaaaafffaaaaaaaaabb",'#10'".baaaaaaaa'
+  +'aaaaaaaaaaaabb",'#10'".baaaaaaaafffaaaaaaaaabb",'#10'".baaaaaaaafffaaaaaaaa'
+  +'abb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'"'
+  +'.baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaaaaaaaaaaaaabb",'#10'".baaaaaaaaa'
+  +'aaaaaaaaaaabb",'#10'".bbbbbbbbbbbbbbbbbbbbbbb",'#10'"..bbbbbbbbbbbbbbbbbbbb'
+  +'b."};'#10
+]);
+LazarusResources.Add('TIDWHOIS','XPM',[
+  '/* XPM */'#10'static char *TIDWHOIS[]={'#10'"24 24 4 1",'#10'"# c #00007b",'
+  +#10'". c #41a314",'#10'"b c #ff00ff",'#10'"a c #ffffff",'#10'"..............'
+  +'..........",'#10'"..#####################.",'#10'".#aaaaaaaaaaaaaaaaaaaa##"'
+  +','#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aa'
+  +'aaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaabbbbba'
+  +'aaaaaaa##",'#10'".#aaaaaabbbbbbbaaaaaaa##",'#10'".#aaaaaabbaabbbaaaaaaa##",'
+  +#10'".#aaaaaaaaaabbbaaaaaaa##",'#10'".#aaaaaaaaabbbaaaaaaaa##",'#10'".#aaaaa'
+  +'aaabbbaaaaaaaaa##",'#10'".#aaaaaaaabbbaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaa'
+  +'aaaa##",'#10'".#aaaaaaaabbbaaaaaaaaa##",'#10'".#aaaaaaaabbbaaaaaaaaa##",'#10
+  +'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaa'
+  +'aaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaaa##",'#10'".#aaaaaaaaaaaaaaaaaaa'
+  +'a##",'#10'".#######################",'#10'"..#####################."};'#10
+]);

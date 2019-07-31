@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="5"/>
+    <General>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <ActiveEditorIndexAtStart Value="1"/>
+    </General>
+    <Units Count="2">
+      <Unit0>
+        <CursorPos X="1" Y="26"/>
+        <EditorIndex Value="0"/>
+        <Filename Value="DNS_R.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <Loaded Value="True"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <CursorPos X="31" Y="101"/>
+        <EditorIndex Value="1"/>
+        <Filename Value="dnsr_main.pas"/>
+        <ComponentName Value="DNS_Main"/>
+        <HasResources Value="True"/>
+        <Loaded Value="True"/>
+        <ResourceFilename Value="dnsr_main.lrs"/>
+        <TopLine Value="76"/>
+        <UnitName Value="DNSR_Main"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+    </Units>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="DNS_R.dpr"/>
+        <Caret Line="20" Column="7" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DNS_R.dpr"/>
+        <Caret Line="28" Column="1" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="dnsr_main.pas"/>
+        <Caret Line="147" Column="15" TopLine="116"/>
+      </Position3>
+      <Position4>
+        <Filename Value="dnsr_main.pas"/>
+        <Caret Line="47" Column="61" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="dnsr_main.pas"/>
+        <Caret Line="169" Column="1" TopLine="123"/>
+      </Position5>
+      <Position6>
+        <Filename Value="DNS_R.dpr"/>
+        <Caret Line="22" Column="1" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="DNS_R.dpr"/>
+        <Caret Line="26" Column="1" TopLine="1"/>
+      </Position7>
+      <Position8>
+        <Filename Value="dnsr_main.pas"/>
+        <Caret Line="82" Column="1" TopLine="47"/>
+      </Position8>
+      <Position9>
+        <Filename Value="dnsr_main.pas"/>
+        <Caret Line="282" Column="4" TopLine="237"/>
+      </Position9>
+      <Position10>
+        <Filename Value="dnsr_main.pas"/>
+        <Caret Line="101" Column="33" TopLine="76"/>
+      </Position10>
+      <Position11>
+        <Filename Value="dnsr_main.pas"/>
+        <Caret Line="272" Column="61" TopLine="237"/>
+      </Position11>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="d:\indy9\indy9libsrc\"/>
+      <OtherUnitFiles Value="d:\indy9\indy9libsrc\"/>
+      <SrcPath Value="$(LazarusDir)\lcl\;$(LazarusDir)\lcl\interfaces\$(LCLWidgetType)\"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <D2Extensions Value="False"/>
+        <DelphiCompat Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

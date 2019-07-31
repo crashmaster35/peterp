@@ -1,0 +1,93 @@
+object Form1: TForm1
+  Left = 337
+  Height = 444
+  Top = 225
+  Width = 400
+  Caption = 'LazClock'
+  ClientHeight = 444
+  ClientWidth = 400
+  OnCreate = FormCreate
+  LCLVersion = '0.9.31'
+  object Notebook: TNotebook
+    Left = 0
+    Height = 400
+    Top = 44
+    Width = 400
+    PageIndex = 1
+    Align = alBottom
+    TabOrder = 0
+    TabStop = True
+    object Page1: TPage
+    end
+    object pageCronometer: TPage
+      object btnStart: TButton
+        Left = 24
+        Height = 25
+        Top = 68
+        Width = 75
+        Caption = 'Start'
+        OnClick = btnStartClick
+        TabOrder = 0
+      end
+      object btnStop: TButton
+        Left = 24
+        Height = 25
+        Top = 100
+        Width = 75
+        Caption = 'Stop'
+        OnClick = btnStopClick
+        TabOrder = 1
+      end
+      object btnReset: TButton
+        Left = 24
+        Height = 25
+        Top = 132
+        Width = 75
+        Caption = 'Reset'
+        OnClick = btnResetClick
+        TabOrder = 2
+      end
+      object labelCronometer: TLabel
+        Left = 8
+        Height = 65
+        Top = -4
+        Width = 319
+        Caption = '00:00:00:000'
+        Font.Height = -53
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+  end
+  object btnCronometer: TButton
+    Tag = 1
+    Left = 88
+    Height = 25
+    Top = 11
+    Width = 75
+    Caption = 'Cronometer'
+    OnClick = HandleChangePage
+    TabOrder = 1
+  end
+  object btnClock: TButton
+    Left = 8
+    Height = 25
+    Top = 11
+    Width = 75
+    Caption = 'Clock'
+    OnClick = HandleChangePage
+    TabOrder = 2
+  end
+  object timerClock: TTimer
+    OnTimer = timerClockTimer
+    left = 312
+    top = 110
+  end
+  object timerCronometer: TTimer
+    Enabled = False
+    Interval = 20
+    OnTimer = timerCronometerTimer
+    left = 312
+    top = 161
+  end
+end

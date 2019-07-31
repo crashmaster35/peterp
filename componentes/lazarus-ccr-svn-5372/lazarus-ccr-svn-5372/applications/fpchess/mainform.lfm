@@ -1,0 +1,321 @@
+object formChess: TformChess
+  Left = 318
+  Height = 500
+  Top = 123
+  Width = 360
+  ActiveControl = notebookMain
+  Caption = 'FP Chess 0.6'
+  ClientHeight = 500
+  ClientWidth = 360
+  OnCreate = FormCreate
+  LCLVersion = '0.9.31'
+  object notebookMain: TNotebook
+    Left = 0
+    Height = 500
+    Top = 0
+    Width = 360
+    PageIndex = 0
+    Align = alClient
+    TabOrder = 0
+    TabStop = True
+    object pageStart: TPage
+      ClientWidth = 360
+      ClientHeight = 500
+      object Label1: TLabel
+        Left = 0
+        Height = 32
+        Top = 8
+        Width = 360
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Welcome to FP Chess 0.6'
+        Font.Height = -19
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label2: TLabel
+        Left = 8
+        Height = 40
+        Top = 40
+        Width = 352
+        AutoSize = False
+        Caption = 'Please choose what kind of game you would like to play:'
+        ParentColor = False
+        WordWrap = True
+      end
+      object Label6: TLabel
+        Left = 28
+        Height = 14
+        Top = 128
+        Width = 43
+        Caption = 'Start as:'
+        ParentColor = False
+      end
+      object Label7: TLabel
+        Left = 80
+        Height = 14
+        Top = 175
+        Width = 114
+        Caption = 'minutes for each player'
+        ParentColor = False
+      end
+      object btnQuit: TBitBtn
+        Left = 24
+        Height = 30
+        Top = 456
+        Width = 304
+        Caption = 'Quit'
+        OnClick = btnQuitClick
+        TabOrder = 0
+      end
+      object editPlayerName: TLabeledEdit
+        Left = 88
+        Height = 21
+        Top = 104
+        Width = 120
+        EditLabel.AnchorSideLeft.Control = editPlayerName
+        EditLabel.AnchorSideTop.Control = editPlayerName
+        EditLabel.AnchorSideTop.Side = asrCenter
+        EditLabel.AnchorSideRight.Control = editPlayerName
+        EditLabel.AnchorSideBottom.Control = editPlayerName
+        EditLabel.Left = 24
+        EditLabel.Height = 14
+        EditLabel.Top = 107
+        EditLabel.Width = 61
+        EditLabel.Caption = 'Player Name'
+        EditLabel.ParentColor = False
+        LabelPosition = lpLeft
+        TabOrder = 1
+      end
+      object comboStartColor: TComboBox
+        Left = 88
+        Height = 21
+        Top = 128
+        Width = 120
+        ItemHeight = 13
+        ItemIndex = 0
+        Items.Strings = (
+          'White'
+          'Black'
+        )
+        TabOrder = 2
+        Text = 'White'
+      end
+      object checkTimer: TCheckBox
+        Left = 24
+        Height = 17
+        Top = 152
+        Width = 163
+        Caption = 'Set a time limit for each Player'
+        Checked = True
+        State = cbChecked
+        TabOrder = 3
+      end
+      object spinPlayerTime: TSpinEdit
+        Left = 21
+        Height = 21
+        Top = 176
+        Width = 50
+        TabOrder = 4
+        Value = 30
+      end
+      object comboGameMode: TComboBox
+        Left = 8
+        Height = 21
+        Top = 74
+        Width = 346
+        ItemHeight = 13
+        OnChange = comboGameModeSelect
+        OnSelect = comboGameModeSelect
+        TabOrder = 5
+        Text = 'comboGameMode'
+      end
+      object panelModules: TPanel
+        Left = 8
+        Height = 177
+        Top = 232
+        Width = 344
+        BevelOuter = bvNone
+        TabOrder = 6
+      end
+      object editLocalIP: TLabeledEdit
+        Left = 120
+        Height = 21
+        Top = 200
+        Width = 120
+        EditLabel.AnchorSideLeft.Control = editLocalIP
+        EditLabel.AnchorSideTop.Control = editLocalIP
+        EditLabel.AnchorSideTop.Side = asrCenter
+        EditLabel.AnchorSideRight.Control = editLocalIP
+        EditLabel.AnchorSideBottom.Control = editLocalIP
+        EditLabel.Left = 35
+        EditLabel.Height = 14
+        EditLabel.Top = 203
+        EditLabel.Width = 82
+        EditLabel.Caption = 'Your IP Address:'
+        EditLabel.ParentColor = False
+        LabelPosition = lpLeft
+        ReadOnly = True
+        TabOrder = 7
+      end
+      object btnStartGame: TBitBtn
+        Left = 24
+        Height = 30
+        Top = 416
+        Width = 304
+        Caption = 'Start game'
+        OnClick = btnStartGameClick
+        TabOrder = 8
+      end
+    end
+    object pageGame: TPage
+      ClientWidth = 2880
+      ClientHeight = 4000
+      object labelPos: TLabel
+        Left = 8
+        Height = 18
+        Top = 376
+        Width = 54
+        Caption = 'labelPos'
+        ParentColor = False
+      end
+      object labelTime: TLabel
+        Left = 8
+        Height = 18
+        Top = 408
+        Width = 62
+        Caption = 'labelTime'
+        ParentColor = False
+      end
+      object memoDebug: TMemo
+        AnchorSideRight.Control = pageGame
+        AnchorSideRight.Side = asrBottom
+        AnchorSideBottom.Control = pageGame
+        AnchorSideBottom.Side = asrBottom
+        Left = 8
+        Height = 71
+        Top = 424
+        Width = 347
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        BorderSpacing.Right = 5
+        BorderSpacing.Bottom = 5
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
+      object btnResign: TBitBtn
+        Left = 176
+        Height = 30
+        Top = 8
+        Width = 88
+        Caption = 'Resign'
+        TabOrder = 1
+      end
+      object btnQuitGame: TBitBtn
+        Left = 272
+        Height = 30
+        Top = 8
+        Width = 75
+        Caption = 'Quit'
+        OnClick = btnQuitGameClick
+        TabOrder = 2
+      end
+      object btnGameNewGame: TBitBtn
+        Left = 80
+        Height = 30
+        Top = 8
+        Width = 88
+        Caption = 'New Game'
+        OnClick = btnGameNewGameClick
+        TabOrder = 3
+      end
+      object labelMode: TLabel
+        Left = 8
+        Height = 18
+        Top = 392
+        Width = 66
+        Caption = 'labelMode'
+        ParentColor = False
+      end
+    end
+    object pageWebservice: TPage
+      ClientWidth = 46080
+      ClientHeight = 55424
+      object Label8: TLabel
+        Left = 0
+        Height = 32
+        Top = 8
+        Width = 360
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Playing through the Chess Webservice'
+        Font.Height = -19
+        ParentColor = False
+        ParentFont = False
+      end
+      object editWebserviceURL: TLabeledEdit
+        Left = 72
+        Height = 22
+        Top = 72
+        Width = 280
+        EditLabel.AnchorSideLeft.Control = editPlayerName
+        EditLabel.AnchorSideTop.Control = editPlayerName
+        EditLabel.AnchorSideTop.Side = asrCenter
+        EditLabel.AnchorSideRight.Control = editPlayerName
+        EditLabel.AnchorSideBottom.Control = editPlayerName
+        EditLabel.Left = -6822
+        EditLabel.Height = 17
+        EditLabel.Top = 75
+        EditLabel.Width = 79
+        EditLabel.Caption = 'Player Name'
+        EditLabel.ParentColor = False
+        LabelPosition = lpLeft
+        TabOrder = 2
+        Text = 'http://www.bobswart.nl/cgi-bin/ChessISAPIServer.dll/wsdl/IDelphiChess'
+      end
+      object btnPlayAgainstAI: TButton
+        Left = 64
+        Height = 25
+        Top = 160
+        Width = 224
+        Caption = 'Start game'
+        TabOrder = 0
+      end
+      object Label9: TLabel
+        Left = 8
+        Height = 30
+        Top = 40
+        Width = 352
+        AutoSize = False
+        Caption = 'The artificial intelligence is obtained from the Borland Chess WebService.'
+        ParentColor = False
+        WordWrap = True
+      end
+      object editWebServiceAI: TLabeledEdit
+        Left = 8
+        Height = 22
+        Top = 96
+        Width = 344
+        EditLabel.AnchorSideLeft.Control = editWebServiceAI
+        EditLabel.AnchorSideTop.Control = editWebServiceAI
+        EditLabel.AnchorSideTop.Side = asrCenter
+        EditLabel.AnchorSideRight.Control = editWebServiceAI
+        EditLabel.AnchorSideBottom.Control = editWebServiceAI
+        EditLabel.Left = 8
+        EditLabel.Height = 17
+        EditLabel.Top = 76
+        EditLabel.Width = 104
+        EditLabel.Caption = 'Web Service URL'
+        EditLabel.ParentColor = False
+        TabOrder = 1
+        Text = 'http://www.bobswart.nl/cgi-bin/ChessISAPIServer.dll/wsdl/IDelphiChess'
+      end
+    end
+  end
+  object timerChessTimer: TTimer
+    Enabled = False
+    Interval = 50
+    OnTimer = timerChessTimerTimer
+    left = 296
+    top = 152
+  end
+end

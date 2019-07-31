@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="5"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+      <ActiveEditorIndexAtStart Value="1"/>
+    </General>
+    <Units Count="5">
+      <Unit0>
+        <CursorPos X="1" Y="25"/>
+        <EditorIndex Value="0"/>
+        <Filename Value="Server.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <Loaded Value="True"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <CursorPos X="31" Y="94"/>
+        <EditorIndex Value="1"/>
+        <Filename Value="fmain.pas"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <Loaded Value="True"/>
+        <ResourceFilename Value="fmain.lrs"/>
+        <TopLine Value="74"/>
+        <UnitName Value="fMain"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+      <Unit2>
+        <CursorPos X="1" Y="1"/>
+        <EditorIndex Value="4"/>
+        <Filename Value="fmain.lfm"/>
+        <Loaded Value="True"/>
+        <SyntaxHighlighter Value="LFM"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <CursorPos X="23" Y="221"/>
+        <EditorIndex Value="2"/>
+        <Filename Value="D:\indy9\indy9libsrc\IdTCPServer.pas"/>
+        <Loaded Value="True"/>
+        <TopLine Value="198"/>
+        <UnitName Value="IdTCPServer"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <CursorPos X="16" Y="102"/>
+        <EditorIndex Value="3"/>
+        <Filename Value="D:\indy9\indy9libsrc\IdSocketHandle.pas"/>
+        <Loaded Value="True"/>
+        <TopLine Value="93"/>
+        <UnitName Value="IdSocketHandle"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+    </Units>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <JumpHistory Count="6" HistoryIndex="5">
+      <Position1>
+        <Filename Value="D:\indy9\indy9libsrc\IdTCPServer.pas"/>
+        <Caret Line="221" Column="23" TopLine="198"/>
+      </Position1>
+      <Position2>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="43" Column="45" TopLine="20"/>
+      </Position2>
+      <Position3>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="93" Column="20" TopLine="70"/>
+      </Position3>
+      <Position4>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="97" Column="31" TopLine="70"/>
+      </Position4>
+      <Position5>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="96" Column="48" TopLine="73"/>
+      </Position5>
+      <Position6>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="97" Column="23" TopLine="74"/>
+      </Position6>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="d:\indy9\indy9libsrc\"/>
+      <OtherUnitFiles Value="d:\indy9\indy9libsrc\"/>
+      <SrcPath Value="$(LazarusDir)\lcl\;$(LazarusDir)\lcl\interfaces\$(LCLWidgetType)\"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <D2Extensions Value="False"/>
+        <DelphiCompat Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Source Value="D:\indy9\indy9\done\idmessage.pas"/>
+        <Line Value="56"/>
+      </Item1>
+    </BreakPoints>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

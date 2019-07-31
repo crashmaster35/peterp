@@ -1,0 +1,172 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmMain','FORMDATA',[
+  'TPF0'#8'TfrmMain'#7'frmMain'#13'ActiveControl'#7#9'TabSheet3'#7'Caption'#6#18
+  +'Indy Server - Demo'#12'ClientHeight'#3'K'#1#11'ClientWidth'#3'&'#2#21'Const'
+  +'raints.MinHeight'#3'K'#1#20'Constraints.MinWidth'#3'&'#2#11'Font.Height'#2
+  +#245#9'Font.Name'#6#13'MS Sans Serif'#9'Icon.Data'#10'B'#1#0#0'>'#1#0#0#0#0#1
+  +#0#1#0#16#16#16#0#0#0#0#0'('#1#0#0#22#0#0#0'('#0#0#0#16#0#0#0' '#0#0#0#1#0#4
+  +#0#0#0#0#0#192#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#128#0#0#128
+  +#0#0#0#128#128#0#128#0#0#0#128#0#128#0#128#128#0#0#128#128#128#0#192#192#192
+  +#0#0#0#255#0#0#255#0#0#0#255#255#0#255#0#0#0#255#0#255#0#255#255#0#0#255#255
+  +#255#0#0#0#0#0#0#0#0#0#15#255#240#221#221#15#255#240#0#0#0#221#221#0#0#0#0
+  +#204#0#13#208#0#204#0#0#0#0#13#208#0#0#0#0#0#0#13#208#0#0#0#0#0#0#13#208#0#0
+  +#0#15#255#240#221#221#15#255#240#0#0#0#221#221#0#0#0#0#204#0#13#208#0#204#0#0
+  +#0#0#13#208#0#0#0#0#0#0#0#0#0#0#0#0#0#0#255#255#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#14#224#0#0#0#0#0#0#0#0#0#0#0#3#192#0#0#0#0#0#0#0#0#0#0#134'a'#0#0#134'a'#0#0
+  +#254''#0#0#2'@'#0#0#0#0#0#0#0#0#0#0#134'a'#0#0#134'a'#0#0#248#31#0#0#248#31
+  +#0#0#248#31#0#0#252'?'#0#0#252'?'#0#0#7'OnClose'#7#9'FormClose'#8'OnCreate'#7
+  +#10'FormCreate'#13'PixelsPerInch'#2'`'#8'Position'#7#15'poDesktopCenter'#8'S'
+  +'howHint'#9#10'TextHeight'#2#13#18'HorzScrollBar.Page'#3'%'#2#18'VertScrollB'
+  +'ar.Page'#3'J'#1#4'Left'#3#6#1#6'Height'#3'K'#1#3'Top'#3#165#0#5'Width'#3'&'
+  +#2#0#10'TStatusBar'#10'StatusBar1'#6'Panels'#14#0#6'Height'#2#20#3'Top'#3'7'
+  +#1#5'Width'#3'&'#2#0#0#6'TPanel'#6'Panel1'#5'Align'#7#6'alLeft'#7'Caption'#6
+  +#6'Panel1'#12'ClientHeight'#3'7'#1#11'ClientWidth'#3#153#0#11'FullRepaint'#8
+  +#8'TabOrder'#2#0#6'Height'#3'7'#1#5'Width'#3#153#0#0#6'TPanel'#6'Panel2'#5'A'
+  +'lign'#7#5'alTop'#9'Alignment'#7#13'taLeftJustify'#10'BevelOuter'#7#9'bvLowe'
+  +'red'#7'Caption'#6#19' Client Connections'#12'ClientHeight'#2#16#11'ClientWi'
+  +'dth'#3#151#0#11'FullRepaint'#8#8'TabOrder'#2#0#4'Left'#2#1#6'Height'#2#16#3
+  +'Top'#2#29#5'Width'#3#151#0#0#0#8'TListBox'#9'lbClients'#5'Align'#7#8'alClie'
+  +'nt'#10'ItemHeight'#2#13#7'OnClick'#7#14'lbClientsClick'#8'TabOrder'#2#1#4'L'
+  +'eft'#2#1#6'Height'#3#9#1#4'Hint'#6'3All currently active clients names are '
+  +'listed here.'#3'Top'#2'-'#5'Width'#3#151#0#0#0#8'TToolBar'#8'ToolBar1'#8'Au'
+  +'toSize'#9#12'ButtonHeight'#2#26#11'ButtonWidth'#2#31#7'Caption'#6#8'ToolBar'
+  +'1'#11'EdgeBorders'#11#8'ebBottom'#0#4'Flat'#9#6'Height'#2#28#6'Images'#7#10
+  +'ImageList1'#6'Indent'#2#8#11'ParentColor'#9#8'TabOrder'#2#2#4'Left'#2#1#6'H'
+  +'eight'#2#28#3'Top'#2#1#5'Width'#3#151#0#0#11'TToolButton'#11'btnServerUp'#7
+  +'Caption'#6#11'btnServerUp'#10'ImageIndex'#2#0#5'Style'#7#8'tbsCheck'#7'OnCl'
+  +'ick'#7#16'btnServerUpClick'#4'Left'#2#8#6'Height'#2#26#4'Hint'#6#15'Start u'
+  +'p server'#5'Width'#2#31#0#0#11'TToolButton'#11'ToolButton1'#7'Caption'#6#11
+  +'ToolButton1'#10'ImageIndex'#2#1#5'Style'#7#12'tbsSeparator'#5'Width'#2#8#4
+  +'Left'#2''''#6'Height'#2#26#5'Width'#2#8#0#0#11'TToolButton'#10'btnClients'#7
+  +'Caption'#6#10'btnClients'#7'Enabled'#8#10'ImageIndex'#2#3#7'OnClick'#7#15'b'
+  +'tnClientsClick'#4'Left'#2'/'#6'Height'#2#26#4'Hint'#6#19'Refresh Client Lis'
+  +'t'#5'Width'#2#31#0#0#11'TToolButton'#13'btnKillClient'#7'Caption'#6#13'btnK'
+  +'illClient'#7'Enabled'#8#10'ImageIndex'#2#2#7'OnClick'#7#18'btnKillClientCli'
+  +'ck'#4'Left'#2'N'#6'Height'#2#26#4'Hint'#6#17'Disconnect Client'#5'Width'#2
+  +#31#0#0#11'TToolButton'#5'btnPM'#7'Caption'#6#5'btnPM'#7'Enabled'#8#10'Image'
+  +'Index'#2#4#7'OnClick'#7#10'btnPMClick'#4'Left'#2'm'#6'Height'#2#26#4'Hint'#6
+  +#22'Private Message Client'#5'Width'#2#31#0#0#0#0#12'TPageControl'#12'PageCo'
+  +'ntrol1'#10'ActivePage'#7#9'TabSheet3'#5'Align'#7#8'alClient'#8'TabIndex'#2#0
+  +#8'TabOrder'#2#1#4'Left'#3#153#0#6'Height'#3'7'#1#5'Width'#3#141#1#0#9'TTabS'
+  +'heet'#9'TabSheet3'#7'Caption'#6#18'Server Information'#12'ClientHeight'#3#29
+  +#1#11'ClientWidth'#3#133#1#10'ImageIndex'#2#2#6'Height'#3#29#1#5'Width'#3#133
+  +#1#0#6'TLabel'#6'Label3'#7'Caption'#6#10'Local DNS:'#5'Color'#7#6'clNone'#4
+  +'Left'#2#8#6'Height'#2#13#3'Top'#2#8#5'Width'#2'7'#0#0#6'TLabel'#6'lblDNS'#7
+  +'Caption'#6#9'LocalHost'#5'Color'#7#6'clNone'#4'Left'#2'@'#6'Height'#2#13#3
+  +'Top'#2#8#5'Width'#2'0'#0#0#6'TLabel'#12'lblSocketVer'#7'Anchors'#11#7'akRig'
+  +'ht'#0#7'Caption'#6#12'lblSocketVer'#5'Color'#7#6'clNone'#4'Left'#3'J'#1#6'H'
+  +'eight'#2#13#3'Top'#3#136#0#5'Width'#2'<'#0#0#6'TLabel'#6'Label5'#7'Anchors'
+  +#11#7'akRight'#0#7'Caption'#6#15'Socket Version:'#5'Color'#7#6'clNone'#4'Lef'
+  +'t'#3#255#0#6'Height'#2#13#3'Top'#3#136#0#5'Width'#2'K'#0#0#6'TLabel'#6'Labe'
+  +'l4'#7'Caption'#6#14'Resident Port:'#5'Color'#7#6'clNone'#4'Left'#2#8#6'Heig'
+  +'ht'#2#13#3'Top'#2'$'#5'Width'#2'C'#0#0#6'TLabel'#6'Label6'#7'Caption'#6#21
+  +'Inital entry message:'#5'Color'#7#6'clNone'#4'Left'#2#8#6'Height'#2#13#3'To'
+  +'p'#2'@'#5'Width'#2'`'#0#0#6'TLabel'#6'Label7'#7'Caption'#6#7'E-Motes'#5'Col'
+  +'or'#7#6'clNone'#4'Left'#2#8#6'Height'#2#13#3'Top'#3#160#0#5'Width'#2''''#0#0
+  +#6'TLabel'#7'Label12'#7'Caption'#6#10'Syop Name:'#5'Color'#7#6'clNone'#4'Lef'
+  ,'t'#3#168#0#6'Height'#2#13#3'Top'#2'$'#5'Width'#2':'#0#0#9'TSpinEdit'#9'seBi'
+  +'nding'#8'MaxValue'#5#0#0#0#0#0#240'#'#244#18'@'#8'MinValue'#5#0#0#0#0#0#0#0
+  +#224#1'@'#8'OnChange'#7#15'seBindingChange'#8'TabOrder'#2#0#5'Value'#5#0#0#0
+  +#0#0#0#0#184#3'@'#4'Left'#2'P'#6'Height'#2#22#4'Hint'#12'&'#1#0#0'Sets the p'
+  +'ort that the server will be running on.'#13#10'(The port will be bound by t'
+  +'he system, so make'#13#10' sure that it isn''t allredi in use by another pr'
+  +'ogram)'#13#10'Some example ports are:'#13#10'  007 - Echo'#13#10'  023 - Te'
+  +'lnet'#13#10'  025 - SMTP Mail'#13#10'  079 - Finger'#13#10'  080 - HTTP'#13
+  +#10'  119 - NNTP News'#13#10'  517 - Talk'#13#10'  '#3'Top'#2' '#5'Width'#2
+  +'A'#0#0#5'TMemo'#8'memEntry'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#10
+  +'ScrollBars'#7#6'ssBoth'#8'TabOrder'#2#1#8'WordWrap'#8#4'Left'#2#16#6'Height'
+  +#2'I'#4'Hint'#6#130'This is the message that the user will see when they fir'
+  +'st log into the server.'#13#10'(This is after they have entered their user '
+  +'name)'#3'Top'#2'P'#5'Width'#3'i'#1#0#0#5'TMemo'#9'memEMotes'#7'Anchors'#11#5
+  +'akTop'#6'akLeft'#7'akRight'#8'akBottom'#0#8'TabOrder'#2#2#4'Left'#2#16#6'He'
+  +'ight'#2'M'#4'Hint'#12#3#1#0#0'These are simple Emotion Replacments that you'
+  +' can add to.  The format is as follows:'#13#10'<EMOTE>=<REPLACE TEXT>'#13#10
+  +'for example:'#13#10'/grin=%s grins.'#13#10'so if someone named Garry types '
+  +'/grin everyone else will see: Garry grins.'#13#10'%s will be replaced with '
+  +'the senders name.'#3'Top'#3#176#0#5'Width'#3'i'#1#0#0#5'TEdit'#10'edSyopNam'
+  +'e'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8'TabOrder'#2#3#4'Text'#6#5
+  +'Sysop'#4'Left'#3#232#0#6'Height'#2#21#4'Hint'#6'sThis is the name that will'
+  +' apear when you send a message.'#13#10'(This name cannot be changed while t'
+  +'he server is online)'#3'Top'#2' '#5'Width'#3#145#0#0#0#0#9'TTabSheet'#9'Tab'
+  +'Sheet2'#7'Caption'#6#18'Client Information'#12'ClientHeight'#3#29#1#11'Clie'
+  +'ntWidth'#3#133#1#10'ImageIndex'#2#1#6'Height'#3#29#1#5'Width'#3#133#1#0#6'T'
+  +'Label'#6'Label8'#7'Caption'#6#12'Client Name:'#5'Color'#7#6'clNone'#4'Left'
+  +#2#3#6'Height'#2#13#3'Top'#2#3#5'Width'#2'<'#0#0#6'TLabel'#6'Label9'#7'Capti'
+  +'on'#6#11'Client DNS:'#5'Color'#7#6'clNone'#4'Left'#2#8#6'Height'#2#13#3'Top'
+  +#2#24#5'Width'#2'7'#0#0#6'TLabel'#13'lblClientName'#7'Caption'#6#13'None Sel'
+  +'ected'#5'Color'#7#6'clNone'#4'Left'#2'@'#6'Height'#2#13#3'Top'#2#3#5'Width'
+  +#2'G'#0#0#6'TLabel'#12'lblClientDNS'#7'Caption'#6#13'None Selected'#5'Color'
+  +#7#6'clNone'#4'Left'#2'@'#6'Height'#2#13#3'Top'#2#24#5'Width'#2'G'#0#0#0#0#10
+  +'TImageList'#10'ImageList1'#6'Height'#2#20#5'Width'#2#20#4'left'#3#240#1#3't'
+  +'op'#2#8#6'Bitmap'#10#129#14#0#0'li'#6#0#0#0#20#0#0#0#20#0#0#0']'#2#0#0'/* X'
+  +'PM */'#10'static char *graphic[] = {'#10'"20 20 5 1",'#10'". c #000000",'#10
+  +'", c #FFFFFF",'#10'"- c #FFFF00",'#10'"* c #C6C6C6",'#10'"a c #848484",'#10
+  +'"....................",'#10'".................,..",'#10'"....-.-...,,,...,*'
+  +'a.",'#10'"...-*--.,,aa**.,*a..",'#10'"..-*---a.a....,*a...",'#10'"...------'
+  +'.-*.,*a....",'#10'"..-.a-----*.,*a.....",'#10'"....,.-*-*-.*a..*a..",'#10'"'
+  +'...,*.*-*-......,a..",'#10'"...,a.-.-.......,a..",'#10'"..,a...........,a..'
+  +'.",'#10'"..,a..........,*a...",'#10'"..**..,*.....,*a....",'#10'"...*.,*a..'
+  +'..,*a.....",'#10'"....,*a....,*a......",'#10'"...,*a....,*a.......",'#10'".'
+  +'.,*a.aa,,aa........",'#10'".,*a....aa..........",'#10'"..a.................'
+  +'",'#10'"...................."}'#10'N'#2#0#0'/* XPM */'#10'static char *grap'
+  +'hic[] = {'#10'"20 20 4 1",'#10'". c #000000",'#10'", c #FFFFFF",'#10'"- c #'
+  +'C6C6C6",'#10'"* c #848484",'#10'"....................",'#10'"..............'
+  +'...,..",'#10'"..........,,,...,-*.",'#10'"........,,**--.,-*..",'#10'".....'
+  +'..,-*....,-*...",'#10'"......,-*....,-*....",'#10'".....,-*....,-*.....",'
+  +#10'"....,-*.....-*..-*..",'#10'"...,**..........,*..",'#10'"...,*..........'
+  +'.,*..",'#10'"..,*...........,*...",'#10'"..,*..........,-*...",'#10'"..--..'
+  +',-.....,-*....",'#10'"...-.,-*....,-*.....",'#10'"....,-*....,-*......",'#10
+  +'"...,-*....,-*.......",'#10'"..,-*.**,,**........",'#10'".,-*....**........'
+  +'..",'#10'"..*.................",'#10'"...................."}'#10'{'#2#0#0'/'
+  +'* XPM */'#10'static char *graphic[] = {'#10'"20 20 7 1",'#10'". c #000000",'
+  +#10'", c #FFFF00",'#10'"- c #C6C6C6",'#10'"* c #FFFFFF",'#10'"a c #848484",'
+  +#10'"b c #0000FF",'#10'"c c #FF0000",'#10'"....................",'#10'".....'
+  +'............,..",'#10'"...............,,..-",'#10'".............,,,..-.",'
+  +#10'"............,,,..-..",'#10'"....*******..,,,..-.",'#10'"....*.....*.,,,'
+  +'..a..",'#10'"....*.bbb..,,...a...",'#10'"....*.bbb.,,..a-....",'#10'"....*.'
+  +'...,..a-......",'#10'"....****..a.........",'#10'"....................",'#10
+  +'"....................",'#10'".*************......",'#10'".*c********.......'
+  +'..",'#10'".**-.......-**......",'#10'"....*******.........",'#10'"...*.*.*.'
+  +'*.*........",'#10'"..***********.......",'#10'"...................."}'#10'l'
+  ,#2#0#0'/* XPM */'#10'static char *graphic[] = {'#10'"20 20 6 1",'#10'". c #0'
+  +'00000",'#10'", c #FF0000",'#10'"- c #840000",'#10'"* c #FFFFFF",'#10'"a c #'
+  +'0000FF",'#10'"b c #C6C6C6",'#10'"....................",'#10'".......,,,,,,.'
+  +'......",'#10'"....,,,,,,,,,,,-....",'#10'"....,,.........-....",'#10'"...,,'
+  +'-.*******.,-...",'#10'"..,,-..*.....*.,,-..",'#10'"..,-...*.aaa.*..,,--",'
+  +#10'",,-....*.aaa.*...,,-",'#10'",,-....*.....*...,,-",'#10'",,-....*******.'
+  +'..,,-",'#10'",,-..............,,-",'#10'",,-..............,,-",'#10'",,-.**'
+  +'***********,,-",'#10'",,-.*,******,*...,,-",'#10'"..,.**b.....,,b*,,--",'#10
+  +'"..,....*****,,,,,-..",'#10'"...--.*.*.*.,,,,-...",'#10'".....*******,,,,,.'
+  +'..",'#10'"............,,,,,,..",'#10'"............------.."}'#10'l'#2#0#0'/'
+  +'* XPM */'#10'static char *graphic[] = {'#10'"20 20 6 1",'#10'". c #000000",'
+  +#10'", c #000084",'#10'"- c #FFFFFF",'#10'"* c #0000FF",'#10'"a c #FF0000",'
+  +#10'"b c #C6C6C6",'#10'"............,,,,,,..",'#10'"...........,------,.",'
+  +#10'"..........,-.-...--,",'#10'"..........,--------,",'#10'"..........,-...'
+  +'-.-.,",'#10'"....------,--------,",'#10'"....-.....,-.-.-..-,",'#10'"....-.'
+  +'***.-,------,.",'#10'"....-.***.-.,,,,,,..",'#10'"....-.....-.........",'#10
+  +'"....-------.........",'#10'"....................",'#10'"..................'
+  +'..",'#10'".-------------......",'#10'".-a--------.........",'#10'".--b.....'
+  +'..b--......",'#10'"....-------.........",'#10'"...-.-.-.-.-........",'#10'"'
+  +'..-----------.......",'#10'"...................."}'#10']'#2#0#0'/* XPM */'
+  +#10'static char *graphic[] = {'#10'"20 20 5 1",'#10'". c #000000",'#10'", c '
+  +'#C6C6C6",'#10'"- c #FFFFFF",'#10'"* c #FF0000",'#10'"a c #0000FF",'#10'"...'
+  +'.................",'#10'"....................",'#10'"....................",'
+  +#10'"...,.,.,.,..........",'#10'"..,-,-,-,-,.........",'#10'"...,-,-,-,.....'
+  +'.....",'#10'"..,-,-,-............",'#10'"...,-,-,.****.......",'#10'"..,-,-'
+  +',-.****.-.....",'#10'"...,-,-,.*aa*.......",'#10'"..,-,-,-.*******....",'#10
+  +'"...,-,-,.*aaaaa*....",'#10'"..,-,-,-.*******....",'#10'"...,.,.,.*aaaaa*..'
+  +'..",'#10'".........*******....",'#10'"....................",'#10'".........'
+  +'...........",'#10'"....................",'#10'"....................",'#10'"'
+  +'...................."}'#10#0#0#10'TPopupMenu'#10'puMemoMenu'#4'left'#3#245#1
+  +#3'top'#2'd'#0#9'TMenuItem'#11'Savetofile1'#7'Caption'#6#12'Save to file'#7
+  +'OnClick'#7#16'Savetofile1Click'#0#0#9'TMenuItem'#13'Loadfromfile1'#7'Captio'
+  +'n'#6#14'Load from file'#7'OnClick'#7#18'Loadfromfile1Click'#0#0#0#11'TOpenD'
+  +'ialog'#11'OpenDialog1'#5'Title'#6#18'Open existing file'#10'DefaultExt'#6#4
+  +'.txt'#6'Filter'#6'/Text Files (*.txt)|*.txt|All Files    (*.*)|*.*'#11'Filt'
+  +'erIndex'#2#0#10'InitialDir'#6#15'c:\My Documents'#5'Title'#6#18'Open existi'
+  +'ng file'#4'left'#2#8#3'top'#2'T'#0#0#11'TSaveDialog'#11'SaveDialog1'#5'Titl'
+  +'e'#6#12'Save file as'#10'DefaultExt'#6#4'.txt'#6'Filter'#6'/Text Files (*.t'
+  +'xt)|*.txt|All Files    (*.*)|*.*'#11'FilterIndex'#2#0#10'InitialDir'#6#15'c'
+  +':\My Documents'#5'Title'#6#12'Save file as'#4'left'#2'('#3'top'#2'T'#0#0#0
+]);

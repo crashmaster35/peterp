@@ -1,0 +1,100 @@
+object frmTelnetDemo: TfrmTelnetDemo
+  BorderStyle = bsDialog
+  Caption = 'Telnet Demo'
+  ClientHeight = 342
+  ClientWidth = 480
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  HorzScrollBar.Page = 479
+  VertScrollBar.Page = 341
+  Left = 420
+  Height = 342
+  Top = 209
+  Width = 480
+  object lblServer: TLabel
+    Caption = '&Server:'
+    Color = clNone
+    FocusControl = edtServer
+    Left = 16
+    Height = 13
+    Top = 6
+    Width = 34
+  end
+  object lblPort: TLabel
+    Caption = '&Port'
+    Color = clNone
+    FocusControl = spnedtPort
+    Left = 248
+    Height = 13
+    Top = 6
+    Width = 19
+  end
+  object Label1: TLabel
+    Caption = 'Send command'
+    Color = clNone
+    Left = 12
+    Height = 13
+    Top = 84
+    Width = 74
+  end
+  object edtServer: TEdit
+    TabOrder = 0
+    Left = 56
+    Height = 21
+    Top = 6
+    Width = 161
+  end
+  object spnedtPort: TSpinEdit
+    MaxValue = 65535
+    MinValue = 1
+    TabOrder = 1
+    Value = 23
+    Left = 272
+    Height = 22
+    Top = 5
+    Width = 57
+  end
+  object btnConnect: TButton
+    Caption = '&Connect'
+    OnClick = btnConnectClick
+    TabOrder = 2
+    Left = 56
+    Height = 25
+    Top = 40
+    Width = 75
+  end
+  object btnDisconnect: TButton
+    Caption = '&Disconnect'
+    OnClick = btnDisconnectClick
+    TabOrder = 3
+    Left = 144
+    Height = 25
+    Top = 40
+    Width = 75
+  end
+  object sbrStatus: TStatusBar
+    Panels = <>
+    Height = 20
+    Top = 322
+    Width = 480
+  end
+  object edtSendCommand: TEdit
+    OnKeyPress = edtSendCommandKeyPress
+    TabOrder = 4
+    Left = 92
+    Height = 21
+    Top = 80
+    Width = 313
+  end
+  object Memo1: TMemo
+    BorderSpacing.OnChange = nil
+    TabOrder = 5
+    Left = 53
+    Height = 166
+    Top = 138
+    Width = 379
+  end
+end

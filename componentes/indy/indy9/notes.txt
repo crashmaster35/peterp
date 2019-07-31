@@ -1,0 +1,64 @@
+
+Directory layout
+----------------
+
+source		- basic Indy source
+demo		- basic indy demoes
+units		- dir to store compiled units (not used)
+lazarus		- designtime stuff
+docs		- readme's and license info that came with indy9 snapshot
+delphibuild	- dpk's and other Delphi build system related stuff.
+delphizlib	- Some .objs that implement zlib. FPC will use paszlib or own zlib.
+utils		- Indy has two utils lspfix and computil. Workaround Delphi bugs mostly
+
+
+FPC/lazarus version info
+------------------------
+
+At the moment of writing, you want a development snapshot as recent as possible. Most
+changes required to compile indy without mods were only included in early september.
+
+
+General changes that I'd like to have migrated back into Indy9:
+---------------------------------------------------------------
+
+- balance comments above interface section. Mostly these are the
+        lines added by CVS $Log: $.
+        We had the same problem with FPC; fix all occurances now,
+        and make sure $Log is on an otherwise empty line without {}'s,
+        and it will be ok in the future.
+- put {$i idcompilerdefines.inc} after interface keyword and in every demo after program xx;
+    This will avoid having to specify a lot of defines. Maybe it is better to have a separate
+	include for main programs than for units.
+- idcompilerdefines.inc:
+            - added an entry for FPC based on D7 entry
+	     - ifndefed fpc ifdef linux entry. More work to do for *nix.
+
+
+Unix related that need fixes
+----------------------------
+- about 71 ifdef linux occurances that will have to be fixed.
+	- split into linux-kylix (unit libc using), and unix-generic (towards FPC's own libs)
+
+
+Indy related fixes relative to FPC 2.0:
+---------------------------
+
+(SVN revisions: 1051 1034 1030 1029 1028 1016)
+
+- tregistry.create(permissions), fixed FPC side (2.0.1 sept 2th)
+- tregistry.readstring threw exception on non existing keys. Apparantly
+        Delphi implementation only nils the string.
+- gettempfile also exists in a cleaned up (OS dependant) version in
+        sysutils. Fixed by prefixing Windows. Michael made a more permanent
+        fix by adding an correctly overloaded one to sysutils
+- getsyslocale references syslocale which is not 100% compat. Solved
+        by always returning cs88591 $ifdef fpc for now.
+        (added missing fields to 2.0.1, inited to lang_eng etc for now)
+
+idcookie:
+- tmrews missing. Added naieve implementation based on
+           one criticalsection to syncobjs while Jonas investigates
+           a good implementation.
+
+

@@ -1,0 +1,1041 @@
+#
+# Declaration of classes:
+# [ClassName] Parent Interface1 Interface2
+# declarations of fields, contructors, methods, consts, etc
+#
+# For Classes which are only used through a global object:
+# %ClassName%ObjectName% Parent Interface1 Interface2
+#
+# For Interfaces:
+# {InterfaceName} Parent1 Parent2 Parent3
+#
+# For Callback types
+# type DialogInterface.OnClickListener = void onClick(DialogInterface dialog, int which)
+#
+#
+#
+#[MenuItem] TJavaObject
+#classcallback MenuItem.OnMenuItemClickListener boolean onMenuItemClick (MenuItem item)
+#method MenuItem setOnMenuItemClickListener (MenuItem.OnMenuItemClickListener menuItemClickListener)
+#
+#[Menu] TJavaObject
+#method MenuItem 	add(int groupId, int itemId, int order, CharSequence title)
+
+#
+# android.util.*
+#
+[DisplayMetrics] TJavaObject
+# all methods added
+const DENSITY_DEFAULT = $000000a0;
+const DENSITY_HIGH = $000000f0;
+const DENSITY_LOW = $00000078;
+const DENSITY_MEDIUM = $000000a0;
+const DENSITY_TV = $000000d5;
+const DENSITY_XHIGH = $00000140;
+constructor Create(); override;
+field float density
+field int densityDpi
+field int heightPixels
+field float scaledDensity
+field int widthPixels
+field float xdpi
+field float ydpi
+#void 	setTo(DisplayMetrics o)
+#void 	setToDefaults()
+#String 	toString()
+
+#
+# android.content.*
+#
+{DialogInterface}
+# all methods added
+#interface	DialogInterface.OnCancelListener	Interface used to allow the creator of a dialog to run some code when the dialog is canceled.
+type DialogInterface.OnClickListener = void onClick(DialogInterface dialog, int which)
+#interface	DialogInterface.OnDismissListener	Interface used to allow the creator of a dialog to run some code when the dialog is dismissed.
+#interface	DialogInterface.OnKeyListener	Interface definition for a callback to be invoked when a key event is dispatched to this dialog.
+#interface	DialogInterface.OnMultiChoiceClickListener	Interface used to allow the creator of a dialog to run some code when an item in a multi-choice dialog is clicked.
+#interface	DialogInterface.OnShowListener	Interface used to allow the creator of a dialog to run some code when the dialog is shown.
+const BUTTON_NEGATIVE = -2;//$fffffffe;
+const BUTTON_NEUTRAL = -3;//$fffffffd;
+const BUTTON_POSITIVE = -1;//$ffffffff;
+#abstract void 	cancel()
+#abstract void 	dismiss()
+
+#
+# android.app.*
+#
+%Activity%activity% TJavaObject
+method void setTitle(CharSequence title)
+method CharSequence getTitle()
+
+[Display] TJavaObject
+# all methods added
+const DEFAULT_DISPLAY = 0;
+#public int getDisplayId ()
+#public int getHeight ()
+method void getMetrics(DisplayMetrics outMetrics)
+#public int getOrientation ()
+#public int getPixelFormat ()
+#public void getRectSize (Rect outSize)
+#public float getRefreshRate ()
+#public int getRotation ()
+#public void getSize (Point outSize)
+#public int getWidth ()
+
+[WindowManager] TJavaObject
+# all methods added, but it should be an interface, check this latter
+method Display getDefaultDisplay()
+#abstract void 	removeViewImmediate(View view)
+
+[Dialog] TJavaObject
+# all methods added
+#Dialog(Context context)
+#	Dialog(Context context, int theme)
+#void 	addContentView(View view, ViewGroup.LayoutParams params)
+#void 	cancel()
+#void 	closeOptionsMenu()
+#void 	dismiss()
+#boolean 	dispatchGenericMotionEvent(MotionEvent ev)
+#boolean 	dispatchKeyEvent(KeyEvent event)
+#boolean 	dispatchKeyShortcutEvent(KeyEvent event)
+#boolean 	dispatchPopulateAccessibilityEvent(AccessibilityEvent event)
+#boolean 	dispatchTouchEvent(MotionEvent ev)
+#boolean 	dispatchTrackballEvent(MotionEvent ev)
+#View 	findViewById(int id)
+#ActionBar 	getActionBar()
+#final Context 	getContext()
+#View 	getCurrentFocus()
+#LayoutInflater 	getLayoutInflater()
+#final Activity 	getOwnerActivity()
+#final int 	getVolumeControlStream()
+#Window 	getWindow()
+#void 	hide()
+#void 	invalidateOptionsMenu()
+#boolean 	isShowing()
+#void 	onActionModeFinished(ActionMode mode)
+#void 	onActionModeStarted(ActionMode mode)
+#void 	onAttachedToWindow()
+#void 	onBackPressed()
+#void 	onContentChanged()
+#boolean 	onContextItemSelected(MenuItem item)
+#void 	onContextMenuClosed(Menu menu)
+#void 	onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo)
+#boolean 	onCreateOptionsMenu(Menu menu)
+#boolean 	onCreatePanelMenu(int featureId, Menu menu)
+#View 	onCreatePanelView(int featureId)
+#void 	onDetachedFromWindow()
+#boolean 	onGenericMotionEvent(MotionEvent event)
+#boolean 	onKeyDown(int keyCode, KeyEvent event)
+#boolean 	onKeyLongPress(int keyCode, KeyEvent event)
+#boolean 	onKeyMultiple(int keyCode, int repeatCount, KeyEvent event)
+#boolean 	onKeyShortcut(int keyCode, KeyEvent event)
+#boolean 	onKeyUp(int keyCode, KeyEvent event)
+#boolean 	onMenuItemSelected(int featureId, MenuItem item)
+#boolean 	onMenuOpened(int featureId, Menu menu)
+#boolean 	onOptionsItemSelected(MenuItem item)
+#void 	onOptionsMenuClosed(Menu menu)
+#void 	onPanelClosed(int featureId, Menu menu)
+#boolean 	onPrepareOptionsMenu(Menu menu)
+#boolean 	onPreparePanel(int featureId, View view, Menu menu)
+#void 	onRestoreInstanceState(Bundle savedInstanceState)
+#Bundle 	onSaveInstanceState()
+#boolean 	onSearchRequested()
+#boolean 	onTouchEvent(MotionEvent event)
+#boolean 	onTrackballEvent(MotionEvent event)
+#void 	onWindowAttributesChanged(WindowManager.LayoutParams params)
+#void 	onWindowFocusChanged(boolean hasFocus)
+#ActionMode 	onWindowStartingActionMode(ActionMode.Callback callback)
+#void 	openContextMenu(View view)
+#void 	openOptionsMenu()
+#void 	registerForContextMenu(View view)
+#final boolean 	requestWindowFeature(int featureId)
+#void 	setCancelMessage(Message msg)
+#void 	setCancelable(boolean flag)
+#void 	setCanceledOnTouchOutside(boolean cancel)
+#void 	setContentView(View view)
+#void 	setContentView(int layoutResID)
+#void 	setContentView(View view, ViewGroup.LayoutParams params)
+#void 	setDismissMessage(Message msg)
+#final void 	setFeatureDrawable(int featureId, Drawable drawable)
+#final void 	setFeatureDrawableAlpha(int featureId, int alpha)
+#final void 	setFeatureDrawableResource(int featureId, int resId)
+#final void 	setFeatureDrawableUri(int featureId, Uri uri)
+#void 	setOnCancelListener(DialogInterface.OnCancelListener listener)
+#void 	setOnDismissListener(DialogInterface.OnDismissListener listener)
+#void 	setOnKeyListener(DialogInterface.OnKeyListener onKeyListener)
+#void 	setOnShowListener(DialogInterface.OnShowListener listener)
+#final void 	setOwnerActivity(Activity activity)
+#void 	setTitle(int titleId)
+#void 	setTitle(CharSequence title)
+#final void 	setVolumeControlStream(int streamType)
+method void show()
+#void 	takeKeyEvents(boolean get)
+#void 	unregisterForContextMenu(View view)
+
+[AlertDialog] Dialog
+# all methods added
+const THEME_HOLO_DARK = $00000002;
+const THEME_HOLO_LIGHT = $00000003;
+const THEME_TRADITIONAL = $00000001;
+#AlertDialog(Context context)
+#	AlertDialog(Context context, int theme)
+#	AlertDialog(Context context, boolean cancelable, DialogInterface.OnCancelListener cancelListener)
+# Button 	getButton(int whichButton)
+# ListView 	getListView()
+# boolean 	onKeyDown(int keyCode, KeyEvent event)
+# boolean 	onKeyUp(int keyCode, KeyEvent event)
+# void 	setButton(CharSequence text, Message msg)
+callbacksetter void 	setButton(int whichButton, CharSequence text, $DialogInterface.OnClickListener listener)
+# void 	setButton(CharSequence text, DialogInterface.OnClickListener listener)
+# void 	setButton(int whichButton, CharSequence text, Message msg)
+# void 	setButton2(CharSequence text, DialogInterface.OnClickListener listener)
+# void 	setButton2(CharSequence text, Message msg)
+# void 	setButton3(CharSequence text, DialogInterface.OnClickListener listener)
+# void 	setButton3(CharSequence text, Message msg)
+# void 	setCustomTitle(View customTitleView)
+#void 	setIcon(Drawable icon)
+#void 	setIcon(int resId)
+#void 	setIconAttribute(int attrId)
+# void 	setInverseBackgroundForced(boolean forceInverseBackground)
+method void setMessage(CharSequence message)
+method void setTitle(CharSequence title)
+#void 	setView(View view, int viewSpacingLeft, int viewSpacingTop, int viewSpacingRight, int viewSpacingBottom)
+method void setView(View view)
+
+[AlertDialog.Builder] TJavaObject
+# all methods added
+constructor Create(Activity); override;
+# AlertDialog.Builder(Context context, int theme)
+method AlertDialog create ()
+#public Context getContext ()
+#public AlertDialog.Builder setAdapter (ListAdapter adapter, DialogInterface.OnClickListener listener)
+#public AlertDialog.Builder setCancelable (boolean cancelable)
+#public AlertDialog.Builder setCursor (Cursor cursor, DialogInterface.OnClickListener listener, String labelColumn)
+#public AlertDialog.Builder setCustomTitle (View customTitleView)
+#public AlertDialog.Builder setIcon (Drawable icon)
+#public AlertDialog.Builder setIcon (int iconId)
+#public AlertDialog.Builder setIconAttribute (int attrId)
+#public AlertDialog.Builder setInverseBackgroundForced (boolean useInverseBackground)
+#public AlertDialog.Builder setItems (int itemsId, DialogInterface.OnClickListener listener)
+#public AlertDialog.Builder setItems (CharSequence[] items, DialogInterface.OnClickListener listener)
+method AlertDialog.Builder setMessage (CharSequence message)
+#public AlertDialog.Builder setMessage (int messageId)
+#public AlertDialog.Builder setMultiChoiceItems (CharSequence[] items, boolean[] checkedItems, DialogInterface.OnMultiChoiceClickListener listener)
+#public AlertDialog.Builder setMultiChoiceItems (Cursor cursor, String isCheckedColumn, String labelColumn, DialogInterface.OnMultiChoiceClickListener listener)
+#public AlertDialog.Builder setNegativeButton (CharSequence text, DialogInterface.OnClickListener listener)
+#public AlertDialog.Builder setNeutralButton (int textId, DialogInterface.OnClickListener listener)
+#public AlertDialog.Builder setNeutralButton (CharSequence text, DialogInterface.OnClickListener listener)
+#public AlertDialog.Builder setOnCancelListener (DialogInterface.OnCancelListener onCancelListener)
+#public AlertDialog.Builder setOnItemSelectedListener (AdapterView.OnItemSelectedListener listener)
+#public AlertDialog.Builder setOnKeyListener (DialogInterface.OnKeyListener onKeyListener)
+#public AlertDialog.Builder setPositiveButton (int textId, DialogInterface.OnClickListener listener)
+#public AlertDialog.Builder setPositiveButton (CharSequence text, DialogInterface.OnClickListener listener)
+#callbacksetter AlertDialog.Builder setPositiveButton (CharSequence text, $DialogInterface.OnClickListener listener)
+#public AlertDialog.Builder setSingleChoiceItems (CharSequence[] items, int checkedItem, DialogInterface.OnClickListener listener)
+#public AlertDialog.Builder setSingleChoiceItems (ListAdapter adapter, int checkedItem, DialogInterface.OnClickListener listener)
+#public AlertDialog.Builder setSingleChoiceItems (int itemsId, int checkedItem, DialogInterface.OnClickListener listener)
+#public AlertDialog.Builder setSingleChoiceItems (Cursor cursor, int checkedItem, String labelColumn, DialogInterface.OnClickListener listener)
+method AlertDialog.Builder setTitle (CharSequence title)
+#public AlertDialog.Builder setTitle (int titleId)
+method AlertDialog.Builder setView (View view)
+method AlertDialog show ()
+
+#
+# android.view
+#
+[ViewGroup.LayoutParams] TJavaObject
+# all methods added
+const FILL_PARENT = -1;//$FFFFFFFF;
+const MATCH_PARENT = -1;//$FFFFFFFF;
+const WRAP_CONTENT = -2;//$FFFFFFFE;
+#public int	height	Information about how tall the view wants to be.
+#public LayoutAnimationController.AnimationParameters	layoutAnimationParameters	Used to animate layouts.
+#public int	width	Information about how wide the view wants to be.
+#ViewGroup.LayoutParams(Context c, AttributeSet attrs)
+constructor Create(int width, int height);
+#ViewGroup.LayoutParams(ViewGroup.LayoutParams source)
+
+[View] TJavaObject
+# all methods added
+const DRAWING_CACHE_QUALITY_AUTO = 0;
+const DRAWING_CACHE_QUALITY_HIGH = $00100000;
+const DRAWING_CACHE_QUALITY_LOW = $00080000;
+const FOCUSABLES_ALL = $00000000;
+const FOCUSABLES_TOUCH_MODE = 1;
+const FOCUS_BACKWARD = 1;
+const FOCUS_DOWN = $00000082;
+const FOCUS_FORWARD = 2;
+const FOCUS_LEFT = $00000011;
+const FOCUS_RIGHT = $00000042;
+const FOCUS_UP = $00000021;
+const GONE = 8;
+const HAPTIC_FEEDBACK_ENABLED = $10000000;
+const INVISIBLE = 4;
+const KEEP_SCREEN_ON = $04000000;
+const LAYER_TYPE_HARDWARE = 2;
+const LAYER_TYPE_NONE = 0;
+const LAYER_TYPE_SOFTWARE = 1;
+const MEASURED_HEIGHT_STATE_SHIFT = $00000010;
+const MEASURED_SIZE_MASK = $00ffffff;
+const MEASURED_STATE_MASK = $ff000000;
+const MEASURED_STATE_TOO_SMALL = $01000000;
+const NO_ID = -1;//$ffffffff;
+const OVER_SCROLL_ALWAYS = 0;
+const OVER_SCROLL_IF_CONTENT_SCROLLS = 1;
+const OVER_SCROLL_NEVER = 2;
+const SCROLLBARS_INSIDE_INSET = $01000000;
+const SCROLLBARS_INSIDE_OVERLAY = 0;
+const SCROLLBARS_OUTSIDE_INSET = $03000000;
+const SCROLLBARS_OUTSIDE_OVERLAY = $02000000;
+const SCROLLBAR_POSITION_DEFAULT = 0;
+const SCROLLBAR_POSITION_LEFT = 1;
+const SCROLLBAR_POSITION_RIGHT = 2;
+const SOUND_EFFECTS_ENABLED = $08000000;
+const STATUS_BAR_HIDDEN = 1;
+const STATUS_BAR_VISIBLE = 0;
+const VIEW_LOG_TAG = 'View';
+const VISIBLE = 0;
+type View.OnClickListener = void onClick(View v)
+#
+#View(Context context)
+#View(Context context, AttributeSet attrs)
+#View(Context context, AttributeSet attrs, int defStyle)
+#void 	addFocusables(ArrayList<View> views, int direction)
+#void 	addFocusables(ArrayList<View> views, int direction, int focusableMode)
+#void 	addOnAttachStateChangeListener(View.OnAttachStateChangeListener listener)
+#void 	addOnLayoutChangeListener(View.OnLayoutChangeListener listener)
+#void 	addTouchables(ArrayList<View> views)
+#ViewPropertyAnimator 	animate()
+#void 	bringToFront()
+#void 	buildDrawingCache(boolean autoScale)
+#void 	buildDrawingCache()
+#void 	buildLayer()
+#void 	cancelLongPress()
+#boolean 	checkInputConnectionProxy(View view)
+#void 	clearAnimation()
+#void 	clearFocus()
+#static int 	combineMeasuredStates(int curState, int newState)
+#void 	computeScroll()
+#void 	createContextMenu(ContextMenu menu)
+#void 	destroyDrawingCache()
+#void 	dispatchConfigurationChanged(Configuration newConfig)
+#void 	dispatchDisplayHint(int hint)
+#boolean 	dispatchDragEvent(DragEvent event)
+#boolean 	dispatchGenericMotionEvent(MotionEvent event)
+#boolean 	dispatchKeyEvent(KeyEvent event)
+#boolean 	dispatchKeyEventPreIme(KeyEvent event)
+#boolean 	dispatchKeyShortcutEvent(KeyEvent event)
+#boolean 	dispatchPopulateAccessibilityEvent(AccessibilityEvent event)
+#Dispatches an AccessibilityEvent to the View children to be populated.
+#void 	dispatchSystemUiVisibilityChanged(int visibility)
+#boolean 	dispatchTouchEvent(MotionEvent event)
+#boolean 	dispatchTrackballEvent(MotionEvent event)
+#boolean 	dispatchUnhandledMove(View focused, int direction)
+#void 	dispatchWindowFocusChanged(boolean hasFocus)
+#void 	dispatchWindowVisibilityChanged(int visibility)
+#void 	draw(Canvas canvas)
+#View 	findFocus()
+#final View 	findViewById(int id)
+#final View 	findViewWithTag(Object tag)
+#View 	focusSearch(int direction)
+#void 	forceLayout()
+#float 	getAlpha()
+#Animation 	getAnimation()
+#IBinder 	getApplicationWindowToken()
+#Drawable 	getBackground()
+#int 	getBaseline()
+#final int 	getBottom()
+#CharSequence 	getContentDescription()
+#final Context 	getContext()
+#static int 	getDefaultSize(int size, int measureSpec)
+#final int[] 	getDrawableState()
+#Bitmap 	getDrawingCache(boolean autoScale)
+#Bitmap 	getDrawingCache()
+#int 	getDrawingCacheBackgroundColor()
+#int 	getDrawingCacheQuality()
+#void 	getDrawingRect(Rect outRect)
+#long 	getDrawingTime()
+#boolean 	getFilterTouchesWhenObscured()
+#ArrayList<View> 	getFocusables(int direction)
+#void 	getFocusedRect(Rect r)
+#boolean 	getGlobalVisibleRect(Rect r, Point globalOffset)
+#final boolean 	getGlobalVisibleRect(Rect r)
+#Handler 	getHandler()
+#final int 	getHeight()
+#void 	getHitRect(Rect outRect)
+#int 	getHorizontalFadingEdgeLength()
+#int 	getId()
+#boolean 	getKeepScreenOn()
+#KeyEvent.DispatcherState 	getKeyDispatcherState()
+#int 	getLayerType()
+#ViewGroup.LayoutParams 	getLayoutParams()
+#final int 	getLeft()
+#final boolean 	getLocalVisibleRect(Rect r)
+#void 	getLocationInWindow(int[] location)
+#void 	getLocationOnScreen(int[] location)
+#Matrix 	getMatrix()
+#final int 	getMeasuredHeight()
+#final int 	getMeasuredHeightAndState()
+#final int 	getMeasuredState()
+#final int 	getMeasuredWidth()
+#final int 	getMeasuredWidthAndState()
+#int 	getNextFocusDownId()
+#int 	getNextFocusForwardId()
+#int 	getNextFocusLeftId()
+#int 	getNextFocusRightId()
+#int 	getNextFocusUpId()
+#View.OnFocusChangeListener 	getOnFocusChangeListener()
+#int 	getOverScrollMode()
+#int 	getPaddingBottom()
+#int 	getPaddingLeft()
+#int 	getPaddingRight()
+#int 	getPaddingTop()
+#final ViewParent 	getParent()
+#float 	getPivotX()
+#float 	getPivotY()
+#Resources 	getResources()
+#final int 	getRight()
+#View 	getRootView()
+#float 	getRotation()
+#float 	getRotationX()
+#float 	getRotationY()
+#float 	getScaleX()
+#float 	getScaleY()
+#int 	getScrollBarStyle()
+#final int 	getScrollX()
+#final int 	getScrollY()
+#int 	getSolidColor()
+#int 	getSystemUiVisibility()
+#Object 	getTag(int key)
+#Object 	getTag()
+#final int 	getTop()
+#TouchDelegate 	getTouchDelegate()
+#ArrayList<View> 	getTouchables()
+#float 	getTranslationX()
+#float 	getTranslationY()
+#int 	getVerticalFadingEdgeLength()
+#int 	getVerticalScrollbarPosition()
+#int 	getVerticalScrollbarWidth()
+#ViewTreeObserver 	getViewTreeObserver()
+#int 	getVisibility()
+#final int 	getWidth()
+#IBinder 	getWindowToken()
+#int 	getWindowVisibility()
+#void 	getWindowVisibleDisplayFrame(Rect outRect)
+#float 	getX()
+#float 	getY()
+#boolean 	hasFocus()
+#boolean 	hasFocusable()
+#boolean 	hasWindowFocus()
+#static View 	inflate(Context context, int resource, ViewGroup root)
+#void 	invalidate(Rect dirty)
+#void 	invalidate(int l, int t, int r, int b)
+#void 	invalidate()
+#void 	invalidateDrawable(Drawable drawable)
+#boolean 	isActivated()
+#boolean 	isClickable()
+#boolean 	isDirty()
+#boolean 	isDrawingCacheEnabled()
+#boolean 	isDuplicateParentStateEnabled()
+#boolean 	isEnabled()
+#final boolean 	isFocusable()
+#final boolean 	isFocusableInTouchMode()
+#boolean 	isFocused()
+#boolean 	isHapticFeedbackEnabled()
+#boolean 	isHardwareAccelerated()
+#boolean 	isHorizontalFadingEdgeEnabled()
+#boolean 	isHorizontalScrollBarEnabled()
+#boolean 	isInEditMode()
+#boolean 	isInTouchMode()
+#boolean 	isLayoutRequested()
+#boolean 	isLongClickable()
+#boolean 	isOpaque()
+#boolean 	isPressed()
+#boolean 	isSaveEnabled()
+#boolean 	isSaveFromParentEnabled()
+#boolean 	isScrollbarFadingEnabled()
+#boolean 	isSelected()
+#boolean 	isShown()
+#boolean 	isSoundEffectsEnabled()
+#boolean 	isVerticalFadingEdgeEnabled()
+#boolean 	isVerticalScrollBarEnabled()
+#void 	jumpDrawablesToCurrentState()
+#void 	layout(int l, int t, int r, int b)
+#final void 	measure(int widthMeasureSpec, int heightMeasureSpec)
+#void 	offsetLeftAndRight(int offset)
+#void 	offsetTopAndBottom(int offset)
+#boolean 	onCheckIsTextEditor()
+#InputConnection 	onCreateInputConnection(EditorInfo outAttrs)
+#boolean 	onDragEvent(DragEvent event)
+#boolean 	onFilterTouchEventForSecurity(MotionEvent event)
+#void 	onFinishTemporaryDetach()
+#boolean 	onGenericMotionEvent(MotionEvent event)
+#boolean 	onKeyDown(int keyCode, KeyEvent event)
+#boolean 	onKeyLongPress(int keyCode, KeyEvent event)
+#boolean 	onKeyMultiple(int keyCode, int repeatCount, KeyEvent event)
+#boolean 	onKeyPreIme(int keyCode, KeyEvent event)
+#boolean 	onKeyShortcut(int keyCode, KeyEvent event)
+#boolean 	onKeyUp(int keyCode, KeyEvent event)
+#void 	onStartTemporaryDetach()
+#boolean 	onTouchEvent(MotionEvent event)
+#boolean 	onTrackballEvent(MotionEvent event)
+#void 	onWindowFocusChanged(boolean hasWindowFocus)
+#boolean 	performClick()
+#boolean 	performHapticFeedback(int feedbackConstant, int flags)
+#boolean 	performHapticFeedback(int feedbackConstant)
+#boolean 	performLongClick()
+#void 	playSoundEffect(int soundConstant)
+#boolean 	post(Runnable action)
+#boolean 	postDelayed(Runnable action, long delayMillis)
+#void 	postInvalidate(int left, int top, int right, int bottom)
+#void 	postInvalidate()
+#void 	postInvalidateDelayed(long delayMilliseconds, int left, int top, int right, int bottom)
+#void 	postInvalidateDelayed(long delayMilliseconds)
+#void 	refreshDrawableState()
+#boolean 	removeCallbacks(Runnable action)
+#void 	removeOnAttachStateChangeListener(View.OnAttachStateChangeListener listener)
+#void 	removeOnLayoutChangeListener(View.OnLayoutChangeListener listener)
+#boolean 	requestFocus(int direction, Rect previouslyFocusedRect)
+#final boolean 	requestFocus(int direction)
+#final boolean 	requestFocus()
+#final boolean 	requestFocusFromTouch()
+#void 	requestLayout()
+#boolean 	requestRectangleOnScreen(Rect rectangle)
+#boolean 	requestRectangleOnScreen(Rect rectangle, boolean immediate)
+#static int 	resolveSize(int size, int measureSpec)
+#static int 	resolveSizeAndState(int size, int measureSpec, int childMeasuredState)
+#void 	restoreHierarchyState(SparseArray<Parcelable> container)
+#void 	saveHierarchyState(SparseArray<Parcelable> container)
+#void 	scheduleDrawable(Drawable who, Runnable what, long when)
+#void 	scrollBy(int x, int y)
+#void 	scrollTo(int x, int y)
+#void 	sendAccessibilityEvent(int eventType)
+#void 	sendAccessibilityEventUnchecked(AccessibilityEvent event)
+#void 	setActivated(boolean activated)
+#void 	setAlpha(float alpha)
+#void 	setAnimation(Animation animation)
+#void 	setBackgroundColor(int color)
+#void 	setBackgroundDrawable(Drawable d)
+#void 	setBackgroundResource(int resid)
+#final void 	setBottom(int bottom)
+#void 	setCameraDistance(float distance)
+#void 	setClickable(boolean clickable)
+#void 	setContentDescription(CharSequence contentDescription)
+#void 	setDrawingCacheBackgroundColor(int color)
+#void 	setDrawingCacheEnabled(boolean enabled)
+#void 	setDrawingCacheQuality(int quality)
+#void 	setDuplicateParentStateEnabled(boolean enabled)
+#void 	setEnabled(boolean enabled)
+#void 	setFadingEdgeLength(int length)
+#void 	setFilterTouchesWhenObscured(boolean enabled)
+#void 	setFocusable(boolean focusable)
+#void 	setFocusableInTouchMode(boolean focusableInTouchMode)
+#void 	setHapticFeedbackEnabled(boolean hapticFeedbackEnabled)
+#void 	setHorizontalFadingEdgeEnabled(boolean horizontalFadingEdgeEnabled)
+#void 	setHorizontalScrollBarEnabled(boolean horizontalScrollBarEnabled)
+#void 	setId(int id)
+#void 	setKeepScreenOn(boolean keepScreenOn)
+#void 	setLayerType(int layerType, Paint paint)
+method void setLayoutParams(ViewGroup.LayoutParams params);
+#final void 	setLeft(int left)
+#void 	setLongClickable(boolean longClickable)
+#void 	setMinimumHeight(int minHeight)
+#void 	setMinimumWidth(int minWidth)
+#void 	setNextFocusDownId(int nextFocusDownId)
+#void 	setNextFocusForwardId(int nextFocusForwardId)
+#void 	setNextFocusLeftId(int nextFocusLeftId)
+#void 	setNextFocusRightId(int nextFocusRightId)
+#void 	setNextFocusUpId(int nextFocusUpId)
+callbacksetter void setOnClickListener($View.OnClickListener l)
+#void 	setOnCreateContextMenuListener(View.OnCreateContextMenuListener l)
+#void 	setOnDragListener(View.OnDragListener l)
+#void 	setOnFocusChangeListener(View.OnFocusChangeListener l)
+#void 	setOnGenericMotionListener(View.OnGenericMotionListener l)
+#void 	setOnKeyListener(View.OnKeyListener l)
+#void 	setOnLongClickListener(View.OnLongClickListener l)
+#void 	setOnSystemUiVisibilityChangeListener(View.OnSystemUiVisibilityChangeListener l)
+#void 	setOnTouchListener(View.OnTouchListener l)
+#void 	setOverScrollMode(int overScrollMode)
+#void 	setPadding(int left, int top, int right, int bottom)
+#void 	setPivotX(float pivotX)
+#void 	setPivotY(float pivotY)
+#void 	setPressed(boolean pressed)
+#final void 	setRight(int right)
+#void 	setRotation(float rotation)
+#void 	setRotationX(float rotationX)
+#void 	setRotationY(float rotationY)
+#void 	setSaveEnabled(boolean enabled)
+#void 	setSaveFromParentEnabled(boolean enabled)
+#void 	setScaleX(float scaleX)
+#void 	setScaleY(float scaleY)
+#void 	setScrollBarStyle(int style)
+#void 	setScrollContainer(boolean isScrollContainer)
+#void 	setScrollbarFadingEnabled(boolean fadeScrollbars)
+#void 	setSelected(boolean selected)
+#void 	setSoundEffectsEnabled(boolean soundEffectsEnabled)
+#void 	setSystemUiVisibility(int visibility)
+#void 	setTag(int key, Object tag)
+#void 	setTag(Object tag)
+#final void 	setTop(int top)
+#void 	setTouchDelegate(TouchDelegate delegate)
+#void 	setTranslationX(float translationX)
+#void 	setTranslationY(float translationY)
+#void 	setVerticalFadingEdgeEnabled(boolean verticalFadingEdgeEnabled)
+#void 	setVerticalScrollBarEnabled(boolean verticalScrollBarEnabled)
+#void 	setVerticalScrollbarPosition(int position)
+method void setVisibility(int visibility);
+#void 	setWillNotCacheDrawing(boolean willNotCacheDrawing)
+#void 	setWillNotDraw(boolean willNotDraw)
+#void 	setX(float x)
+#void 	setY(float y)
+#boolean 	showContextMenu()
+#ActionMode 	startActionMode(ActionMode.Callback callback)
+#void 	startAnimation(Animation animation)
+#final boolean 	startDrag(ClipData data, View.DragShadowBuilder shadowBuilder, Object myLocalState, int flags)
+#void 	unscheduleDrawable(Drawable who)
+#void 	unscheduleDrawable(Drawable who, Runnable what)
+#boolean 	willNotCacheDrawing()
+#boolean 	willNotDraw()
+
+[ViewGroup] View
+# all methods added
+const CLIP_TO_PADDING_MASK = $00000022;
+const FOCUS_AFTER_DESCENDANTS = $00040000;
+const FOCUS_BEFORE_DESCENDANTS = $00020000;
+const FOCUS_BLOCK_DESCENDANTS = $00060000;
+const PERSISTENT_ALL_CACHES = 3;
+const PERSISTENT_ANIMATION_CACHE = 1;
+const PERSISTENT_NO_CACHE = 0;
+const PERSISTENT_SCROLLING_CACHE = 2;
+#
+public ViewGroup (Context context)
+public ViewGroup (Context context, AttributeSet attrs)
+public ViewGroup (Context context, AttributeSet attrs, int defStyle)
+public void addFocusables (ArrayList<View> views, int direction, int focusableMode)
+public void addFocusables (ArrayList<View> views, int direction)
+public boolean addStatesFromChildren ()
+public void addTouchables (ArrayList<View> views)
+method void addView(View child, int aindex, ViewGroup.LayoutParams params); overload;
+method void addView(View child, ViewGroup.LayoutParams params); overload;
+method void addView(View child, int aindex); overload;
+method void addView(View child); overload;
+method void addView(View child, int width, int height); overload;
+#public void bringChildToFront (View child)
+#public void childDrawableStateChanged (View child)
+#public void clearChildFocus (View child)
+#public void clearDisappearingChildren ()
+#public void clearFocus ()
+#public void dispatchConfigurationChanged (Configuration newConfig)
+#public boolean dispatchDragEvent (DragEvent event)
+#public boolean dispatchGenericMotionEvent (MotionEvent event)
+#public boolean dispatchKeyEvent (KeyEvent event)
+#public boolean dispatchKeyEventPreIme (KeyEvent event)
+#public boolean dispatchKeyShortcutEvent (KeyEvent event)
+#public boolean dispatchPopulateAccessibilityEvent (AccessibilityEvent event)
+#public void dispatchSetActivated (boolean activated)
+#public void dispatchSetSelected (boolean selected)
+#public void dispatchSystemUiVisibilityChanged (int visible)
+#public boolean dispatchTouchEvent (MotionEvent ev)
+#public boolean dispatchTrackballEvent (MotionEvent event)
+#public boolean dispatchUnhandledMove (View focused, int direction)
+#public void dispatchWindowFocusChanged (boolean hasFocus)
+#public void dispatchWindowVisibilityChanged (int visibility)
+#public void endViewTransition (View view)
+#public View findFocus ()
+#public View focusSearch (View focused, int direction)
+#public void focusableViewAvailable (View v)
+#public boolean gatherTransparentRegion (Region region)
+#public ViewGroup.LayoutParams generateLayoutParams (AttributeSet attrs)
+#public View getChildAt (int index)
+#public int getChildCount ()
+#public static int getChildMeasureSpec (int spec, int padding, int childDimension)
+#public boolean getChildVisibleRect (View child, Rect r, Point offset)
+#public int getDescendantFocusability ()
+#public View getFocusedChild ()
+#public LayoutAnimationController getLayoutAnimation ()
+#public Animation.AnimationListener getLayoutAnimationListener ()
+#public LayoutTransition getLayoutTransition ()
+#public int getPersistentDrawingCache ()
+#public boolean hasFocus ()
+#public boolean hasFocusable ()
+#public int indexOfChild (View child)
+#public final void invalidateChild (View child, Rect dirty)
+#public ViewParent invalidateChildInParent (int[] location, Rect dirty)
+#public boolean isAlwaysDrawnWithCacheEnabled ()
+#public boolean isAnimationCacheEnabled ()
+#public boolean isMotionEventSplittingEnabled ()
+#public void jumpDrawablesToCurrentState ()
+#public final void layout (int l, int t, int r, int b)
+#public final void offsetDescendantRectToMyCoords (View descendant, Rect rect)
+#public final void offsetRectIntoDescendantCoords (View descendant, Rect rect)
+#public boolean onInterceptTouchEvent (MotionEvent ev)
+#public void recomputeViewAttributes (View child)
+#public void removeAllViews ()
+#public void removeAllViewsInLayout ()
+#public void removeView (View view)
+#public void removeViewAt (int index)
+#public void removeViewInLayout (View view)
+#public void removeViews (int start, int count)
+#public void removeViewsInLayout (int start, int count)
+#public void requestChildFocus (View child, View focused)
+#public boolean requestChildRectangleOnScreen (View child, Rect rectangle, boolean immediate)
+#public void requestDisallowInterceptTouchEvent (boolean disallowIntercept)
+#public boolean requestFocus (int direction, Rect previouslyFocusedRect)
+#public void scheduleLayoutAnimation ()
+#public void setAddStatesFromChildren (boolean addsStates)
+#public void setAlwaysDrawnWithCacheEnabled (boolean always)
+#public void setAnimationCacheEnabled (boolean enabled)
+#public void setClipChildren (boolean clipChildren)
+#public void setClipToPadding (boolean clipToPadding)
+#public void setDescendantFocusability (int focusability)
+#public void setLayoutAnimation (LayoutAnimationController controller)
+#public void setLayoutAnimationListener (Animation.AnimationListener animationListener)
+#public void setLayoutTransition (LayoutTransition transition)
+#public void setMotionEventSplittingEnabled (boolean split)
+#public void setOnHierarchyChangeListener (ViewGroup.OnHierarchyChangeListener listener)
+#public void setPadding (int left, int top, int right, int bottom)
+#public void setPersistentDrawingCache (int drawingCacheToKeep)
+#public boolean showContextMenuForChild (View originalView)
+#public ActionMode startActionModeForChild (View originalView, ActionMode.Callback callback)
+#public void startLayoutAnimation ()
+#public void startViewTransition (View view)
+#public void updateViewLayout (View view, ViewGroup.LayoutParams params)
+
+[LinearLayout] ViewGroup
+# all methods added
+const HORIZONTAL = 0;
+const SHOW_DIVIDER_BEGINNING = 1;
+const SHOW_DIVIDER_END = 8;
+const SHOW_DIVIDER_MIDDLE = 2;
+const SHOW_DIVIDER_NONE = 0;
+const VERTICAL = 1;
+constructor Create(Activity); override;
+#public LinearLayout (Context context, AttributeSet attrs)
+#public LinearLayout (Context context, AttributeSet attrs, int defStyle)
+#public LinearLayout.LayoutParams generateLayoutParams (AttributeSet attrs)
+#public int getBaseline ()
+#public int getBaselineAlignedChildIndex ()
+#public int getOrientation ()
+#public int getShowDividers ()
+#public float getWeightSum ()
+#public boolean isBaselineAligned ()
+#public boolean isMeasureWithLargestChildEnabled ()
+#public void setBaselineAligned (boolean baselineAligned)
+#public void setBaselineAlignedChildIndex (int i)
+#public void setDividerDrawable (Drawable divider)
+#public void setGravity (int gravity)
+#public void setHorizontalGravity (int horizontalGravity)
+#public void setMeasureWithLargestChildEnabled (boolean enabled)
+method void setOrientation(int orientation);
+#public void setShowDividers (int showDividers)
+#public void setVerticalGravity (int verticalGravity)
+#public void setWeightSum (float weightSum)
+
+[AbsoluteLayout] ViewGroup
+# all methods added
+constructor Create(Activity); override;
+#	AbsoluteLayout(Context context, AttributeSet attrs)
+#	AbsoluteLayout(Context context, AttributeSet attrs, int defStyle)
+#ViewGroup.LayoutParams 	generateLayoutParams(AttributeSet attrs)
+
+[AbsoluteLayout.LayoutParams] ViewGroup.LayoutParams
+#public int	x	The horizontal, or X, location of the child within the view group.
+#public int	y	The vertical, or Y, location of the child within the view group.
+constructor Create(int param_width, int param_height, int param_x, int param_y);
+#	AbsoluteLayout.LayoutParams(Context c, AttributeSet attrs)
+#	AbsoluteLayout.LayoutParams(ViewGroup.LayoutParams source)
+#String 	debug(String output)
+
+[TextView] View
+# all methods added
+constructor Create(Activity); override;
+#TextView(Context context, AttributeSet attrs)
+#TextView(Context context, AttributeSet attrs, int defStyle)
+#void 	addTextChangedListener(TextWatcher watcher)
+#final void 	append(CharSequence text)
+#void 	append(CharSequence text, int start, int end)
+#void 	beginBatchEdit()
+#boolean 	bringPointIntoView(int offset)
+#void 	cancelLongPress()
+#void 	clearComposingText()
+#void 	computeScroll()
+#void 	debug(int depth)
+#boolean 	didTouchFocusSelect()
+#boolean 	dispatchPopulateAccessibilityEvent(AccessibilityEvent event)
+#void 	endBatchEdit()
+#boolean 	extractText(ExtractedTextRequest request, ExtractedText outText)
+#final int 	getAutoLinkMask()
+#int 	getBaseline()
+#int 	getCompoundDrawablePadding()
+#Drawable[] 	getCompoundDrawables()
+#int 	getCompoundPaddingBottom()
+#int 	getCompoundPaddingLeft()
+#int 	getCompoundPaddingRight()
+#int 	getCompoundPaddingTop()
+#final int 	getCurrentHintTextColor()
+#final int 	getCurrentTextColor()
+#ActionMode.Callback 	getCustomSelectionActionModeCallback()
+#Editable 	getEditableText()
+#TextUtils.TruncateAt 	getEllipsize()
+#CharSequence 	getError()
+#int 	getExtendedPaddingBottom()
+#int 	getExtendedPaddingTop()
+#InputFilter[] 	getFilters()
+#void 	getFocusedRect(Rect r)
+#boolean 	getFreezesText()
+#int 	getGravity()
+#CharSequence 	getHint()
+#final ColorStateList 	getHintTextColors()
+#int 	getImeActionId()
+#CharSequence 	getImeActionLabel()
+#int 	getImeOptions()
+#Bundle 	getInputExtras(boolean create)
+#int 	getInputType()
+#final KeyListener 	getKeyListener()
+#final Layout 	getLayout()
+#int 	getLineBounds(int line, Rect bounds)
+#int 	getLineCount()
+#int 	getLineHeight()
+#final ColorStateList 	getLinkTextColors()
+#final boolean 	getLinksClickable()
+#final MovementMethod 	getMovementMethod()
+#TextPaint 	getPaint()
+#int 	getPaintFlags()
+#String 	getPrivateImeOptions()
+#int 	getSelectionEnd()
+#int 	getSelectionStart()
+method CharSequence getText()
+#static int 	getTextColor(Context context, TypedArray attrs, int def)
+#final ColorStateList 	getTextColors()
+#static ColorStateList 	getTextColors(Context context, TypedArray attrs)
+#float 	getTextScaleX()
+#float 	getTextSize()
+#int 	getTotalPaddingBottom()
+#int 	getTotalPaddingLeft()
+#int 	getTotalPaddingRight()
+#int 	getTotalPaddingTop()
+#final TransformationMethod 	getTransformationMethod()
+#URLSpan[] 	getUrls()
+#boolean 	hasSelection()
+#void 	invalidateDrawable(Drawable drawable)
+#boolean 	isInputMethodTarget()
+#boolean 	isTextSelectable()
+#void 	jumpDrawablesToCurrentState()
+#int 	length()
+#boolean 	moveCursorToVisibleOffset()
+#void 	onBeginBatchEdit()
+#boolean 	onCheckIsTextEditor()
+#void 	onCommitCompletion(CompletionInfo text)
+#void 	onCommitCorrection(CorrectionInfo info)
+#InputConnection 	onCreateInputConnection(EditorInfo outAttrs)
+#boolean 	onDragEvent(DragEvent event)
+#void 	onEditorAction(int actionCode)
+#void 	onEndBatchEdit()
+#void 	onFinishTemporaryDetach()
+#boolean 	onGenericMotionEvent(MotionEvent event)
+#boolean 	onKeyDown(int keyCode, KeyEvent event)
+#boolean 	onKeyMultiple(int keyCode, int repeatCount, KeyEvent event)
+#boolean 	onKeyShortcut(int keyCode, KeyEvent event)
+#boolean 	onKeyUp(int keyCode, KeyEvent event)
+#boolean 	onPreDraw()
+#boolean 	onPrivateIMECommand(String action, Bundle data)
+#void 	onRestoreInstanceState(Parcelable state)
+#Parcelable 	onSaveInstanceState()
+#void 	onStartTemporaryDetach()
+#boolean 	onTextContextMenuItem(int id)
+#boolean 	onTouchEvent(MotionEvent event)
+#boolean 	onTrackballEvent(MotionEvent event)
+#void 	onWindowFocusChanged(boolean hasWindowFocus)
+#boolean 	performLongClick()
+#void 	removeTextChangedListener(TextWatcher watcher)
+#final void 	setAutoLinkMask(int mask)
+#void 	setCompoundDrawablePadding(int pad)
+#void 	setCompoundDrawables(Drawable left, Drawable top, Drawable right, Drawable bottom)
+#void 	setCompoundDrawablesWithIntrinsicBounds(Drawable left, Drawable top, Drawable right, Drawable bottom)
+#void 	setCompoundDrawablesWithIntrinsicBounds(int left, int top, int right, int bottom)
+#void 	setCursorVisible(boolean visible)
+#void 	setCustomSelectionActionModeCallback(ActionMode.Callback actionModeCallback)
+#final void 	setEditableFactory(Editable.Factory factory)
+#void 	setEllipsize(TextUtils.TruncateAt where)
+#void 	setEms(int ems)
+#void 	setEnabled(boolean enabled)
+#void 	setError(CharSequence error)
+#void 	setError(CharSequence error, Drawable icon)
+#void 	setExtractedText(ExtractedText text)
+#void 	setFilters(InputFilter[] filters)
+#void 	setFreezesText(boolean freezesText)
+#void 	setGravity(int gravity)
+#void 	setHeight(int pixels)
+#void 	setHighlightColor(int color)
+#final void 	setHint(CharSequence hint)
+#final void 	setHint(int resid)
+#final void 	setHintTextColor(ColorStateList colors)
+#final void 	setHintTextColor(int color)
+#void 	setHorizontallyScrolling(boolean whether)
+#void 	setImeActionLabel(CharSequence label, int actionId)
+#void 	setImeOptions(int imeOptions)
+#void 	setIncludeFontPadding(boolean includepad)
+#void 	setInputExtras(int xmlResId)
+#void 	setInputType(int type)
+#void 	setKeyListener(KeyListener input)
+#void 	setLineSpacing(float add, float mult)
+#void 	setLines(int lines)
+#final void 	setLinkTextColor(ColorStateList colors)
+#final void 	setLinkTextColor(int color)
+#final void 	setLinksClickable(boolean whether)
+#void 	setMarqueeRepeatLimit(int marqueeLimit)
+#void 	setMaxEms(int maxems)
+#void 	setMaxHeight(int maxHeight)
+#void 	setMaxLines(int maxlines)
+#void 	setMaxWidth(int maxpixels)
+#void 	setMinEms(int minems)
+#void 	setMinHeight(int minHeight)
+#void 	setMinLines(int minlines)
+#void 	setMinWidth(int minpixels)
+#final void 	setMovementMethod(MovementMethod movement)
+#void 	setOnEditorActionListener(TextView.OnEditorActionListener l)
+#void 	setPadding(int left, int top, int right, int bottom)
+#void 	setPaintFlags(int flags)
+#void 	setPrivateImeOptions(String type)
+#void 	setRawInputType(int type)
+#void 	setScroller(Scroller s)
+#void 	setSelectAllOnFocus(boolean selectAllOnFocus)
+#void 	setSelected(boolean selected)
+#void 	setShadowLayer(float radius, float dx, float dy, int color)
+#void 	setSingleLine()
+#void 	setSingleLine(boolean singleLine)
+#final void 	setSpannableFactory(Spannable.Factory factory)
+#final void 	setText(int resid)
+#final void 	setText(char[] text, int start, int len)
+#final void 	setText(int resid, TextView.BufferType type)
+method void setText(CharSequence AText);
+#void 	setText(CharSequence text, TextView.BufferType type)
+#void 	setTextAppearance(Context context, int resid)
+#void 	setTextColor(ColorStateList colors)
+#void 	setTextColor(int color)
+#void 	setTextIsSelectable(boolean selectable)
+#final void 	setTextKeepState(CharSequence text)
+#final void 	setTextKeepState(CharSequence text, TextView.BufferType type)
+#void 	setTextScaleX(float size)
+#void 	setTextSize(float size)
+method void setTextSize(int unit_; float size);
+#final void 	setTransformationMethod(TransformationMethod method)
+#void 	setTypeface(Typeface tf, int style)
+#void 	setTypeface(Typeface tf)
+#void 	setWidth(int pixels)
+
+[EditText] TextView
+# all methods added
+constructor Create(Activity); override;
+#EditText(Context context, AttributeSet attrs)
+#EditText(Context context, AttributeSet attrs, int defStyle)
+#void 	extendSelection(int index)
+#Editable 	getText()
+#void 	selectAll()
+#void 	setEllipsize(TextUtils.TruncateAt ellipsis)
+#void 	setSelection(int index)
+#void 	setSelection(int start, int stop)
+#void 	setText(CharSequence text, TextView.BufferType type)
+
+[Button] TextView
+# all methods added
+constructor Create(Activity); override;
+#Button(Context context, AttributeSet attrs)
+#Button(Context context, AttributeSet attrs, int defStyle)
+
+[FrameLayout] ViewGroup
+
+[TimePicker] FrameLayout
+constructor Create(Activity); override;
+method int getCurrentHour();
+method void setCurrentHour(int currentHour);
+method int getCurrentMinute;
+method void setCurrentMinute(int currentMinute);
+method boolean is24HourView;
+method void setIs24HourView(boolean AIs24HourView);
+
+[ScrollView] FrameLayout
+constructor Create(Activity); override;
+
+[CompoundButton] Button
+#constructor Create(Activity) abstract
+method boolean 	isChecked() 
+method boolean 	performClick() 
+method void 	setChecked(boolean checked) 
+#method void 	setOnCheckedChangeListener(CompoundButton.OnCheckedChangeListener listener) 
+method void 	toggle() 
+
+[CheckBox] CompoundButton
+constructor Create(Activity); override;
+
+[AdapterView] ViewGroup
+method int getSelectedItemPosition()
+
+[AbsSpinner] AdapterView
+# SpinnerAdapter getAdapter()
+method int getCount()
+# View 	getSelectedView()
+# void 	onRestoreInstanceState(Parcelable state)
+# Parcelable 	onSaveInstanceState()
+# int 	pointToPosition(int x, int y)
+# void 	requestLayout()
+method void setAdapter(SpinnerAdapter adapter)
+methodo void setSelection(int position, boolean animate); overload;
+method void setSelection(int position); overload;
+
+[Spinner] AbsSpinner
+constructor Create(Activity); override;
+
+#
+# For info about the Adapter of a spinner see:
+# http://stackoverflow.com/questions/2784081/android-create-spinner-programmatically-from-array
+#
+{Filterable}
+
+{Adapter}
+
+{ListAdapter} Adapter
+
+{SpinnerAdapter} Adapter
+
+# android.widget.BaseAdapter
+[BaseAdapter] TJavaObject ListAdapter SpinnerAdapter
+
+# android.widget.ArrayAdapter<T>
+[ArrayAdapter<String>] BaseAdapter Filterable
+constructor Create(Activity, int textViewResourceId)
+method void add(String aobject)
+method void clear()
+method void insert(String aobject, int aindex)
+method void remove(String aobject)
+
+#
+# android.R.layout
+#
+[layout] TJavaObject
+const activity_list_item = $01090000;
+const browser_link_context_header = $0109000e;
+const expandable_list_content = $01090001;
+const list_content = $01090014;
+const preference_category = $01090002;
+const select_dialog_item = $01090011;
+const select_dialog_multichoice = $01090013;
+const select_dialog_singlechoice = $01090012;
+const simple_dropdown_item_1line = $0109000a;
+const simple_expandable_list_item_1 = $01090006;
+const simple_expandable_list_item_2 = $01090007;
+const simple_gallery_item = $0109000b;
+const simple_list_item_1 = $01090003;
+const simple_list_item_2 = $01090004;
+const simple_list_item_activated_1 = $01090016;
+const simple_list_item_activated_2 = $01090017;
+const simple_list_item_checked = $01090005;
+const simple_list_item_multiple_choice = $01090010;
+const simple_list_item_single_choice = $0109000f;
+const simple_selectable_list_item = $01090015;
+const simple_spinner_dropdown_item = $01090009;
+const simple_spinner_item = $01090008;
+const test_list_item = $0109000c;
+const two_line_list_item = $0109000d;
+
+

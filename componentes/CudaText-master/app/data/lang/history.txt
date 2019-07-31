@@ -1,0 +1,95 @@
+see
+http://wiki.freepascal.org/CudaText#How_to_make_translation
+
+2016.09.26
++ [d_lex_prop] tab_cmt
++ [d_lex_prop] cmt_line, cmt_str, cmt_full
++ [d_lex_prop] styles_cmt, styles_str
+* del [d_lex_prop] gen_cmt_ln
+
+2016.09.13
+* del [m_e] com_*
+
+2016.09.10
+* del [si] Sorted
+* del [m_e] sr_ sr_a sr_d
+
+2016.09.03
++ [m_o] cou cos cou_ cos_
+* del [m_o] co
++ [sc] ThemeSyntaxSame
+
+2016.07.28
++ [ui] ed_w
+
+2016.07.25
+* del [d_f] _
++ [d_f] _f _r
+
+2016.07.23
++ [d_f] _
+
+2016.07.14
++ [se] HandleZip
+* del [sc] ReloadInSessIfChanged
++ [sc] ReloadItHotkeysSess
+
+2016.07.11
++ [sc] ReloadInSessIfChanged
+
+2016.07.06
++ [si] FileLineCol
+
+2016.07.03
++ [d_keys] lex
+
+2016.07.01
++ [d_save_tabs] no_ses
++ [d_f] h_mul
+
+2016.06.26
+* change [se] FindInstallInfInZip
+
+2016.06.12
++ [d_f] sel
+
+2016.04.11
++ [m_sr] b_ca
+
+2016.04.06
++ [se] OpenTooBig
+
+2016.03.26
+* change [m_v] s_s, s_h
+
+2016.03.23
+* del [se] FindLexlib
+* del [sc] SaveModifiedLexerLib
+* del [d_lex_lib] add
+
+2016.03.19
++ [m_h] iss
++ [m_o] l_map
++ [d_lex_map]
++ [d_lex_prop] _style
++ [d_theme] sty
+
+2016.03.14
++ [se] FindBookmarks
+* del [si] PluginsJustPreinstalled
+
+2016.03.09
++ [si] PackageCommand PackageEvents InstalledNeedRestart
++ [d_lex_prop] bty_*
+
+2016.03.07
++ [d_f] items h_*
++ [ui] items b_*
+
+2016.03.06
++ [se]
++ [sc]
++ [si]
++ [ui] new items
+* [d_theme] all changed
+* del dup "ok"/"cancel"/"close"/"apply"

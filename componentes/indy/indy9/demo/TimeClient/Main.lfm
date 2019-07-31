@@ -1,0 +1,77 @@
+object frmTimeDemo: TfrmTimeDemo
+  BorderStyle = bsDialog
+  Caption = 'Time Demo'
+  ClientHeight = 94
+  ClientWidth = 357
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  HorzScrollBar.Page = 356
+  VertScrollBar.Page = 93
+  Left = 275
+  Height = 94
+  Top = 168
+  Width = 357
+  object lblTimeServer: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = '&Time Server:'
+    Color = clNone
+    Left = 40
+    Height = 13
+    Top = 24
+    Width = 68
+  end
+  object Label1: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Time &From Server:'
+    Color = clNone
+    FocusControl = btnGetTime
+    Left = 16
+    Height = 13
+    Top = 56
+    Width = 95
+  end
+  object edtTimeResult: TEdit
+    BorderSpacing.OnChange = nil
+    ReadOnly = True
+    TabOrder = 0
+    Left = 112
+    Height = 21
+    Top = 56
+    Width = 121
+  end
+  object btnGetTime: TButton
+    BorderSpacing.OnChange = nil
+    Caption = '&Get Time'
+    Default = True
+    OnClick = btnGetTimeClick
+    TabOrder = 1
+    Left = 248
+    Height = 25
+    Top = 24
+    Width = 75
+  end
+  object cmboTimeServer: TComboBox
+    BorderSpacing.OnChange = nil
+    ItemHeight = 13
+    Items.Strings = (
+      '127.0.0.1'
+      'ben.cs.wisc.edu'
+      'bigben.cac.washington.edu'
+      'bitsy.mit.edu'
+      'bonehed.lcs.mit.edu'
+      'canon.inria.fr'
+      'chronos.cru.fr'
+    )
+    MaxLength = 0
+    Sorted = True
+    TabOrder = 2
+    Text = 'ben.cs.wisc.edu'
+    Left = 112
+    Height = 21
+    Top = 24
+    Width = 121
+  end
+end

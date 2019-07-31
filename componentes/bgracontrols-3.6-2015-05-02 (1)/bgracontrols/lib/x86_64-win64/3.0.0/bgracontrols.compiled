@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.0\bin\x86_64-win64\fpc.exe" Date="1210777645"/>
+  <Params Value=" -MObjFPC -Scghi -CX -O3 -OoREGVAR -l -vewnhibq -FuC:\lazarus\packager\units\x86_64-win64 -FuC:\lazarus\components\lazutils\lib\x86_64-win64 -FuC:\lazarus\lcl\units\x86_64-win64 -FuC:\lazarus\lcl\units\x86_64-win64\win32 -FuC:\tpv\tpv\componentes\lazpaint-master\lazpaint-master\bgrabitmap\lib\x86_64-win64\3.0.0 -FuC:\lazarus\components\lazcontrols\lib\x86_64-win64\win32 -FuC:\lazarus\components\PascalScript\Source\lib\x86_64-win64 -FuC:\lazarus\components\ideintf\units\x86_64-win64\win32 &quot;-FuC:\tpv\tpv\componentes\bgracontrols-3.6-2015-05-02 (1)\bgracontrols\&quot; &quot;-FUC:\tpv\tpv\componentes\bgracontrols-3.6-2015-05-02 (1)\bgracontrols\lib\x86_64-win64\3.0.0\&quot; -dLCL -dLCLwin32 bgracontrols.pas"/>
+</CONFIG>

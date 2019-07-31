@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1449313866"/>
+  <Params Value=" -MObjFPC -Scgi -Cg -O1 -gw2 -gl -l -vewnibq -vh- -Fi/home/bruno/tpv/componentes/kcontrol/source -Fu/home/bruno/tpv/componentes/kcontrol/source -Fu/usr/share/lazarus/1.6RC2/packager/units/x86_64-linux -Fu/usr/share/lazarus/1.6RC2/components/lazutils/lib/x86_64-linux -Fu/usr/share/lazarus/1.6RC2/lcl/units/x86_64-linux -Fu/usr/share/lazarus/1.6RC2/lcl/units/x86_64-linux/gtk2 -Fu/usr/share/lazarus/1.6RC2/components/cairocanvas/lib/x86_64-linux/gtk2 -Fu/usr/share/lazarus/1.6RC2/components/lazcontrols/lib/x86_64-linux/gtk2 -Fu/usr/share/lazarus/1.6RC2/components/ideintf/units/x86_64-linux/gtk2 -Fu/usr/share/lazarus/1.6RC2/components/printers/lib/x86_64-linux/gtk2 -Fu/usr/share/lazarus/1.6RC2/components/tdbf/lib/x86_64-linux/gtk2 -Fu/home/bruno/tpv/componentes/kcontrol/packages/kcontrols/ -FU/home/bruno/tpv/componentes/kcontrol/packages/kcontrols/lib/x86_64-linux/ -dLCL -dLCLgtk2 kcontrolslaz.pas"/>
+</CONFIG>

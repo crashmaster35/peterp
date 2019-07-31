@@ -1,0 +1,172 @@
+object frmMain: TfrmMain
+  Caption = 'Basic TCP client/server - client'
+  ClientHeight = 392
+  ClientWidth = 429
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  HorzScrollBar.Page = 428
+  VertScrollBar.Page = 391
+  Left = 192
+  Height = 392
+  Top = 107
+  Width = 429
+  object Label1: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Client'
+    Color = clNone
+    Font.Color = clMaroon
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    Left = 4
+    Height = 24
+    Top = 8
+    Width = 54
+  end
+  object Label2: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Host'
+    Color = clNone
+    Left = 9
+    Height = 13
+    Top = 45
+    Width = 22
+  end
+  object Label3: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Port'
+    Color = clNone
+    Left = 165
+    Height = 13
+    Top = 45
+    Width = 19
+  end
+  object Bevel1: TBevel
+    BorderSpacing.OnChange = nil
+    Height = 61
+    Left = 6
+    Name = 'Bevel1'
+    Top = 37
+    Width = 233
+    Left = 6
+    Height = 61
+    Top = 37
+    Width = 233
+  end
+  object Label4: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Available commands'
+    Color = clNone
+    Enabled = False
+    Left = 9
+    Height = 13
+    Top = 136
+    Width = 97
+    Tag = 99
+  end
+  object Label5: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Communicate with server'
+    Color = clNone
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    Left = 8
+    Height = 13
+    Top = 108
+    Width = 142
+  end
+  object edtHost: TEdit
+    BorderSpacing.OnChange = nil
+    TabOrder = 0
+    Text = '127.0.0.1'
+    Left = 38
+    Height = 21
+    Top = 41
+    Width = 121
+  end
+  object edtPort: TEdit
+    BorderSpacing.OnChange = nil
+    TabOrder = 1
+    Text = '9099'
+    Left = 194
+    Height = 21
+    Top = 41
+    Width = 41
+  end
+  object btnConnect: TButton
+    BorderSpacing.OnChange = nil
+    Caption = 'Connect'
+    OnClick = btnConnectClick
+    TabOrder = 2
+    Left = 82
+    Height = 25
+    Top = 69
+    Width = 75
+  end
+  object btnDisconnect: TButton
+    BorderSpacing.OnChange = nil
+    Caption = 'Disconnect'
+    OnClick = btnDisconnectClick
+    TabOrder = 3
+    Left = 160
+    Height = 25
+    Top = 69
+    Width = 75
+  end
+  object cboCommands: TComboBox
+    BorderSpacing.OnChange = nil
+    Enabled = False
+    ItemHeight = 13
+    Items.Strings = (
+      'Date'
+      'Time'
+      'TickCount'
+      'Doh! an unknown Command...'
+      'Quit'
+    )
+    MaxLength = 0
+    TabOrder = 4
+    Text = 'Date'
+    Left = 9
+    Height = 21
+    Top = 152
+    Width = 145
+    Tag = 99
+  end
+  object lbCommunication: TListBox
+    BorderSpacing.OnChange = nil
+    ItemHeight = 13
+    TabOrder = 5
+    Left = 8
+    Height = 129
+    Top = 192
+    Width = 405
+    Tag = 99
+  end
+  object btnExit: TButton
+    BorderSpacing.OnChange = nil
+    Caption = 'Exit'
+    OnClick = btnExitClick
+    TabOrder = 6
+    Left = 338
+    Height = 25
+    Top = 328
+    Width = 75
+  end
+  object btnSendCommand: TButton
+    BorderSpacing.OnChange = nil
+    Caption = 'Send command'
+    Enabled = False
+    OnClick = btnSendCommandClick
+    TabOrder = 7
+    Left = 157
+    Height = 25
+    Top = 150
+    Width = 84
+    Tag = 99
+  end
+end

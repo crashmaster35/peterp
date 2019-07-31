@@ -1,0 +1,33 @@
+object frmMain: TfrmMain
+  BorderStyle = bsDialog
+  Caption = 'Time Server'
+  ClientHeight = 80
+  ClientWidth = 329
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  HorzScrollBar.Page = 328
+  VertScrollBar.Page = 79
+  Left = 735
+  Height = 80
+  Top = 369
+  Width = 329
+  object Label1: TLabel
+    Caption = 'Status:'
+    Color = clNone
+    Left = 8
+    Height = 13
+    Top = 12
+    Width = 35
+  end
+  object lblStatus: TLabel
+    Caption = '[ idle ]'
+    Color = clNone
+    Left = 48
+    Height = 13
+    Top = 12
+    Width = 30
+  end
+end

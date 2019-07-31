@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1449313866"/>
+  <Params Value=" -MObjFPC -Scgi -Cg -O3 -OoREGVAR -l -vewnhibq -Fu/usr/share/lazarus/1.6RC2/packager/units/x86_64-linux -Fu/usr/share/lazarus/1.6RC2/components/lazutils/lib/x86_64-linux -Fu/usr/share/lazarus/1.6RC2/lcl/units/x86_64-linux -Fu/usr/share/lazarus/1.6RC2/lcl/units/x86_64-linux/gtk2 -Fu/home/bruno/tpv/componentes/bgrabitmap8.8.1/ -FU/home/bruno/tpv/componentes/bgrabitmap8.8.1/lib/x86_64-linux/3.0.0/ -dLCL -dLCLgtk2 bgrabitmappack.pas"/>
+</CONFIG>

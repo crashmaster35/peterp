@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="5"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+      <ActiveEditorIndexAtStart Value="2"/>
+    </General>
+    <Units Count="8">
+      <Unit0>
+        <CursorPos X="58" Y="31"/>
+        <Filename Value="TimeServer.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="24"/>
+      </Unit0>
+      <Unit1>
+        <CursorPos X="15" Y="72"/>
+        <Filename Value="main.pas"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="main.lrs"/>
+        <TopLine Value="51"/>
+        <UnitName Value="Main"/>
+        <UsageCount Value="12"/>
+      </Unit1>
+      <Unit2>
+        <CursorPos X="42" Y="857"/>
+        <Filename Value="D:\work\lazarus\lcl\Forms.pp"/>
+        <TopLine Value="834"/>
+        <UnitName Value="Forms"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <CursorPos X="5" Y="503"/>
+        <Filename Value="D:\work\fpc\fcl\inc\custapp.pp"/>
+        <TopLine Value="457"/>
+        <UnitName Value="CustApp"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <CursorPos X="1" Y="1"/>
+        <EditorIndex Value="0"/>
+        <Filename Value="D:\work\lazarus\components\indy9\idregclientscomponents.inc"/>
+        <Loaded Value="True"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <CursorPos X="22" Y="147"/>
+        <EditorIndex Value="3"/>
+        <Filename Value="D:\work\lazarus\components\indy9\idregservercomponents.inc"/>
+        <Loaded Value="True"/>
+        <TopLine Value="124"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <CursorPos X="11" Y="1"/>
+        <EditorIndex Value="1"/>
+        <Filename Value="D:\work\lazarus\components\indy9\IdAntiFreeze.pas"/>
+        <Loaded Value="True"/>
+        <TopLine Value="1"/>
+        <UnitName Value="IdAntiFreeze"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <CursorPos X="25" Y="40"/>
+        <EditorIndex Value="2"/>
+        <Filename Value="D:\work\lazarus\components\indy9\registerindycomponents.pp"/>
+        <Loaded Value="True"/>
+        <TopLine Value="14"/>
+        <UnitName Value="RegisterIndyComponents"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+    </Units>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="D:\work\lazarus\components\indy9\idregclientscomponents.inc"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="D:\work\lazarus\components\indy9\idregclientscomponents.inc"/>
+        <Caret Line="152" Column="22" TopLine="123"/>
+      </Position2>
+      <Position3>
+        <Filename Value="D:\work\lazarus\components\indy9\idregservercomponents.inc"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="D:\work\lazarus\components\indy9\idregclientscomponents.inc"/>
+        <Caret Line="152" Column="22" TopLine="123"/>
+      </Position4>
+      <Position5>
+        <Filename Value="D:\work\lazarus\components\indy9\idregclientscomponents.inc"/>
+        <Caret Line="169" Column="23" TopLine="123"/>
+      </Position5>
+      <Position6>
+        <Filename Value="D:\work\lazarus\components\indy9\IdAntiFreeze.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="D:\work\lazarus\components\indy9\registerindycomponents.pp"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position7>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="d:\indy9\indy9libsrc\"/>
+      <OtherUnitFiles Value="d:\indy9\indy9libsrc\"/>
+      <SrcPath Value="$(LazarusDir)\lcl\;$(LazarusDir)\lcl\interfaces\$(LCLWidgetType)\"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <D2Extensions Value="False"/>
+        <DelphiCompat Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Source Value="D:\indy9\indy9\done\idmessage.pas"/>
+        <Line Value="56"/>
+      </Item1>
+    </BreakPoints>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

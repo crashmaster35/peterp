@@ -1,0 +1,123 @@
+object UDPMainForm: TUDPMainForm
+  BorderStyle = bsSingle
+  Caption = 'Indy UDP server'
+  ClientHeight = 491
+  ClientWidth = 522
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  Position = poScreenCenter
+  TextHeight = 13
+  HorzScrollBar.Page = 521
+  VertScrollBar.Page = 490
+  Left = 436
+  Height = 491
+  Top = 112
+  Width = 522
+  object SourceGroupBox: TGroupBox
+    Anchors = [akTop, akLeft, akRight]
+    BorderSpacing.OnChange = nil
+    Caption = 'Source'
+    ClientHeight = 102
+    ClientWidth = 510
+    ParentColor = True
+    TabOrder = 0
+    Left = 4
+    Height = 120
+    Top = 4
+    Width = 514
+    object HostNameLabel: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'Host name:'
+      Color = clNone
+      Left = 12
+      Height = 13
+      Top = 16
+      Width = 54
+    end
+    object HostAddressLabel: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'Host address:'
+      Color = clNone
+      Left = 12
+      Height = 13
+      Top = 32
+      Width = 65
+    end
+    object HostName: TLabel
+      BorderSpacing.OnChange = nil
+      Color = clNone
+      Font.Color = clMaroon
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Left = 200
+      Height = 13
+      Top = 16
+      Width = 150
+    end
+    object HostAddress: TLabel
+      BorderSpacing.OnChange = nil
+      Color = clNone
+      Font.Color = clMaroon
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Left = 200
+      Height = 13
+      Top = 32
+      Width = 150
+    end
+    object PortLabel: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'Port:'
+      Color = clNone
+      Left = 12
+      Height = 13
+      Top = 48
+      Width = 22
+    end
+    object Port: TLabel
+      BorderSpacing.OnChange = nil
+      Color = clNone
+      Font.Color = clMaroon
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Left = 200
+      Height = 13
+      Top = 48
+      Width = 150
+    end
+    object BufferSizeLabel: TLabel
+      BorderSpacing.OnChange = nil
+      Caption = 'Buffer size'
+      Color = clNone
+      Left = 12
+      Height = 13
+      Top = 64
+      Width = 150
+    end
+    object BufferSize: TLabel
+      BorderSpacing.OnChange = nil
+      Color = clNone
+      Font.Color = clMaroon
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Left = 200
+      Height = 13
+      Top = 64
+      Width = 250
+    end
+  end
+  object UDPMemo: TMemo
+    BorderSpacing.OnChange = nil
+    Font.Color = clNavy
+    Font.Height = -11
+    Font.Name = 'Courier New'
+    ScrollBars = ssVertical
+    TabOrder = 1
+    Left = 64
+    Height = 200
+    Top = 168
+    Width = 300
+  end
+end

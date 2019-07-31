@@ -1,0 +1,65 @@
+object FormExample: TFormExample
+  Left = 267
+  Height = 514
+  Top = 150
+  Width = 645
+  HorzScrollBar.Page = 644
+  VertScrollBar.Page = 513
+  ActiveControl = ButtonRedLine
+  Caption = 'LazRGBGraphics Example'
+  ClientHeight = 514
+  ClientWidth = 645
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnPaint = FormPaint
+  LCLVersion = '0.9.25'
+  object ButtonRedLine: TButton
+    Left = 6
+    Height = 31
+    Top = 8
+    Width = 96
+    AutoSize = True
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Draw red line'
+    OnClick = ButtonRedLineClick
+    TabOrder = 0
+  end
+  object ButtonRotate90: TButton
+    Left = 6
+    Height = 31
+    Top = 39
+    Width = 131
+    AutoSize = True
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Rotate 90 clockwise'
+    OnClick = ButtonRotate90Click
+    TabOrder = 1
+  end
+  object ButtonInvert: TButton
+    Left = 6
+    Height = 31
+    Top = 72
+    Width = 92
+    AutoSize = True
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Invert colors'
+    OnClick = ButtonInvertClick
+    TabOrder = 2
+  end
+  object ButtonReplace: TButton
+    Left = 6
+    Height = 31
+    Top = 106
+    Width = 137
+    AutoSize = True
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Replace red with blue'
+    OnClick = ButtonReplaceClick
+    TabOrder = 3
+  end
+  object OpenPictureDialog: TOpenPictureDialog
+    Title = 'Open picture'
+    left = 211
+    top = 81
+  end
+end

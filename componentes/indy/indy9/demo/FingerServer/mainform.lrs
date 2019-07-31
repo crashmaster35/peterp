@@ -1,0 +1,15 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmFingerServer','FORMDATA',[
+  'TPF0'#16'TfrmFingerServer'#15'frmFingerServer'#11'BorderStyle'#7#8'bsDialog'
+  +#7'Caption'#6#13'Finger Server'#12'ClientHeight'#2'^'#11'ClientWidth'#3#22#1
+  +#11'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#8'OnCreate'#7#10'For'
+  +'mCreate'#13'PixelsPerInch'#2'`'#10'TextHeight'#2#13#18'HorzScrollBar.Page'#3
+  +#21#1#18'VertScrollBar.Page'#2']'#4'Left'#3']'#1#6'Height'#2'^'#3'Top'#3#128
+  +#0#5'Width'#3#22#1#0#6'TLabel'#6'Label1'#7'Caption'#6#8'Status: '#5'Color'#7
+  +#6'clNone'#4'Left'#2#4#6'Height'#2#13#3'Top'#2#12#5'Width'#2'&'#0#0#6'TLabel'
+  +#9'lblStatus'#7'Caption'#6#8'[ idle ]'#5'Color'#7#6'clNone'#4'Left'#2'0'#6'H'
+  +'eight'#2#13#3'Top'#2#12#5'Width'#2#30#0#0#7'TButton'#7'Button1'#7'Caption'#6
+  +#4'Exit'#7'OnClick'#7#12'Button1Click'#8'TabOrder'#2#0#4'Left'#3#200#0#6'Hei'
+  +'ght'#2#25#3'Top'#2'@'#5'Width'#2'K'#0#0#0
+]);

@@ -1,0 +1,87 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TMainForm','FORMDATA',[
+  'TPF0'#9'TMainForm'#8'MainForm'#7'Caption'#6#20'Indy FTP client demo'#11'Font'
+  +'.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#8'OnCreate'#7#10'FormCreate'
+  +#13'PixelsPerInch'#2'`'#10'TextHeight'#2#13#11'WindowState'#7#11'wsMaximized'
+  +#18'HorzScrollBar.Page'#3#255#4#18'VertScrollBar.Page'#3#208#3#6'Height'#3
+  +#209#3#3'Top'#3#204#3#5'Width'#3#0#5#0#9'TSplitter'#9'Splitter1'#5'Align'#7#8
+  +'alBottom'#6'Cursor'#7#8'crVSplit'#6'Height'#3#201#2#11'ParentColor'#9#5'Wid'
+  +'th'#3#0#5#6'Cursor'#7#8'crVSplit'#6'Height'#3#201#2#3'Top'#3#244#0#5'Width'
+  +#3#0#5#0#0#8'TListBox'#16'DirectoryListBox'#5'Align'#7#8'alClient'#22'Border'
+  +'Spacing.OnChange'#13#12'Font.CharSet'#7#15'RUSSIAN_CHARSET'#11'Font.Height'
+  +#2#243#9'Font.Name'#6#7'Courier'#10'ItemHeight'#2#13#7'OnClick'#7#21'Directo'
+  +'ryListBoxClick'#10'OnDblClick'#7#24'DirectoryListBoxDblClick'#10'OnDrawItem'
+  +#7#24'DirectoryListBoxDrawItem'#9'PopupMenu'#7#10'PopupMenu1'#5'Style'#7#16
+  +'lbOwnerDrawFixed'#8'TabOrder'#2#0#3'Top'#2'u'#5'Width'#3#0#5#0#0#8'TListBox'
+  +#12'DebugListBox'#5'Align'#7#8'alBottom'#22'BorderSpacing.OnChange'#13#10'It'
+  +'emHeight'#2#13#10'OnDrawItem'#7#20'DebugListBoxDrawItem'#5'Style'#7#16'lbOw'
+  +'nerDrawFixed'#8'TabOrder'#2#1#6'Height'#3#170#0#3'Top'#2'J'#5'Width'#3#0#5#0
+  +#0#6'TPanel'#6'Panel1'#5'Align'#7#5'alTop'#22'BorderSpacing.OnChange'#13#12
+  +'ClientHeight'#2'y'#11'ClientWidth'#3#0#5#11'FullRepaint'#8#8'TabOrder'#2#2#6
+  +'Height'#2'y'#5'Width'#3#0#5#0#6'TLabel'#6'Label1'#22'BorderSpacing.OnChange'
+  +#13#7'Caption'#6#13'FTP host name'#5'Color'#7#6'clNone'#4'Left'#2#8#6'Height'
+  +#2#13#3'Top'#2#8#5'Width'#2'H'#0#0#6'TLabel'#6'Label2'#22'BorderSpacing.OnCh'
+  +'ange'#13#7'Caption'#6#9'User name'#5'Color'#7#6'clNone'#4'Left'#2#8#6'Heigh'
+  +'t'#2#13#3'Top'#2'0'#5'Width'#2'3'#0#0#6'TLabel'#6'Label3'#22'BorderSpacing.'
+  +'OnChange'#13#7'Caption'#6#8'Password'#5'Color'#7#6'clNone'#4'Left'#3#128#0#6
+  +'Height'#2#13#3'Top'#2'0'#5'Width'#2'.'#0#0#5'TEdit'#13'FtpServerEdit'#22'Bo'
+  +'rderSpacing.OnChange'#13#8'TabOrder'#2#0#4'Text'#6#9'localhost'#4'Left'#2#8
+  +#6'Height'#2#21#3'Top'#2#24#5'Width'#3#233#0#0#0#7'TButton'#13'ConnectButton'
+  +#22'BorderSpacing.OnChange'#13#7'Caption'#6#7'Connect'#7'Default'#9#7'OnClic'
+  +'k'#7#18'ConnectButtonClick'#8'TabOrder'#2#5#4'Left'#3#248#0#6'Height'#2#25#3
+  +'Top'#2#21#5'Width'#2'K'#0#0#6'TPanel'#6'Panel3'#5'Align'#7#8'alBottom'#9'Al'
+  +'ignment'#7#13'taLeftJustify'#22'BorderSpacing.OnChange'#13#10'BevelInner'#7
+  +#8'bvRaised'#10'BevelOuter'#7#9'bvLowered'#7'Caption'#6#22'Current directory'
+  +' is: '#12'ClientHeight'#2'!'#11'ClientWidth'#3#254#4#11'FullRepaint'#8#8'Ta'
+  +'bOrder'#2#3#4'Left'#2#1#6'Height'#2'!'#3'Top'#2'W'#5'Width'#3#254#4#0#5'TEd'
+  +'it'#14'CurrentDirEdit'#22'BorderSpacing.OnChange'#13#8'TabOrder'#2#0#4'Text'
+  +#6#1'/'#4'Left'#2'`'#6'Height'#2#21#3'Top'#2#6#5'Width'#3#193#0#0#0#7'TButto'
+  +'n'#11'ChDirButton'#22'BorderSpacing.OnChange'#13#7'Caption'#6#16'Change dir'
+  +'ectory'#7'OnClick'#7#16'ChDirButtonClick'#8'TabOrder'#2#1#4'Left'#3'('#1#6
+  +'Height'#2#25#3'Top'#2#4#5'Width'#2'i'#0#0#7'TButton'#15'CreateDirButton'#22
+  +'BorderSpacing.OnChange'#13#7'Caption'#6#8'Make Dir'#7'OnClick'#7#20'CreateD'
+  +'irButtonClick'#8'TabOrder'#2#2#4'Left'#3#152#1#6'Height'#2#25#3'Top'#2#4#5
+  +'Width'#2'I'#0#0#0#9'TCheckBox'#13'TraceCheckBox'#22'BorderSpacing.OnChange'
+  +#13#7'Caption'#6#16'Connection trace'#7'Checked'#9#7'OnClick'#7#18'TraceChec'
+  +'kBoxClick'#5'State'#7#9'cbChecked'#8'TabOrder'#2#6#4'Left'#3#248#0#6'Height'
+  +#2#17#3'Top'#2'@'#5'Width'#2'q'#0#0#5'TEdit'#10'UserIDEdit'#22'BorderSpacing'
+  +'.OnChange'#13#8'TabOrder'#2#1#4'Text'#6#9'anonymous'#4'Left'#2#8#6'Height'#2
+  +#21#3'Top'#2'@'#5'Width'#2'q'#0#0#5'TEdit'#12'PasswordEdit'#22'BorderSpacing'
+  +'.OnChange'#13#12'PasswordChar'#6#1'*'#8'TabOrder'#2#2#4'Text'#6#14'idftp@de'
+  +'mo.com'#4'Left'#3#128#0#6'Height'#2#21#3'Top'#2'@'#5'Width'#2'q'#0#0#9'TChe'
+  +'ckBox'#10'UsePassive'#22'BorderSpacing.OnChange'#13#7'Caption'#6#20'Use pas'
+  +'sive transfer'#7'OnClick'#7#15'UsePassiveClick'#8'TabOrder'#2#4#4'Left'#3'H'
+  +#1#6'Height'#2#17#3'Top'#2#24#5'Width'#2'y'#0#0#0#10'TStatusBar'#10'StatusBa'
+  +'r1'#6'Panels'#14#1#5'Width'#3#200#0#0#1#5'Width'#2'2'#0#0#6'Height'#2#20#3
+  +'Top'#3#189#3#5'Width'#3#0#5#0#0#6'TPanel'#12'CommandPanel'#5'Align'#7#5'alT'
+  +'op'#22'BorderSpacing.OnChange'#13#10'BevelInner'#7#8'bvRaised'#10'BevelOute'
+  +'r'#7#9'bvLowered'#12'ClientHeight'#2'('#11'ClientWidth'#3#0#5#11'FullRepain'
+  +'t'#8#8'TabOrder'#2#3#6'Height'#2'('#3'Top'#2'y'#5'Width'#3#0#5#0#7'TButton'
+  +#12'UploadButton'#22'BorderSpacing.OnChange'#13#7'Caption'#6#6'Upload'#7'OnC'
+  +'lick'#7#17'UploadButtonClick'#8'TabOrder'#2#1#4'Left'#2'`'#6'Height'#2#25#3
+  +'Top'#2#8#5'Width'#2'K'#0#0#7'TButton'#11'AbortButton'#22'BorderSpacing.OnCh'
+  +'ange'#13#7'Caption'#6#5'Abort'#7'OnClick'#7#16'AbortButtonClick'#8'TabOrder'
+  +#2#4#7'Visible'#8#4'Left'#3'h'#1#6'Height'#2#25#3'Top'#2#8#5'Width'#2'K'#0#0
+  +#7'TButton'#10'BackButton'#22'BorderSpacing.OnChange'#13#7'Caption'#6#4'Back'
+  +#7'OnClick'#7#15'BackButtonClick'#8'TabOrder'#2#3#4'Left'#3#16#1#6'Height'#2
+  ,#25#3'Top'#2#8#5'Width'#2'K'#0#0#7'TButton'#12'DeleteButton'#22'BorderSpacin'
+  +'g.OnChange'#13#7'Caption'#6#6'Delete'#7'OnClick'#7#17'DeleteButtonClick'#8
+  +'TabOrder'#2#2#4'Left'#3#184#0#6'Height'#2#25#3'Top'#2#7#5'Width'#2'K'#0#0#7
+  +'TButton'#14'DownloadButton'#22'BorderSpacing.OnChange'#13#7'Caption'#6#8'Do'
+  +'wnload'#7'OnClick'#7#24'DirectoryListBoxDblClick'#8'TabOrder'#2#0#4'Left'#2
+  +#8#6'Height'#2#25#3'Top'#2#7#5'Width'#2'K'#0#0#0#12'TProgressBar'#12'Progres'
+  +'sBar1'#22'BorderSpacing.OnChange'#13#3'Max'#2'd'#6'Smooth'#9#8'TabOrder'#2#4
+  +#4'Left'#2#16#6'Height'#2#17#3'Top'#3#8#1#5'Width'#3#199#0#0#0#11'TOpenDialo'
+  +'g'#17'UploadOpenDialog1'#5'Title'#6#15'Upload file....'#6'Filter'#6#18'All '
+  +'files(*.*)|*.*'#11'FilterIndex'#2#0#5'Title'#6#15'Upload file....'#4'left'#3
+  +#185#1#3'top'#3#136#0#0#0#11'TSaveDialog'#11'SaveDialog1'#5'Title'#6#12'Save'
+  +' file as'#11'FilterIndex'#2#0#5'Title'#6#12'Save file as'#4'left'#3#217#1#3
+  +'top'#3#136#0#0#0#10'TPopupMenu'#10'PopupMenu1'#4'left'#2'H'#3'top'#3#176#0#0
+  +#9'TMenuItem'#9'Download1'#7'Caption'#6#8'Download'#7'OnClick'#7#24'Director'
+  +'yListBoxDblClick'#0#0#9'TMenuItem'#7'Upload1'#7'Caption'#6#6'Upload'#7'OnCl'
+  +'ick'#7#17'UploadButtonClick'#0#0#9'TMenuItem'#7'Delete1'#7'Caption'#6#6'Del'
+  +'ete'#7'OnClick'#7#17'DeleteButtonClick'#0#0#9'TMenuItem'#2'N1'#7'Caption'#6
+  +#1'-'#0#0#9'TMenuItem'#5'Back1'#7'Caption'#6#4'Back'#7'OnClick'#7#15'BackBut'
+  +'tonClick'#0#0#0#0
+]);
